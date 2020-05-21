@@ -1,0 +1,4100 @@
+[
+  {
+    "number": 1,
+    "text": "Vous vous trouvez donc dans cette vallée connue sous le nom de Taloued, à l'endroit précis où la rivière de la mort sort de l'impénétrable forêt. Un chemin nettement tracé traverse la savane en longeant la forêt et mène jusqu'à la falaise qui borde la vallée, à l'Est. Un pont étroit permet de traverser la rivière.",
+    "choix": [
+      {
+        "text": "Si vous voulez prendre le chemin, rendez-vous au 100.",
+        "number": 100
+      },
+      {
+        "text": "Non loin de la falaise qui se dresse à l'Ouest de la vallée coule une autre rivière. Vous pouvez vous diriger vers elle en vous rendant au 200.",
+        "number": 200
+      },
+      {
+        "text": "Mais vous pouvez également tenter de pénétrer dans la forêt en remontant le cours de la rivière de la mort le long de la rive où vous vous trouvez (rendez-vous au 129)",
+        "number": 129
+      },
+      {
+        "text": "ou en pénétrant dans ses eaux (rendez-vous au 213)",
+        "number": 213
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "text": "Parvenu à cet endroit particulièrement touffu de la jungle, vous pouvez poursuivre votre chemin",
+    "choix": [
+      {
+        "text": "vers le nord (rendez-vous au 170)",
+        "number": 170
+      },
+      {
+        "text": "vers le sud-ouest (rendez-vous au 51)",
+        "number": 51
+      },
+      {
+        "text": "ou vers l'Est (rendez-vous au 88).",
+        "number": 88
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "text": "Vous vous retrouvez debout le nez contre la paroi, et vous ne comprenez pas d'où peut bien provenir ce scintillement argenté ; vous voyez alors, juste devant votre visage, un pan de la paroi disparaître progressivement vous laissant face à l'obscurité angoissante. C'est votre souffle qui a fait fondre les cristaux de glace, car ce que vous preniez pour un mur n'était, en réalité, qu'une sorte de mince rideau de glace.",
+    "choix": [
+      {
+        "text": "Si vous voulez savoir ce qui se cache derrière, rendez-vous au 166 ",
+        "number": 166
+      },
+      {
+        "text": "si vous préférez quitter la caverne, rendez- vous au 110.",
+        "number": 110
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "text": "Rude effort que de suivre ce sentier à moitié envahi par la végétation ! Vous atteignez enfin une petite clairière, d'où partent quatre chemins.",
+    "choix": [
+      {
+        "text": "Allez-vous vous diriger vers le nord (rendez-vous au 32)",
+        "number": 32
+      },
+      {
+        "text": "vers l'Est (rendez-vous au 95)",
+        "number": 95
+      },
+      {
+        "text": "vers le sud-ouest (rendez-vous au 159)",
+        "number": 159
+      },
+      {
+        "text": "ou vers l'Ouest (rendez-vous au 142) ?",
+        "number": 142
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "text": "Dans votre fuite, vous trébuchez sur des troncs d'arbres abattus et votre pied gauche se coince entre deux branches. Votre valeur de Parade diminue de trois points pour les deux prochains combats, avant que votre pied ne se dégage et vous permette de reprendre la fuite.",
+    "choix": [
+      {
+        "text": "Pour connaître les valeurs des Oiseaux, rendez-vous au 174.",
+        "number": 174
+      },
+      {
+        "text": "Si vous tentez de vous échapper vers le Nord-Ouest, rendez-vous au 180",
+        "number": 180
+      },
+      {
+        "text": "si vous préférez vous diriger vers le sud-ouest, rendez-vous au 26.",
+        "number": 26
+      },
+      {
+        "text": "Si jamais vous étiez tué au cours de l'un des deux combats. il vous faudrait alors vous rendre au 167.",
+        "number": 167
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "text": "Epuisé, vous arrivez en trébuchant à une sorte de carrefour au cour de la forêt vierge. Après une courte pause, vous êtes en mesure de poursuivre votre chemin en direction",
+    "choix": [
+      {
+        "text": "de l'Ouest (rendez-vous au 45)",
+        "number": 45
+      },
+      {
+        "text": "du sud (rendez-vous au 208)",
+        "number": 208
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 181).",
+        "number": 181
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "text": "Vous voulez donc tenter l'escalade d'une paroi rocheuse verticale... Eh bien, personne ne peut vous en empêcher, mais il vous faudra d'abord réussir une épreuve d'Adresse + 3.",
+    "choix": [
+      {
+        "text": "Si tel est le cas, rendez-vous au 151.",
+        "number": 151
+      },
+      {
+        "text": "En cas d'échec, vous aurez tout de même la possibilité d'explorer la caverne (rendez-vous au 99), de rebrousser chemin pour retourner dans la jungle (rendez-vous au 190)",
+        "number": 190
+      },
+      {
+        "text": "ou de chercher une issue en longeant la paroi rocheuse en direction du nord (rendez-vous au 28).",
+        "number": 28
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "plus": 3,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "text": "Il s'agit de fruits magiques dont la consommation vous a redonné des forces. Vous sentez aussitôt une nouvelle Energie Vitale vous inonder. Ajoutez 2 points à votre Energie Vitale (vous ne devez toutefois pas dépasser votre niveau de départ).",
+    "choix": [
+      {
+        "text": "Rendez-vous au 106.",
+        "number": 106
+      }
+    ],
+    "bonus": [
+      {
+        "type": "energie vitale",
+        "modif": "plus",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "text": "Si vous êtes entré là par hasard, sans même soupçonner que cette matière s'appelait Patuhlin, honte à vous : vous devez tout de suite retirer 5 points de votre note de Charisme. Désormais, en revanche, vous connaissez à la fois le nom de cette matière et la tactique à adopter. Dites à haute voix : Nilhutap, et essayez de voir ce qui se passe lorsque vous touchez cette substance collante avec votre machette. Mais oui ! ça marche ! la formule agit : plus\n\frien ne colle ! En répétant sans arrêt Nilhutap à voix basse, vous allez vous sortir de ce piège gluant et parvenir à atteindre le fond de la caverne.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 37.",
+        "number": 37
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "text": "La progression est malaisée. Epuisé, vous vous offrez une petite pause pour vous restaurer un peu (si toutefois il vous reste quelques provisions). Devant vous se déploie un épais rideau de lianes. Vous parvenez cependant à vous faufiler au milieu de ce fouillis et vous découvrez un sentier.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 112.",
+        "number": 112
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "text": "Après avoir tâtonné quelque temps au milieu de cette végétation luxuriante, entrelacs de plantes, pendantes et enchevêtrées, vous débouchez dans une clairière.\nTentez de nouveau votre chance.",
+    "choix": [
+      {
+        "text": "Lancez le D6, multipliez le résultat par 12 et rendez-vous au paragraphe correspondant au nombre obtenu.",
+        "number": 0
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "multiplier": 12,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "text": "",
+    "choix": [
+      {
+        "text": "Rendez-vous au 66.",
+        "number": 66
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "text": "Vous descendez prudemment dans les profondeurs de cette obscur escalier. Les marches sont si irrégulières que vous devez redoubler d'attention à chaque pas. Après quelques marches, vous remarquez sur la gauche de l'escalier une mince chaîne qui pend du plafond. A son extrémité est fixée une poignée en bois sculptée en forme de figure grimaçante.",
+    "choix": [
+      {
+        "text": "Vous pouvez bien sûr tirer sur la chaîne (rendez-vous au 226)",
+        "number": 226
+      },
+      {
+        "text": "ou continuer de descendre sans y prêter attention (rendez-vous au 126).",
+        "number": 126
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "text": "Vous êtes bien trop faible pour songer à sortir de cette fosse, et vous y passez une bonne heure, en compagnie des cadavres de Serpents. Au bout de ce temps, il vous semble avoir recouvré suffisamment de force pour vous extraire de ce lieu humide.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 191 pour examiner les possibilités qui s'offrent à vous.",
+        "number": 191
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "text": "Vous parvenez enfin à trouver une issue et vous sortez à l'air libre au milieu d'un buisson de fougères aussi hautes qu'un homme. Il vous faut quelque temps - et l'aide de quelques feuilles d'arbre - pour parvenir à vous débarrasser de la colle qui vous englue tout le corps.",
+    "choix": [
+      {
+        "text": "Cela fait, rendez-vous au 194.",
+        "number": 194
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "text": "Vous réprimez le sentiment d'horreur qui vous envahit et vous éclairez prudemment la caverne. Vous avez manifestement les nerfs assez solides pour supporter le spectacle qui s'offre à vos yeux : sur le sol en partie effondré de la caverne gît le cadavre d'un Dragon Volant. Cette charogne dégage une épouvantable puanteur. Ce monstre terrifiant a dû essayer de pénétrer dans le sanctuaire qui renferme la source, par l'entrée située à gauche. Il a alors provoqué l'effondrement du passage et déclenché le mécanisme d'un piège mortel : d'énormes rochers se sont précipités sur lui entraînant sa mort à bref délai.\nIl vous semble également comprendre, maintenant, pourquoi la rivière est empoisonnée : un liquide s'écoule, en effet, de la paroi rocheuse contre laquelle le monstre s'est affaissé. Et, de toute évidence, ce liquide est un acide provenant de quelque caverne située plus haut. L'acide, dans lequel croupit le cadavre du Dragon Volant, hâte sa décomposition, puis s'infiltre dans les fissures de la caverne, pour ressortit à l'air libre où il se mêle aux eaux de la source.\nCependant, si vous avez réussi à percer le mystère de l'empoisonnement de la rivière, vous n'en êtes pas plus avancé pour autant. Il vous faut en effet découvrir d'où provient le flot d'acide pour l'arrêter. Et, manifestement, ce n'est pas dans cette caverne que vous trouverez la solution à ce nouveau problème. Néanmoins soulagé de ne pas avoir à affronter ce monstre, vous décidez de quitter l'endroit, car vous n'avez plus rien à faire dans ce chaos de rochers. Le spectacle, et surtout la puanteur de ces lieux, ne sont plus supportables ; vous vous empressez de faire demi-tour en fermant la porte derrière vous, et vous reprenez vos recherches.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 189.",
+        "number": 189
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "text": "Vous étiez sans doute conscient des risques que vous couriez, et c'est de plein gré que vous avez choisi de revenir dans la caverne du Crapaud Géant. Vous avez de la chance, car lorsque vous atterrissez au fond de la grotte après quelques mètres de glissade, la créature se dresse en face de vous dans toute sa laideur et vous regarde à nouveau : « Quoi ? C'est encore toi ? Je n'ai même pas eu le temps de me remettre de ta dernière visite\n! » Vous ne savez pas exactement s'il faut voir de l'ironie ou de l'indignation dans ces mots... En tout cas, vous décidez d'adopter une attitude plus courtoise que précédemment. Vous vous confondez en excuses pour votre attitude passée et vous engagez la conversation.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 210.",
+        "number": 210
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "text": "Une longue courbe vous mène dans une grotte où pendent un grand nombre de stalactites. Il vous est difficile d'en évaluer les dimensions à la lueur de votre petite torche. Surgissant de sombres cavités, des Chauves-Souris passent sans bruit devant vous, avant de se fondre à nouveau dans l'obscurité. La beauté des stalactites et des stalagmites qui se sont formées ici au fil des siècles vous fascine.\nVotre attention est tout à coup attirée par une source de lumière ténue. En travers du sol de la caverne s'étire, sur dix mètres de large environ, une nappe constituée d'une substance étrange qui luit d'un faible éclat. Le sol en est uniformément recouvert ; seules quelques stalagmites émergent de cette nappe. Vous vous apercevez, à la faible lueur de votre torche, qu'à cet endroit le plafond de la caverne est couvert d'innombrables stalactites aussi fines que des aiguilles : certaines d'entre elles ont une base si étroite qu'elles menacent à chaque instant de se détacher Cependant, ce qui confère à cette caverne son atmosphère effrayante et oppressante, sont les carcasses d'animaux et les restes d'ossements humains qui gisent en bordure de cette étrange nappe. En fait, il est difficile de dire qu'ils gisent, tant sont surprenantes les postures de ces squelettes recroquevillés. Plus loin ce sont des objets qui émergent de cette nappe dans des positions incroyables qui défient toutes les lois de la pesanteur : des lances dont la pointe seule repose sur le sol et qui restent cependant en équilibre ; une sacoche de cuir reposant sur un seul coin, et d'autres curiosités du même genre que vous ne distinguez pas précisément.\nVous ne parvenez pas non plus à distinguer ce qui se trouve au fond de la caverne, au-delà de cette nappe.",
+    "choix": [
+      {
+        "text": "Vous pouvez soit quitter cette caverne (rendez-vous au 110)",
+        "number": 110
+      },
+      {
+        "text": "soit y poursuivre vos recherches (rendez-vous au 161).",
+        "number": 161
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "text": "Vous reconnaissez immédiatement la clairière. Une épreuve d'Intelligence -1 s'impose.",
+    "choix": [
+      {
+        "text": "En cas de réussite, rendez- vous au 79",
+        "number": 79
+      },
+      {
+        "text": "en cas d'échec, rendez-vous au 81.",
+        "number": 81
+      }
+    ],
+    "jet": [
+      {
+        "type": "intel",
+        "moins": 1,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "text": "Des plantes luxuriantes aux fruits d'un rouge luisant obstruent votre chemin. Méfiez-vous-en : si vous en brisez les tiges, il en coulera un liquide extrêmement corrosif.",
+    "choix": [
+      {
+        "text": "Voulez-vous vous diriger vers le Nord-Ouest (rendez-vous au 107)",
+        "number": 107
+      },
+      {
+        "text": "ou vers le sud-est (rendez-vous au 63) ?",
+        "number": 63
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "text": "Vous êtes plongé dans une semi-obscurité aux reflets verdâtres. L'épaisseur du feuillage, qui forme comme une voûte au-dessus de vous, vous empêche de voir le ciel. Il vous est donc impossible de vous orienter par rapport au soleil. Bien qu'il soit difficile dans la jungle de repérer les quatre points cardinaux, vous avez suffisamment d'expérience pour y parvenir. C'est pourquoi, dans un souci de simplification, nous indiquons systématiquement l'orientation des chemins, embranchements, etc., par rapport à ces mêmes points cardinaux.\nA l'aide de votre machette, vous vous frayez un chemin tortueux entre les épais buissons d'épines, en suivant approximativement l'axe Nord-Sud.",
+    "choix": [
+      {
+        "text": "Si vous vous dirigez vers le sud, rendez-vous au 129",
+        "number": 129
+      },
+      {
+        "text": "vers le nord rendez-vous au 26.",
+        "number": 26
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "text": "Vous aboutissez en effet très rapidement à un étroit sentier, complètement envahi par la végétation. Celui-ci se termine d'ailleurs peu après et vous êtes obligé de vous frayer un chemin à travers un inextricable fouillis de végétation.\nAprès avoir longtemps erré, vous parvenez à un sentier que vous n'aviez pas remarqué au premier abord.",
+    "choix": [
+      {
+        "text": "Rendez- vous au 114.",
+        "number": 114
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "text": "Ouf ! Vous avez réussi à vous enfuir... Mais vous n'êtes guère plus avancé! Vous êtes enfin parvenu à découvrir la cause de l'empoisonnement de la source, et c'est maintenant que vous voulez lâchement tout abandonner ?\nAllons, courage ! Ressaisissez-vous ! D'ailleurs, vous n'aurez peut-être pas besoin de vous battre ; une petite ruse peut bien vous venir à l'esprit, après tout ! ...",
+    "choix": [
+      {
+        "text": "Si vous vous décidez malgré tout à combattre, rendez-vous au 101 ",
+        "number": 101
+      },
+      {
+        "text": "mais, si vous préférez imaginer une ruse quelconque, rendez-vous au 218.",
+        "number": 218
+      },
+      {
+        "text": "Si aucune de ces deux solutions ne vous tente, alors il ne vous reste plus qu'à reprendre l'aventure à son début !",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "text": "Vous errez au hasard dans l'enchevêtrement de broussailles qui entoure la clairière, sans trop vous éloigner toutefois de celle-ci.",
+    "choix": [
+      {
+        "text": "Lancez une nouvelle fois le D6 (Peut-être aurez-vous plus de chance cette fois-ci !), multipliez le résultat par 11 et rendez-vous au paragraphe correspondant au nombre obtenu.",
+        "number": 0
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "multiplier": 11,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "text": "La paroi devient de plus en plus abrupte. Tout en bas, vous apercevez la forêt vierge qui tapisse le fond de la vallée. Vous êtes obligé d'attacher la machette dans votre dos, car vous n'avez pas trop de vos deux mains pour poursuivre l'escalade.",
+    "choix": [
+      {
+        "text": "Si vous préférez faire demi-tour, retournez au 187",
+        "number": 187
+      },
+      {
+        "text": "Si vous voulez continuer à grimper, rendez-vous au 109.",
+        "number": 109
+      }
+    ]
+  },
+  {
+    "number": 26,
+    "text": "Vous atteignez bientôt une petite clairière.",
+    "choix": [
+      {
+        "text": "Vous avez le choix entre vous diriger vers le Nord-Est (rendez-vous au 130)",
+        "number": 130
+      },
+      {
+        "text": "l'Ouest (rendez-vous au 174)",
+        "number": 174
+      },
+      {
+        "text": "ou le sud (rendez-vous au 21), pour essayer de vous introduire dans cette forêt vierge apparemment impénétrable.",
+        "number": 21
+      }
+    ]
+  },
+  {
+    "number": 27,
+    "text": "Vous vous êtes frayé un bon bout de chemin. Cependant, noyé dans la lumière vaporeuse et verdâtre de la forêt vierge, vous ne pouvez même plus distinguer le ciel à travers l'épaisse voûte de feuillage.\nLe chemin, que vous devez tracer vous-même, vous oblige à contourner, tantôt par la droite, tantôt par la gauche, d'énormes troncs d'arbres et des buissons inextricables. Dans ces conditions, il est quasiment impossible de prendre une direction précise.\nBien qu'il soit malaisé de s'orienter dans la jungle, vous ne perdez pas le nord. C'est pourquoi, dans un souci de simplification, il vous sera indiqué dorénavant les diverses orientations qui s'offrent à vous, aux carrefours, aux embranchements, etc., selon les points cardinaux.",
+    "choix": [
+      {
+        "text": "Rendez-vous maintenant au 112.",
+        "number": 112
+      }
+    ]
+  },
+  {
+    "number": 28,
+    "text": "Après avoir progressé de quelques mètres au cœur d'épais taillis, vous êtes tellement empêtré dans les épines et les lianes qu'il vous devient impossible de continuer plus avant. Au moindre coup de machette, les plantes et les branches épineuses des ronces s'entortillent autour de vos poignets comme les immenses tentacules d'une pieuvre géante.\nVous préférez rebrousser chemin. De retour à la caverne, vous entendez un rugissement furieux retentir dans la jungle.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 198",
+        "number": 198
+      }
+    ]
+  },
+  {
+    "number": 29,
+    "text": "Vous vous approchez du monstre... Arrivé à mi-distance, vous le voyez se redresser brusquement et se jeter sur vous avec un rugissement de rage.\nVous tentez de vous enfuir le plus vite possible en direction de la caverne où se trouve la colle. Pour savoir si vos efforts suffisent à vous mettre à temps hors de danger, vous devez subir une épreuve d'Adresse doublée d'une épreuve de Force.",
+    "choix": [
+      {
+        "text": "Si vous obtenez un double succès, vous vous engouffrez dans la caverne, suivi de près par le redoutable animal (rendez-vous au 227).",
+        "number": 227
+      },
+      {
+        "text": "Si vous échouez, ne serait-ce qu'à l'une de ces deux épreuves, le monstre vous aura rejoint avant que vous n'atteigniez la caverne. Vous êtes alors obligé de livrer un combat sans espoir, pour lequel nous vous souhaitons beaucoup de chance aux dés. N'oubliez pas qu'au cours de ce combat vous pouvez être amené à vous battre sans machette, si vous l'avez abandonnée en route. Vous trouverez les valeurs du monstre au 101. Vous y découvrirez aussi les différentes possibilités qui s'offrent à vous, en dehors de la fuite.",
+        "number": 101
+      }
+    ],
+    "jet": [
+      {
+        "type": "force",
+        "moins": 0,
+        "de": 20
+      },
+      {
+        "type": "adresse",
+        "moins": 0,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 30,
+    "text": "Vous arrivez à un carrefour.",
+    "choix": [
+      {
+        "text": "Un chemin étroit part vers l'Ouest ; vous pouvez choisir de le suivre (rendez-vous au 143)",
+        "number": 143
+      },
+      {
+        "text": "vous avez également la possibilité de vous diriger vers le sud (rendez-vous au 110)",
+        "number": 110
+      },
+      {
+        "text": "ou vers le nord (rendez- vous au 152).",
+        "number": 152
+      }
+    ]
+  },
+  {
+    "number": 31,
+    "text": "Les deux hommes n'ont aucun objet de valeur sur eux. Cependant, suspendu autour du cou par un lacet de cuir, Morton porte un petit sac qui attire votre attention. A part quelques pièces de bronze et une petite pierre portant des inscriptions magiques - ce talisman ne lui a cependant pas été d'une grande utilité - ce sac contient aussi un morceau de papier froissé sur lequel figure un mot griffonné à la hâte et difficile à déchiffrer : quelque chose dont Morton tenait absolument à se souvenir. A tout hasard, vous mettez le papier dans votre poche.",
+    "choix": [
+      {
+        "text": "Rendez-vous maintenant au 122.",
+        "number": 122
+      }
+    ]
+  },
+  {
+    "number": 32,
+    "text": "Le chemin que vous suivez à présent s'enfonce dans une telle végétation, que vous avez l'impression de progresser dans un tunnel.\nSoudain, vous arrivez à la hauteur d'un arbre portant des fruits ressemblant vaguement à des figues.",
+    "choix": [
+      {
+        "text": "Vous pouvez y goûter (rendez-vous au 215)",
+        "number": 215
+      },
+      {
+        "text": "ou ne pas y prêter attention et poursuivre tant bien que mal votre chemin (rendez- vous au 106).",
+        "number": 106
+      }
+    ]
+  },
+  {
+    "number": 33,
+    "text": "Vous parvenez à franchir l'entrelacs de ronces qui entoure la clairière. Après avoir erré un bon moment à travers une jungle touffue, vous vous apercevez que celle-ci s'éclaircit peu à peu.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 120.",
+        "number": 120
+      }
+    ]
+  },
+  {
+    "number": 34,
+    "text": "La porte résiste à toutes les tentatives que vous faites pour l'ouvrir, que ce soit par la Force, ou par l'Adresse en crochetant les serrures. Sept formules magiques, une par serrure, permettent d'ouvrir cette porte.",
+    "choix": [
+      {
+        "text": "Si vous connaissez les sept formules, rendez-vous au 80.",
+        "number": 80
+      },
+      {
+        "text": "Sinon, vous devez renoncer à franchir cette porte. Choisissez une autre direction en revenant au 128.",
+        "number": 128
+      }
+    ]
+  },
+  {
+    "number": 35,
+    "text": "Vous vous trouvez dans l'antichambre du sanctuaire qui renferme la source. Quand, venant de l'extérieur, vous pénétrez pour la première fois dans cette salle, vous ne pouvez pas distinguer grand-chose au premier abord. Seule une étroite surface en est éclairée par un rai de lumière. Lorsque vos yeux se sont suffisamment habitués à l'obscurité, vous faites prudemment quelques pas en tâtonnant vers le centre de la pièce. Vous heurtez du pied des objets traînant à terre : ce sont des torches ! Ravi de l'aubaine, vous vous empressez d'en allumer une. La salle n'est pas très grande et ne renferme rien, en dehors des torches et de deux cruches en terre cuite vides.\nToutefois, les murs, ainsi que certaines parties du sol, sont couverts d'inscriptions et de symboles rédigés dans une langue qui vous est inconnue.\nPrenez garde ! Il s'agit de formules magiques destinées à écarter les intrus. Deux ouvertures pratiquées respectivement dans les murs situés à l'Est et au nord, permettent de quitter la salle.",
+    "choix": [
+      {
+        "text": "Si vous choisissez d'aller vers le nord, rendez-vous au 96",
+        "number": 96
+      },
+      {
+        "text": "si vous préférez l'est, rendez-vous au 171.",
+        "number": 171
+      }
+    ]
+  },
+  {
+    "number": 36,
+    "text": "Vous avez eu de la chance.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 22.",
+        "number": 22
+      }
+    ]
+  },
+  {
+    "number": 37,
+    "text": "Vous explorez prudemment le fond de la caverne, sans toutefois rien trouver de particulier dans les innombrables failles et recoins que vous y découvrez. Vous ne parvenez qu'à dénicher quelques Chauves-Souris ! Un pan important de la paroi qui constitue le fond de la caverne brille toutefois d'un curieux éclat argenté à la lumière de votre torche.",
+    "choix": [
+      {
+        "text": "Désirez-vous vous approcher pour découvrir l'origine de cet étrange reflet (rendez-vous au 3)",
+        "number": 3
+      },
+      {
+        "text": "ou préférez-vous quitter la caverne - sans oublier bien sûr de prononcer la formule magique qui permet de conjurer les effets de la colle (rendez-vous au 110) ?",
+        "number": 110
+      }
+    ]
+  },
+  {
+    "number": 38,
+    "text": "Vous obtenez pour toute réponse cette injonction, qui ne saurait vous satisfaire pleinement : « Qu'on ne me dérange pas ! »",
+    "choix": [
+      {
+        "text": "Voulez-vous tenter de déployer tout votre charme pour pousser cette «conversation » un peu plus loin (rendez-vous au 115)",
+        "number": 115
+      },
+      {
+        "text": "ou préférez-vous, découragé, choisir une autre des solutions proposées au paragraphe 135 ?",
+        "number": 135
+      }
+    ]
+  },
+  {
+    "number": 39,
+    "text": "Le sanctuaire qui renferme la source est constitué d'une série de grottes et de passages, les uns naturels, les autres artificiels, creusés à l'intérieur du rocher. La solution de l'énigme doit être cachée, sans aucun doute, non loin d'ici : c'est la raison pour laquelle les eaux saines du Taloued se sont transformées en une rivière de mort et de putréfaction.\nAprès tous les dangers que vous avez surmontés dans la jungle, vous êtes fermement décidé à découvrir maintenant la cause du mal, fût-ce au prix de votre vie.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 35.",
+        "number": 35
+      }
+    ]
+  },
+  {
+    "number": 40,
+    "text": "Sans trop y croire, vous vous adressez d'une voix douce et la plus persuasive possible au félin... et, effectivement, vous voyez le Léopard des Marais se calmer, et cesser ses grondements.",
+    "choix": [
+      {
+        "text": "Peut-être voulez- vous vous risquer maintenant à le caresser (rendez-vous au 116)",
+        "number": 116
+      },
+      {
+        "text": "à moins que vous ne préfériez prendre le large en toute hâte (rendez-vous au 102).",
+        "number": 102
+      }
+    ]
+  },
+  {
+    "number": 41,
+    "text": "Ce genre de machette n'est pas précisément une arme de jet. Le D6 va vous permettre de déterminer vos chances de succès en la lançant.",
+    "choix": [
+      {
+        "text": "Si vous obtenez 1 ou 2, rendez-vous au 117 ",
+        "number": 117
+      },
+      {
+        "text": "3 ou 4, rendez-vous au 123",
+        "number": 123
+      },
+      {
+        "text": "5 ou 6, rendez-vous au 89.",
+        "number": 89
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "moins": 0,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 42,
+    "text": "Vous êtes vraiment un fin renard ! Car lorsque vous vous exclamez : « Je suis venu pour que les eaux bénéfiques reprennent leur cours », un léger tressaillement du cou trahit l'intérêt que vous avez éveillé chez la Tortue. « Tu n'y arriveras jamais, pauvre petit fanfaron ! » grommelle la Tortue en retour. Ignorant l'insulte, vous vous informez le plus aimablement du monde de la raison pour laquelle, de l'avis de la très honorable Tortue, vous devriez échouer dans cette entreprise.\n« Certes, tu as de grandes jambes, qui t'ont porté jusqu'ici, mais toute ta cervelle tiendrait dans une coquille de noix, sans quoi tu ne te serais pas engagé dans une aventure qui ne peut que te conduire à la mort. Il y a déjà bien longtemps que j'habite cette caverne - depuis sa construction par le grand Zor - et pourtant, jamais je n'ai réussi à comprendre le sens de ses paroles ; comment donc voudrais-tu toi-même, y parvenir ? » Alors, je l'entendis prononcer les mots que voici :\n« Seul celui qui comprend comment du roc naît le cor et qui connaît la particularité du nom de cette douce saison qu'on nomme l'été, parviendra à vaincre le pouvoir mortel de la colle. »\n« Mais c'est évident ! » vous exclamez-vous sans le vouloir. Profondément vexée, la Tortue rentre la tête dans sa carapace. Il est inutile de chercher à prolonger la conversation. Ce sera à vous de démontrer par la suite si cette énigme vous aide et si vous l'avez bien comprise.",
+    "choix": [
+      {
+        "text": "Pour le moment, vous quittez la caverne par l'issue située au nord (rendez-vous au 128)",
+        "number": 128
+      },
+      {
+        "text": "ou à l'Est (rendez-vous au 30).",
+        "number": 30
+      }
+    ]
+  },
+  {
+    "number": 43,
+    "text": "Ce véritable torrent vous a tellement surpris que vous en perdez l'équilibre, et vous dévalez l'escalier à toute allure. Après une chute qui vous semble durer une éternité, vous arrivez au bas de l'escalier, couvert de bleus et trempé jusqu'aux os par cette douche malodorante. En raison du choc et des contusions occasionnées par la chute, vous devez retirer 3 points à votre Energie Vitale. Vous perdez également 3 points de Charisme : on ne peut avoir plaisir à rencontrer quelqu'un qui sent aussi mauvais que vous ! Par bonheur, le liquide s'infiltre dans de profondes fissures du sol sur lequel vous êtes étendu. En levant les yeux, vous réalisez que vous vous trouvez dans une pièce de petites dimensions sans issue apparente.",
+    "choix": [
+      {
+        "text": "Vous pouvez examiner les parois rocheuses en quête d'une porte dérobée (rendez-vous au 158)",
+        "number": 158
+      },
+      {
+        "text": "ou attendre que le torrent d'eau cesse de se déverser : vous pourrez alors à nouveau gravir les marches glissantes et emprunter en sens inverse le passage qui vous a mené à l'escalier (rendez-vous au 163).",
+        "number": 163
+      }
+    ],
+    "bonus": [
+      {
+        "type": "energie vitale",
+        "modif": "moins",
+        "number": 3
+      },
+      {
+        "type": "charisme",
+        "modif": "moins",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "number": 44,
+    "text": "Après vous être débattu pendant quelque temps pour progresser au milieu des lianes de la forêt, vous revenez, à votre plus grand désespoir, dans la même clairière.",
+    "choix": [
+      {
+        "text": "Lancez le D6, multipliez cette fois-ci le résultat par 12 et rendez-vous au paragraphe correspondant au nombre ainsi obtenu.",
+        "number": 0
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "multiplier": 12,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 45,
+    "text": "Vous suivez sur une assez longue distance le sentier aux innombrables détours qui est presque entièrement envahi par la végétation. Enfin, vous parvenez à une bifurcation où trois directions s'offrent à vous. Mais il vous faut tout d'abord vous reposer un peu : n'ayez crainte, vous avez trouvé là un endroit vraiment tranquille ; aucun danger ne vous y menace.",
+    "choix": [
+      {
+        "text": "Après ce moment de répit, vous pouvez reprendre votre route en direction de l'Ouest (rendez-vous au 65)",
+        "number": 65
+      },
+      {
+        "text": "du nord (rendez-vous au 228)",
+        "number": 228
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 6).",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "number": 46,
+    "text": "La jungle, à proximité de la Rivière de la Mort, n'est plus aussi dense, mais l'odeur qui se dégage de ses eaux est si forte que vous êtes près de défaillir. Etes-vous encore capable de choisir une direction ?",
+    "choix": [
+      {
+        "text": "Vous pouvez partir vers le nord (rendez-vous au 206)",
+        "number": 206
+      },
+      {
+        "text": "ou vers le sud (rendez-vous au 175).",
+        "number": 175
+      }
+    ]
+  },
+  {
+    "number": 47,
+    "text": "Vous réussissez à franchir le passage mortel, alors que le monstre, qui s'apprêtait à fondre sur vous, reste empêtré dans la masse gluante. Ses six pattes sont secouées de soubresauts furieux, mais aucune de ses griffes ne parvient à se détacher du sol. Plus le Dragon-Tatak se tord et se débat, plus il s'entortille dans des fils poisseux. Il ne cesse de s'arc-bouter en tous sens, et ses yeux à facettes lui sortent de la tête sous l'effet des terribles efforts qu'il déploie. Parfaitement en sécurité dans votre retraite, vous assistez à ce spectacle terrifiant. Les parois de la caverne tremblent sous la violence du combat que le Dragon livre contre la mort. Les stalactites les moins solides se détachent du plafond et viennent transpercer la peau du monstre. Si vous disposez d'un boomerang, vous pouvez le lancer sur d'autres stalactites pour les faire tomber à leur tour sur le Dragon.\nAinsi périt le Dragon-Tatak et nous croyons pouvoir affirmer sans nous tromper qu'il était le dernier de son espèce, et que cette race est maintenant définitivement éteinte.\nAprès vous être assuré que vous n'aviez plus rien à craindre du monstre, vous regagnez le fond de la caverne où vous ramassez les affaires, que vous aviez perdues au cours de votre fuite. Mais vous devez maintenant, avant toute chose, vous préoccuper de savoir comment faire revenir les eaux bénéfiques.",
+    "choix": [
+      {
+        "text": "Rendez-vous maintenant au 183.",
+        "number": 183
+      },
+      {
+        "text": "Pour avoir vaincu le Dragon-Tatak, vous recevez 35 POINTS D'AVENTURE de gratification.",
+        "number": 500
+      }
+    ],
+    "bonus": [
+      {
+        "type": "aventure",
+        "number": 35
+      }
+    ]
+  },
+  {
+    "number": 48,
+    "text": "Vous parvenez à franchir l'épais rideau de végétation qui cerne la clairière.\nIl n'est bien entendu pas question de vous frayer un véritable sentier, mais vous arrivez néanmoins à progresser à une allure tout à fait convenable.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 170.",
+        "number": 170
+      }
+    ]
+  },
+  {
+    "number": 49,
+    "text": "Vous espériez peut-être encore n'avoir encore fait qu'un mauvais rêve. Hélas ! si amère que soit cette réalité, votre existence de héros touche à son terme. Mais cette vie s'est révélée glorieuse et, dans les foyers d'Aventurie, on parlera longtemps encore de vos hauts faits.",
+    "choix": [
+      {
+        "text": "Ne vous affligez pas plus longtemps, hâtez-vous de créer un nouveau héros et rendez-vous au 1.\n(Ce héros peut, bien entendu, profiter de l'expérience acquise par son prédécesseur, ce qui lui permettra de surmonter bien des dangers et d'éviter de fausses pistes. Les monstres et animaux sauvages sont bien entendu présents pour cette nouvelle aventure, frais et dispos, impatients de se mesurer à un nouveau héros !)",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 50,
+    "text": "La machette bien en main, vous pénétrez prudemment dans la caverne. Vous éprouvez néanmoins quelques difficultés à distinguer quelque chose, en passant de la lumière extérieure à l'obscurité de la grotte.\nVous percevez à nouveau un bruit dans l'ombre devant vous.",
+    "choix": [
+      {
+        "text": "Préférez-vous battre en retraite (rendez-vous au 150)",
+        "number": 150
+      },
+      {
+        "text": "ou rester sur place pour faire face, courageusement, au danger (rendez-vous au 217) ?",
+        "number": 217
+      }
+    ]
+  },
+  {
+    "number": 51,
+    "text": "Le sentier que vous suivez depuis quelques instants devient quasiment impraticable. Vous devez sans cesse utiliser votre machette, vous êtes continuellement obligé de faire des détours pour contourner d'inextricables fourrés, ou des arbres gigantesques tombés à terre. Epuisé, vous vous accordez une petite pause pour vous restaurer, dans la limite de vos provisions restantes.",
+    "choix": [
+      {
+        "text": "Enfin, vous êtes en mesure de reprendre votre route en direction du Nord-Est (rendez-vous au 2) ",
+        "number": 2
+      },
+      {
+        "text": "ou du sud-est (rendez-vous au 190).",
+        "number": 190
+      }
+    ]
+  },
+  {
+    "number": 52,
+    "text": "ous faites encore un pas. Mais un choc violent vous arrête : vous venez de vous heurter violemment à un mur invisible, ce qui vous coûte deux points d'Energie Vitale.",
+    "choix": [
+      {
+        "text": "Allez-vous de nouveau saisir rageusement votre couteau pour essayer de parvenir jusqu'à la Tortue (rendez-vous au 91) ?",
+        "number": 91
+      },
+      {
+        "text": "Ou allez-vous rester planté là, comme un ahuri, à essayer de comprendre ce qui a bien pu interrompre aussi brutalement votre progression (rendez-vous au 38) ?",
+        "number": 38
+      },
+      {
+        "text": "Vous pouvez aussi quitter précipitamment la caverne, soit par l'Est (rendez-vous au 30), soit par le nord (rendez-vous au 128).",
+        "number": 30
+      },
+      {
+        "text": "soit par le nord (rendez-vous au 128).",
+        "number": 128
+      }
+    ],
+    "bonus": [
+      {
+        "type": "energie vitale",
+        "modif": "moins",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "number": 53,
+    "text": "Les eaux bénéfiques inondent le lit de la Rivière de la Mort ! C'est le plus bel instant de votre existence héroïque! Vous sentez la nature revivre littéralement. Si vous attendez encore un peu, vous pourrez sans aucune difficulté traverser les eaux du ruisseau et quitter la forêt vierge, sans crainte de nouveaux dangers.\nQuelques jours plus tard, vous êtes accueilli en héros à Tuzak. La joie de la population est indescriptible. Le Prince vous couvre d'or et de pierres précieuses (valeur globale : 100 pièces d'or). En récompense de votre succès dans cette aventure, vous recevez en outre 120 POINTS D'AVENTURE. Le Prince vous offre de devenir son conseiller particulier.",
+    "choix": [
+      {
+        "text": "Si vous acceptez cette proposition, rendez-vous au 68",
+        "number": 68
+      },
+      {
+        "text": "sinon, rendez-vous au 219.",
+        "number": 219
+      }
+    ],
+    "bonus": [
+      {
+        "type": "aventure",
+        "number": 120
+      },
+      {
+        "type": "or",
+        "number": 100
+      }
+    ]
+  },
+  {
+    "number": 54,
+    "text": "Ayant reconnu le piège de la trappe, sur laquelle vous vous trouvez, vous allez certainement vous montrer particulièrement attentif et prudent. Tentez une épreuve d'Adresse.",
+    "choix": [
+      {
+        "text": "En cas de succès, rendez-vous au 162.",
+        "number": 162
+      },
+      {
+        "text": "En cas d'échec, il faudra bien admettre que vous avez manqué de vigilance. Vous traversez alors le renflement central et... rendez-vous au 140.",
+        "number": 140
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "moins": 0,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 55,
+    "text": "La chance vous accompagne : vous trouvez un sentier qui vous permet de vous éloigner de la clairière. Ce chemin semble cependant se perdre peu après dans une épaisse végétation de ronces. Vous parvenez toutefois à vous frayer un passage et vous retrouvez le sentier un peu plus loin.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 45.",
+        "number": 45
+      }
+    ]
+  },
+  {
+    "number": 56,
+    "text": "Le sentier s'oriente maintenant vers le sud, en contournant des troncs d'arbres géants et des buissons d'épines empoisonnées. Vous avez la désagréable sensation de tourner en rond. Devant vous se dresse une véritable muraille de lianes.",
+    "choix": [
+      {
+        "text": "Vous pouvez rebrousser chemin (rendez-vous au 170) ",
+        "number": 170
+      },
+      {
+        "text": "ou essayer de vous faufiler entre les lianes (rendez-vous au 148).",
+        "number": 148
+      }
+    ]
+  },
+  {
+    "number": 57,
+    "text": "Vous constatez avec étonnement que la porte n'est pas fermée. Quand vous l'ouvrez, une odeur atrocement nauséabonde vous fait suffoquer.",
+    "choix": [
+      {
+        "text": "Vous pouvez soit pénétrer dans la caverne qui s'ouvre derrière la porte (rendez- vous au 16)",
+        "number": 16
+      },
+      {
+        "text": "soit rebrousser chemin en refermant promptement la porte derrière vous (rendez-vous au 189).",
+        "number": 189
+      }
+    ]
+  },
+  {
+    "number": 58,
+    "text": "La végétation s'éclaircit quelque peu et, un peu plus loin, vous atteignez une clairière en demi-cercle, dont la limite orientale est une paroi rocheuse abrupte. A votre grande surprise, vous apercevez, l'entrée du légendaire sanctuaire qui protège la source. C'est le Magicien Zor qui, dans des temps très anciens, l'avait fait construire par des Nains, afin que les eaux bénéfiques de la source, qui jusque-là coulaient à l'intérieur des roches, puissent\ntrouver une issue vers l'extérieur. On raconte que la source est protégée de la curiosité des intrus par de puissants sortilèges et de redoutables pièges. Et vous devinez que le mystérieux sanctuaire a dû être le théâtre de tragiques événements.\nAu milieu de la clairière s'étend un vaste bassin de pierre, alimenté par un conduit provenant de la paroi rocheuse. Une sorte de gouttière relie le bassin au lit de la rivière. Mais le conduit ne déverse pas la moindre goutte d'eau dans le bassin, et la rigole semble complètement à sec depuis bien longtemps.\nA droite du bassin, une ouverture encadrée de puissants blocs de pierre s'enfonce vers l'intérieur du rocher. L'ouverture située à gauche s'est effondrée. Entre les blocs amoncelés s'égoutte le liquide mortel, drainé par une multitude de rigoles jusqu'à la rivière. La clairière s'est transformée en marécage empoisonné. De ce marais émergent des rochers isolés et de grosses mottes de terre restées sèches qui peuvent constituer un chemin, si l'on saute adroitement d'un îlot à l'autre.\nVous croyez apercevoir quelque chose à terre, à droite du bassin, mais de là où vous êtes il vous est impossible de distinguer de quoi il s'agit.",
+    "choix": [
+      {
+        "text": "Vous pouvez tenter, en sautant de rocher en rocher, de traverser le marécage (rendez-vous au 119).",
+        "number": 119
+      },
+      {
+        "text": "Mais vous avez aussi la possibilité de faire demi-tour et de repartir dans la forêt (rendez-vous au 173).",
+        "number": 173
+      }
+    ]
+  },
+  {
+    "number": 59,
+    "text": "Bien entendu, c'est à l'envers qu'il faut prononcer le nom de cette colle démoniaque !",
+    "choix": [
+      {
+        "text": "Rendez-vous maintenant au 47.",
+        "number": 47
+      }
+    ]
+  },
+  {
+    "number": 60,
+    "text": "Il est difficile d'avancer dans l'enchevêtrement de plantes au milieu duquel vous êtes engagé. Cependant, il vous semble, bientôt, arriver à un sentier... Mais qui sait ce que chemins et clairières isolées peuvent réserver dans une forêt comme celle-là !",
+    "choix": [
+      {
+        "text": "Rendez-vous au 86.",
+        "number": 86
+      }
+    ]
+  },
+  {
+    "number": 61,
+    "text": "L'escalade de ces éboulis est plus fatigante que vous ne l'aviez pensé. Pratiquement à bout de souffle, vous atteignez l'entrée de la caverne. Venant de l'obscurité impénétrable qui y règne, un bruit vous fait soudain sursauter.",
+    "choix": [
+      {
+        "text": "Vous avez la possibilité de pousser plus avant à l'intérieur de la grotte (rendez-vous au 50)",
+        "number": 50
+      },
+      {
+        "text": "ou de prendre la fuite en dévalant les éboulis (vous revenez alors au 100). ",
+        "number": 100
+      },
+      {
+        "text": "Vous pouvez également essayer de grimper sur une étroite corniche qui monte le long de la paroi, à partir de l'un des côtés de la caverne (rendez-vous au 187).",
+        "number": 187
+      }
+    ]
+  },
+  {
+    "number": 62,
+    "text": "Il faut reconnaître qu'il est très courageux de votre part (mais n'est-ce pas de l'inconscience ?) de vous engager volontairement dans ces eaux putrides. Vos pieds tâtonnent avec une extrême prudence pour trouver un terrain meuble au fond du ruisseau, mais vous ne pouvez vous empêcher, soudain, de glisser en posant le pied sur quelque chose de visqueux. Soumettez-vous à une épreuve d'Adresse + 2, pour savoir si vous parvenez à garder l'équilibre.",
+    "choix": [
+      {
+        "text": "En cas d'échec, vous vous affalez dans la rivière (rendez-vous au 93).",
+        "number": 93
+      },
+      {
+        "text": "Si vous réussissez l'épreuve, rendez-vous au 184.",
+        "number": 184
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "plus": 2,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 63,
+    "text": "Quelque temps après, vous parvenez à un carrefour.",
+    "choix": [
+      {
+        "text": "Vous pouvez prendre la direction du Nord-Ouest (rendez- vous au 20)",
+        "number": 20
+      },
+      {
+        "text": "de l'Ouest (rendez-vous au 190)",
+        "number": 190
+      },
+      {
+        "text": "du sud (rendez-vous au 156) ou de l'Est (rendez-vous au 155)",
+        "number": 156
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 155)",
+        "number": 155
+      }
+    ]
+  },
+  {
+    "number": 64,
+    "text": "Le chemin qui s'éloigne en direction du nord est barré par une haie de plantes vénéneuses. Vous n'aviez encore jamais rencontré cette plante sous une forme aussi luxuriante et dense.\nIl s'agit d'une sorte de cactus qui présente deux caractéristiques particulièrement redoutables. D'une part, ses épines en sont empoisonnées. A la moindre égratignure, si légère soit-elle, la substance nocive pénètre dans le corps, provoquant des phénomènes de paralysie, affectant en particulier les organes respiratoires. D'autre part, lorsqu'elles sont tranchées, les branches laissent s'échapper une sorte de sève acide et corrosive. Une plante tout à fait redoutable !",
+    "choix": [
+      {
+        "text": "Vous pouvez maintenant prendre la direction du sud-ouest (rendez-vous au 206)",
+        "number": 206
+      },
+      {
+        "text": "du sud (rendez-vous au 125) ",
+        "number": 125
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 211)",
+        "number": 211
+      }
+    ]
+  },
+  {
+    "number": 65,
+    "text": "Vous vous êtes profondément enfoncé dans la jungle. Epuisé, vous vous laissez tomber à terre et vous en profitez pour dévorer quelques-uns des fruits en forme de banane qui poussent en abondance à cet endroit.",
+    "choix": [
+      {
+        "text": "Quand vous voudrez reprendre votre route, vous pourrez choisir de repartir en direction de l'Ouest (rendez-vous au 155)",
+        "number": 155
+      },
+      {
+        "text": "du sud (rendez-vous au 120)",
+        "number": 120
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 45).",
+        "number": 45
+      }
+    ]
+  },
+  {
+    "number": 66,
+    "text": "Vous découvrez enfin un chemin qui vous permet de quitter la clairière. Par moments, vous avez l'impression de croiser d'autres pistes, mais dans cet enchevêtrement d'arbres, de lianes et de buissons, il est presque impossible de discerner un sentier ou une trouée. Vous continuez donc dans la même direction.",
+    "choix": [
+      {
+        "text": "rendez-vous au 4",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "number": 67,
+    "text": "Il y a maintenant si longtemps que vous errez dans la jungle que vous commencez à croire que vous êtes complètement égaré.",
+    "choix": [
+      {
+        "text": " Allez-vous poursuivre néanmoins votre chemin dans la direction de l'Est (rendez-vous au 147) ",
+        "number": 147
+      },
+      {
+        "text": "ou de l'Ouest (rendez-vous au 205) ?",
+        "number": 205
+      }
+    ]
+  },
+  {
+    "number": 68,
+    "text": "Voilà une sage décision. La perspective d'une vie tranquille aux revenus réguliers s'offre à vous : grâce au retour des bonnes eaux, les affaires sont redevenues florissantes, et vous pouvez être assuré de conserver cette charge jusqu'à la fin de vos jours.\nAinsi va s'achever la carrière d'un héros, dans une douce quiétude, bien méritée... A moins que cette existence ne devienne à la longue trop ennuyeuse pour vous ?",
+    "choix": [
+      {
+        "text": "Dans ce cas rendez-vous au 219.",
+        "number": 219
+      }
+    ]
+  },
+  {
+    "number": 69,
+    "text": "Vous avez beaucoup de chance : la quantité de poison s'avère, en effet, insuffisante pour provoquer votre mort. Retirez de votre Energie Vitale le nombre de points prescrit, de façon cependant à toujours conserver au moins 5 points.\nLe poison a toutefois bloqué certaines de vos facultés cérébrales. Comme un aveugle, il vous semble avoir tâtonné dans la forêt et il vous est parfaitement impossible de vous rappeler par quel chemin vous êtes arrivé à l’endroit où vous vous trouvez actuellement.\nCependant, l'effet du poison s'atténue et vous retrouvez l'usage de vos facultés de perception. Vous vous trouvez néanmoins dans un endroit qui vous est inconnu, en pleine forêt.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 65.",
+        "number": 65
+      }
+    ],
+    "condition": [
+      {
+        "type": "energie vitale",
+        "minimum": "minimum",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "number": 70,
+    "text": "Vous vous rendez subitement à l'évidence, et il était temps ! Car le cuir de vos bottes et de votre équipement commence à se décomposer peu à peu sous l'effet des eaux putrides de la rivière !\nVous quittez sans plus attendre le cours d'eau pour constater avec soulagement que vos effets n'ont subi que de légers dégâts. Certaines parties du cuir seulement sont devenues quelque peu poreuses. Heureusement, vous aviez un équipement d'excellente qualité.\nVous vous retrouvez donc au point de départ. La prochaine fois, vous ne manquerez certainement pas de réfléchir à deux fois avant de prendre une décision.",
+    "choix": [
+      {
+        "text": "Retournez au 1.",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 71,
+    "text": "Vous êtes beaucoup trop gourmand ! Si vous avez mangé avec excès de ce fruit appelé «grenade hallucinogène\n», vous allez certes sentir vos forces décupler (augmentez votre note de Force de 1 point), mais vous allez aussi être victime de graves troubles psychiques. En proie à un état second, vous vous adossez à une fourche formée de deux branches d'arbre et vous plongez dans un état proche du sommeil. Des images d'une intensité extraordinaire et d'une étrange beauté défilent dans votre tête. Vous souriez, comme transfiguré : vous êtes le sauveur de l'Aventurie, vous avez réussi à faire couler de nouveau les eaux bénéfiques de la rivière, vous êtes un grand héros, une foule de personnages en costumes multicolores dansent de joie autour de vous.\nMais vous avez oublié quelque chose ! Vous avez oublié votre cheval. Il faut que vous donniez à manger à votre fidèle monture. Vous devez partir, quitter tous ces gens qui vous disent tristement au revoir, pour chercher votre cheval. Il faut vous en aller. Il vous faut trouver ce cheval ! Il faut... Crac ! Un bruit sec vous tire de votre rêverie. Parti à la recherche de votre monture, vous avez marché comme un somnambule à travers la forêt, sans sentir les feuilles et les ronces qui vous griffaient le visage. Mais la grosse branche qui vient de tomber devant vous vous a brusquement ramené à la dure réalité. Impossible de vous souvenir comment vous avez pu arriver à l'endroit où vous êtes actuellement !",
+    "choix": [
+      {
+        "text": "Rendez-vous au 65.",
+        "number": 65
+      }
+    ],
+    "bonus": [
+      {
+        "type": "force",
+        "modif": "plus",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 72,
+    "text": "",
+    "choix": [
+      {
+        "text": "Rendez-vous au 22.",
+        "number": 22
+      }
+    ]
+  },
+  {
+    "number": 73,
+    "text": "Le combat durera jusqu'à la mort de l'un des deux combattants.",
+    "choix": [
+      {
+        "text": "Si c'est vous qui triomphez du Léopard, rendez- vous au 102.",
+        "number": 102
+      },
+      {
+        "text": "En revanche, si vous êtes tué par le fauve, rendez-vous au 167.",
+        "number": 167
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "léopard des marais",
+        "combat": "non",
+        "courage": 11,
+        "energie": 20,
+        "protection": 1,
+        "attaque": 11,
+        "parade": 5,
+        "impact": [
+          {
+            "de": 6,
+            "plus": 3
+          }
+        ],
+        "aventure": 12
+      }
+    ]
+  },
+  {
+    "number": 74,
+    "text": "Pour traverser la rivière, plusieurs choix s'offrent à vous :",
+    "choix": [
+      {
+        "text": "Voulez-vous tenter de sauter d'une rive à l'autre ? Attention: vous ne disposez seulement que de six mètres de recul pour prendre votre élan ! (rendez-vous au 193).",
+        "number": 193
+      },
+      {
+        "text": "Préférez-vous essayer de passer de l'autre côté en vous balançant au bout d'une liane (rendez-vous au 134) ?",
+        "number": 134
+      },
+      {
+        "text": "Vous pouvez également traverser la rivière en pataugeant dans l'eau (rendez-vous 62).",
+        "number": 62
+      },
+      {
+        "text": "Si aucune des trois possibilités précédemment citées ne vous tente, vous pouvez faire tout simplement demi- tour. Si vous vous trouvez sur la rive Ouest, rendez-vous au 6.",
+        "number": 6
+      },
+      {
+        "text": "Mais si vous êtes actuellement sur la rive est, rendez-vous au 175.",
+        "number": 175
+      }
+    ]
+  },
+  {
+    "number": 75,
+    "text": "Il vous faut attirer l'attention du Dragon-Tatak, afin de l'entraîner vers le piège mortel de la colle. Le monstre semble dormir, mais mieux vaut ne pas s'y fier. Il est inutile de vous époumoner : chacun sait que cet animal est dépourvu de tout organe auditif. On ignore en revanche ce qu'il est capable de discerner précisément avec ses yeux à facettes... mais vous pouvez être sûr qu'il vous verra venir, si vous vous approchez de lui lorsqu'il ne dort pas ! Enfin, rien ne permet de déterminer si le Dragon possède un organe olfactif, et donc s'il est éventuellement en mesure de sentir l'odeur de la fumée de votre torche. Vous n'avez apparemment pas d'autre solution que de lancer un objet quelconque sur le monstre, en vous maintenant à distance respectable.",
+    "choix": [
+      {
+        "text": "Si vous possédez un boomerang magique rendez-vous au 177.",
+        "number": 177
+      },
+      {
+        "text": "A défaut de boomerang, vous allez être obligé de jeter en direction du Dragon un élément de votre propre équipement, car on ne trouve à cet endroit aucune pierre ni autre projectile facile à manipuler. De. quel objet allez- vous vous séparer ? De votre couteau (rendez-vous au 104)",
+        "number": 104
+      },
+      {
+        "text": "de votre machette (rendez-vous au 41) ou de votre sac (rendez-vous au 195) ?",
+        "number": 41
+      },
+      {
+        "text": "ou de votre sac (rendez-vous au 195) ?",
+        "number": 195
+      }
+    ]
+  },
+  {
+    "number": 76,
+    "text": "La solution de l'énigme consiste en effet à prononcer à l'envers le nom de la masse collante. Certains mots peuvent être lus aussi bien à l'endroit qu'à l'envers, comme été ; d'autres, lus à l'envers, prennent un sens différent: ainsi roc devient-il cor. La solution de l'énigme n'était pas trop difficile... Vous ne vous en étiez pas aperçu ? Retirez immédiatement 5 points à votre note d'Intelligence, si vous ne l'avez pas encore fait.\nVous êtes maintenant en mesure de vous sortir du piège de la colle, à condition toutefois de connaître le nom de cette substance.",
+    "choix": [
+      {
+        "text": "Si vous le connaissez, rendez-vous au 9.",
+        "number": 9
+      },
+      {
+        "text": "Si, en revanche, vous l'ignorez, rendez-vous au 223.",
+        "number": 223
+      }
+    ],
+    "bonus": [
+      {
+        "type": "intel",
+        "modif": "moins",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "number": 77,
+    "text": "Perdu dans l'obscurité des passages souterrains, vous avancez en trébuchant en direction d'une lueur que vous apercevez dans le lointain. Et enfin, vous débouchez à l'air libre ! Devant vous, la jungle s'étend à perte de vue. Vous vous frayez péniblement un chemin en tremblant à l'idée que personne n'a encore jamais pu échapper à ce lieu infernal. A bout de forces, vous atteignez enfin un sentier qui vous semble susceptible de vous éloigner de ce piège. Vous vous accordez une petite pause pour puiser dans vos provisions, s'il vous en reste, ou manger quelques pois fades des marais.",
+    "choix": [
+      {
+        "text": "Rendez-vous ensuite au 83.",
+        "number": 83
+      }
+    ]
+  },
+  {
+    "number": 78,
+    "text": "Quelques mètres plus loin, le passage aboutit à un escalier dont les marches grossièrement taillées dans le roc descendent de manière abrupte.",
+    "choix": [
+      {
+        "text": "Vous pouvez faire demi-tour (rendez-vous au 163) ",
+        "number": 163
+      },
+      {
+        "text": "ou vous engager dans l'escalier (rendez-vous au 13).",
+        "number": 13
+      }
+    ]
+  },
+  {
+    "number": 79,
+    "text": "Pour pouvoir vous orienter plus facilement et retrouver l'endroit par où vous êtes entré dans la clairière, commencez par poser votre sac à dos à terre.\nVous pouvez vous rafraîchir à la source. Vous ne courez aucun risque. Vous avez peut-être déjà fait de mauvaises rencontres à cet endroit ; mais, cette fois-ci, vous ne remarquez rien d'anormal.",
+    "choix": [
+      {
+        "text": "Si vous voulez quitter la clairière à l'endroit même où vous y êtes entré, retournez au paragraphe précédant le paragraphe 107, pour y choisir une autre direction. (Souhaitons que vous ayez dressé un bon plan, sans quoi il ne vous reste plus que la solution ci-après.)",
+        "number": 106
+      },
+      {
+        "text": "Si vous faites confiance à la chance pour quitter la clairière par une autre issue, lancez le D6, multipliez le résultat par 12 et rendez-vous au paragraphe dont le numéro correspond au nombre ainsi obtenu.",
+        "number": 0
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "multiplier": 12,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 80,
+    "text": "Vous devriez avoir honte de mentir ainsi ! Retirez immédiatement 5 points de votre valeur de Charisme ! En fait, vous ne devriez même pas avoir le droit de vous trouver ici !\n\fSeul le grand Magicien Zor en personne connaissait les sept formules magiques permettant d'ouvrir les serrures de la porte. En un mot, et pour que les choses soient claires : la porte est fermée et elle le restera. Et vous, vous êtes bloqué derrière.",
+    "choix": [
+      {
+        "text": "Retournez au 128.",
+        "number": 128
+      }
+    ],
+    "bonus": [
+      {
+        "type": "charisme",
+        "modif": "moins",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "number": 81,
+    "text": "Vous devriez pourtant savoir qu'il est impossible de se rappeler par où vous êtes entré dans cette clairière ! Le taillis qui l'entoure est trop uniforme, et ne présente pas le moindre point de repère.\nMais, là où l’intelligence n'a pas suffi, la chance vous sourit : vous aviez perdu une botte dans le sol marécageux en entrant dans la clairière. Afin de faciliter vos efforts pour la dégager du sol bourbeux, vous aviez posé votre sac à dos par terre.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 79.",
+        "number": 79
+      }
+    ]
+  },
+  {
+    "number": 82,
+    "text": "Bien que les marches soient très glissantes, vous parvenez bientôt à atteindre le haut de l'escalier. Trempé jusqu'aux os par ce liquide puant, vous n'avez vraiment plus très fière allure. Tirez-en les conséquences en retirant 2 points de votre note de Charisme. Les eaux s'écoulant sans interruption de la fissure, vous renoncez à explorer l'escalier plus en détail. Après en avoir escaladé sa dernière marche, vous reprenez le passage que vous avez déjà parcouru.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 163.",
+        "number": 163
+      }
+    ],
+    "bonus": [
+      {
+        "type": "charisme",
+        "modif": "moins",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "number": 83,
+    "text": "Le sentier change continuellement de direction, et il vous est maintenant presque impossible de vous orienter. Le sol est, de plus, marécageux en de nombreux endroits.\nMaintenant vous devez faire un nouveau choix :",
+    "choix": [
+      {
+        "text": "voulez-vous aller vers l'Ouest (rendez-vous au 107) ",
+        "number": 107
+      },
+      {
+        "text": "ou vers le sud (rendez-vous au 155) ?",
+        "number": 155
+      }
+    ]
+  },
+  {
+    "number": 84,
+    "text": "Faites donc un peu marcher votre matière grise ! Attaquer de front le Dragon-Tatak serait une entreprise absurde et vouée d'avance à l'échec. Il serait certainement plus judicieux d'attirer le monstre quelque part, par un moyen quelconque... Mais oui, vous entrevoyez une possibilité...",
+    "choix": [
+      {
+        "text": "Rendez-vous au 133",
+        "number": 133
+      }
+    ]
+  },
+  {
+    "number": 85,
+    "text": "Vous approchez d'une petite clairière. Il y pousse un grand nombre de tabourets de crapauds, une des espèces de champignons parmi les plus vénéneuses. Au moment précis où vous allez pénétrer dans la clairière, vous remarquez deux Tarentules de Maraskan occupées à déguster les champignons. Ces horribles créatures se nourrissent exclusivement, en effet, de tabourets de crapauds.\nAlors que vous observez prudemment ce qui se passe dans la clairière, voilà qu'une troisième Marasque (c'est un autre nom des Tarentules de Maraskan) vous attaque tout d'un coup. Vous étiez tellement plongé dans l'observation des deux autres, que vous n'aviez pas remarqué ce magnifique spécimen, dissimulé parmi les feuilles à moins de deux mètres de vous. C'est précisément cela qui a rendu l'immonde araignée si agressive : la Marasque attaque tout ce qui s'approche trop près d'elle ; et, plus elle est vieille, plus elle est dangereuse. L'âge accroît en effet son Energie Vitale, sa valeur de Protection et la virulence de son venin. Vous devez commencer par lancer deux D6 pour déterminer l'âge de la Marasque qui vous attaque. Cette donnée est indispensable pour calculer les autres valeurs. La Marasque commence le combat. Au nombre des blessures qu'elle réussira à vous infliger avec son dard, vous devrez ajouter celles qui seront causées par son venin. \nSi vous vous êtes déjà trouvé en cet endroit, face à la Marasque et que vous l'ayez déjà combattue, vous pouvez poursuivre votre chemin sans plus attendre, en prenant l'une des directions précédemment proposées. Faites de même, si vous menez le combat à son terme et que vous êtes vainqueur.",
+    "choix": [
+      {
+        "text": "Si vous arrivez à vaincre la Marasque, vous avez le choix entre repartir vers l'Est (rendez-vous au 114) ",
+        "number": 114
+      },
+      {
+        "text": "ou vers l'Ouest (rendez-vous au 170).",
+        "number": 170
+      },
+      {
+        "text": "Si la Marasque vous atteint à deux reprises avec son dard venimeux, vous ne pourrez que vous éloigner en titubant, après avoir rassemblé vos dernières forces. Rendez-vous au 69.",
+        "number": 69
+      },
+      {
+        "text": "Si vous préférez poursuivre le combat, sachez que vous n'aurez plus la possibilité de vous enfuir. Vous serez obligé de soutenir le combat jusqu'à la victoire ou jusqu'à la mort (dans ce dernier cas rendez-vous au 167).",
+        "number": 167
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Marasque",
+        "combat": "oui",
+        "age": 0,
+        "energie": 5,
+        "protection": 0,
+        "attaque": 12,
+        "parade": 0,
+        "impact": [
+          {
+            "de": 6,
+            "plus": 2
+          },
+          {
+            "de": 6,
+            "plus": 0
+          }
+        ],
+        "aventure": 5
+      }
+    ]
+  },
+  {
+    "number": 86,
+    "text": "Vous arrivez à un carrefour.",
+    "choix": [
+      {
+        "text": "Vous pouvez choisir la direction de l'Est (rendez-vous au 90)",
+        "number": 90
+      },
+      {
+        "text": "du Nord-Ouest (rendez- vous au 190)",
+        "number": 190
+      },
+      {
+        "text": "ou du sud (rendez-vous au 95)",
+        "number": 95
+      }
+    ]
+  },
+  {
+    "number": 87,
+    "text": "Si c'est la première fois que vous tombez dans un puits de ce genre",
+    "choix": [
+      {
+        "text": "rendez-vous au 132.",
+        "number": 132
+      },
+      {
+        "text": "Si, en revanche, c'est la deuxième fois - et vous devriez commencer à connaître le danger et faire plus attention - rendez-vous au 17.",
+        "number": 17
+      }
+    ]
+  },
+  {
+    "number": 88,
+    "text": "Un épais sous-bois rend votre progression difficile.",
+    "choix": [
+      {
+        "text": "Vous pouvez maintenant vous diriger vers l'Ouest (rendez-vous au 2)",
+        "number": 2
+      },
+      {
+        "text": "ou vers le sud-est (rendez-vous au 107) ?",
+        "number": 107
+      }
+    ]
+  },
+  {
+    "number": 89,
+    "text": "Est-ce à cause de la transpiration qui vous inonde les mains.\tou de la trop grande tension ? Toujours est-il que\nvous avez raté votre coup !\nVotre projectile est retombé loin du monstre, dans un bruit de ferraille.\tMais l'un des énormes yeux globuleux du\nDragon n'a-t-il pas tressailli ?\nVous n'êtes pas sur, cependant, d'avoir réussi à attirer sur vous l'attention du Dragon-Tatak : car il ne bouge pas d'un millimètre.",
+    "choix": [
+      {
+        "text": "Vous pouvez essayer de récupérer l'objet que vous avez lancé (rendez-vous au 29)",
+        "number": 29
+      },
+      {
+        "text": "ou en envoyer un autre, parmi ceux qui vous restent : votre couteau (rendez-vous au 104)",
+        "number": 104
+      },
+      {
+        "text": " votre machette (rendez-vous au 41) ou votre sac (rendez-vous au 195).",
+        "number": 41
+      },
+      {
+        "text": "ou votre sac (rendez-vous au 195).",
+        "number": 195
+      }
+    ]
+  },
+  {
+    "number": 90,
+    "text": "Vous atteignez une clairière entourée de fougères qui atteignent la taille d'un homme. Trois chemins partent de là : ",
+    "choix": [
+      {
+        "text": "l'un vers le nord (rendez-vous au 156)",
+        "number": 156
+      },
+      {
+        "text": "l'autre vers l'Ouest (rendez-vous au 86)",
+        "number": 86
+      },
+      {
+        "text": "le dernier vers l'est (rendez-vous au 120).",
+        "number": 120
+      }
+    ]
+  },
+  {
+    "number": 91,
+    "text": "Vous faites encore un pas en avant : votre lame se met soudain à briller d'un vif éclat et vous tombez à terre, comme foudroyé. Votre corps se recroqueville alors sous l'effet d'une insupportable douleur et vous vous évanouissez l'espace d'un bref instant. Lancez 2 D6 pour évaluer le nombre de points d'Energie Vitale que cet accident va vous coûter.",
+    "choix": [
+      {
+        "text": "Si vous vous trouviez déjà dans un état de faiblesse tel que votre Energie Vitale tombe maintenant à 0, cette décharge d'énergie vous aura donné le coup de grâce (rendez-vous au 167).",
+        "number": 167
+      },
+      {
+        "text": "Sinon, vous avez encore la force, une fois revenu de votre évanouissement, de vous redresser avec peine et de choisir l'une des autres possibilités qui figurent au paragraphe 135.",
+        "number": 135
+      }
+    ],
+    "jet": [
+      {
+        "type": "energie vitale",
+        "de": 6,
+        "number": 2
+      }
+    ]
+  },
+  {
+    "number": 92,
+    "text": "Quelques mètres plus loin, vous atteignez l'orée de la forêt. C'est là - à mille mètres environ de la falaise qui borde, à l'Ouest, la vallée - que la rivière aux eaux saines quitte la jungle.",
+    "choix": [
+      {
+        "text": "Vous pouvez soit revenir à votre point de départ en traversant en sens inverse la vaste savane (rendez-vous au 1)",
+        "number": 1
+      },
+      {
+        "text": "soit pénétrer dans la forêt vierge en vous dirigeant sur le nord (rendez-vous au 95).",
+        "number": 95
+      }
+    ]
+  },
+  {
+    "number": 93,
+    "text": "Catastrophe ! Vous vous débattez dans les eaux putrides de la rivière de la Mort ! Bien entendu, vous prenez garde avant tout à ne pas y plonger la tête ; il n'empêche que, maintenant, vous êtes vraiment peu reluisant ! Vous vous redressez promptement et vous escaladez le talus qui borde la rivière. Vous essayez, tant bien que mal, de vous sécher... et c'est à ce moment-là que vous commencez à ressentir des picotements sur vos mains ; la peau en devient rapidement rougeâtre et de petites cloques apparaissent sur les paumes. Les démangeaisons sont vite intolérables. Si vous ne trouvez pas un moyen d'apaiser la douleur, vous allez éprouver de graves difficultés à vous servir de votre machette : vous ne pourrez plus l'utiliser aussi efficacement qu'à l'habitude. Dans un combat, vous ne pourrez plus obtenir que 1 D + 1 Point d'Impact (Modifiez feuille personnage en conséquence. Mais si vous trouvez un remède, vous pourrez immédiatement récupérer votre ancienne note de 1 D + 3). Heureusement, vos vêtements de cuir sont d'excellente qualité : ils ont résisté sans dommage au contact des eaux. Si vous ne vous étiez pas empressé de grimper sur la rive, votre valeur de Protection elle-même n'aurait pas tardé à diminuer.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 221.",
+        "number": 221
+      }
+    ],
+    "bonus": [
+      {
+        "type": "degat",
+        "de": 1,
+        "plus": 1
+      }
+    ]
+  },
+  {
+    "number": 94,
+    "text": "Vous vous précipitez vers la lisière de la clairière pour vous dissimuler dans les fourrés. Pour savoir si vous serez assez rapide pour atteindre les taillis avant les deux gaillards qui vous pourchassent, vous devez subir une épreuve d'Adresse + 3 : ils essaient tous les deux de vous couper la route.",
+    "choix": [
+      {
+        "text": "En cas d’échec, vous devrez poursuivre le combat jusqu'à la mort de vos adversaires (rendez-vous au 141)",
+        "number": 141
+      },
+      {
+        "text": "à moins que ce ne soit vous qui succombiez (rendez-vous au 167).",
+        "number": 167
+      },
+      {
+        "text": "Si vous réussissez l'épreuve d'Adresse, vous avez réussi à vous cacher à temps dans le fouillis de la végétation. Pendant quelque temps encore, vous entendez vos ennemis qui vous cherchent en jurant, avant de s'éloigner enfin, vous laissant seul. Vous essayez alors de trouver un chemin pour quitter cet endroit. Rendez-vous au 122.",
+        "number": 122
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "modif": "plus",
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 95,
+    "text": "Au bout de peu de temps, vous arrivez à un nouveau carrefour. ",
+    "choix": [
+      {
+        "text": "Vous pouvez vous diriger en direction du nord (rendez-vous au 86)",
+        "number": 86
+      },
+      {
+        "text": "de l'Est (rendez-vous au 154)",
+        "number": 154
+      },
+      {
+        "text": "du sud (rendez-vous au 112)",
+        "number": 112
+      },
+      {
+        "text": "ou de l'Ouest (rendez-vous au 4).",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "number": 96,
+    "text": "Le passage souterrain n'a que quelques mètres de long. Puis il tourne à angle droit.",
+    "choix": [
+      {
+        "text": "Voulez-vous retourner vers le sud (rendez-vous au 35) ",
+        "number": 35
+      },
+      {
+        "text": "ou obliquer vers l'Est (rendez-vous au 111) ?",
+        "number": 111
+      }
+    ]
+  },
+  {
+    "number": 97,
+    "text": "Parvenu à deux mètres du bassin, vous entendez une voix étouffée qui semble être celle de la Tortue : « Ne va pas plus loin ! ».",
+    "choix": [
+      {
+        "text": "Allez-vous continuer à avancer (rendez-vous au 52)",
+        "number": 52
+      },
+      {
+        "text": "ou préférant obéir, allez-vous vous arrêter (rendez-vous au 135) ?",
+        "number": 135
+      }
+    ]
+  },
+  {
+    "number": 98,
+    "text": "Vous y arrivez très bien ! Bravo ! Vous êtes un véritable montagnard : les plus hauts sommets de l’Aventurie n'ont qu'à bien se tenir ! Mais vous êtes cependant contraint de vous arrêter à 70 mètres de hauteur environ (vous n'avez malheureusement pas sur vous votre équipement complet d'alpinisme). Pas une saillie dans la roche, pas la moindre fissure pour vous offrir la plus petite prise ! La paroi se dresse, verticale, absolument lisse, comme taillée d'un gigantesque coup de couteau.\nAu-dessous de vous s'étale l'impressionnante masse verte de la jungle. Seule une étroite corniche pourrait, peut- être, vous permettre de progresser le long de la paroi rocheuse en direction du sud.",
+    "choix": [
+      {
+        "text": "Vous pouvez vous engager sur cette corniche (rendez-vous au 196)",
+        "number": 196
+      },
+      {
+        "text": "ou faire demi-tour pour redescendre (rendez-vous au 182)",
+        "number": 182
+      }
+    ]
+  },
+  {
+    "number": 99,
+    "text": "Vous écartez prudemment le rideau tressé, et vous avancez à tâtons dans la caverne. Il ne s'agit que d'une petite salle en demi-cercle. Au pied de la paroi qui vous fait face, vous découvrez les restes momifiés d'un homme. Un aventurier tel que vous, sans aucun doute ! Le corps porte les traces des blessures profondes qu'il a dû recevoir au cours d'un combat. A côté du cadavre, gît une machette rouillée. Elle n'a malheureusement pas beaucoup servi à ce pauvre diable !\nMis à part ce cadavre, la caverne est vide. Au moment où vous quittez la grotte, vous entendez un rugissement menaçant retentir dans la jungle, juste devant vous.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 198.",
+        "number": 198
+      }
+    ]
+  },
+  {
+    "number": 100,
+    "text": "Le chemin s'arrête devant la paroi orientale de la gorge. A trente mètres au-dessus de vous, vous remarquez une grotte dans le rocher ; il faut, pour y accéder, escalader des éboulis abrupts.",
+    "choix": [
+      {
+        "text": "Si vous désirez atteindre cette grotte, rendez-vous au 61.",
+        "number": 61
+      },
+      {
+        "text": "Mais vous pouvez aussi revenir au 1 pour faire un nouveau choix.",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 101,
+    "text": "Au combat, le Dragon-Tatak se sert toujours de ses griffes en même temps que de ses dents ou de son dard. Il dispose ainsi de deux armes d'Attaque, alors que vous n'avez qu'une possibilité de Parade. Les dents et le dard sont utilisés en alternance. Si le Dragon parvient à vous blesser avec son dard, il faudra un coup de dé supplémentaire pour connaître lésions provoquées par le venin qu'il inocule.",
+    "choix": [
+      {
+        "text": "Si, réflexion faite, la vue du monstre vous impressionne trop, vous pouvez choisir une autre solution. Revenez, alors, au 230.",
+        "number": 230
+      },
+      {
+        "text": "Si vous engagez le combat, fasse le ciel que vous ayez beaucoup de chance avec les dés ! Si vous parvenez à terrasser le Dragon, rendez-vous au 183.",
+        "number": 183
+      },
+      {
+        "text": "Si vous mourez au cours de ce combat, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "(Si vous veniez du 29, vous êtes, obligé de livrer le combat. Vous ne pouvez donc choisir aucune des autres possibilités offertes au 230).",
+        "number": 101
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Dragon Tatak",
+        "combat": "oui",
+        "courage": 30,
+        "energie": 70,
+        "protection": 5,
+        "attaque": 12,
+        "parade": 7,
+        "impact": [
+          {
+            "name": "griffes",
+            "de": 6,
+            "number": 2,
+            "plus": 0
+          },
+          {
+            "name": "dent",
+            "de": 6,
+            "number": 1,
+            "plus": 5
+          },
+          {
+            "name": "dard",
+            "de": 6,
+            "number": 1,
+            "plus": 2
+          },
+          {
+            "name": "venin",
+            "de": 6,
+            "number": 1,
+            "plus": 0
+          }
+        ],
+        "aventure": 80
+      }
+    ]
+  },
+  {
+    "number": 102,
+    "text": "Vous avez donc réussi à vous débarrasser du Léopard des Marais, que ce soit par votre force au combat ou par la ruse. Dans le premier cas, vous obtenez 12 POINTS D'AVENTURE, dans le second vous en gagnez 8 seulement. S'il vous arrive, par la suite, de rencontrer à nouveau le Léopard des Marais, vous pourrez le considérer comme déjà vaincu et continuer imperturbablement votre aventure.",
+    "choix": [
+      {
+        "text": "Au cas où vous ne l'auriez pas encore fait, vous allez maintenant avoir le temps de visiter la caverne (rendez-vous au 99).",
+        "number": 99
+      },
+      {
+        "text": "Mais vous pouvez aussi tenter d'escalader la paroi rocheuse (rendez-vous au 7) ",
+        "number": 7
+      },
+      {
+        "text": "ou essayer de trouver un chemin vers le nord, le long de cette même paroi (rendez-vous au 28).",
+        "number": 28
+      },
+      {
+        "text": "Bien entendu, vous avez aussi la possibilité de repartir à travers la jungle par le sentier qui vous a conduit jusqu'ici (rendez-vous au 190)",
+        "number": 190
+      }
+    ],
+    "bonus": [
+      {
+        "type": "aventure",
+        "number": 12,
+        "number2": 8
+      }
+    ]
+  },
+  {
+    "number": 103,
+    "text": "Il s'agit des fruits d'une plante magique, et vous en ressentez immédiatement leur effet fortifiant. (Votre Energie Vitale y gagne un point ; elle ne doit cependant pas excéder son taux initial ; votre Force Physique augmente aussi d'un point).\nMais vous vous êtes servi un peu trop largement ! Consommés en trop grosse quantité, ces fruits diminuent les réflexes. Si vous deviez livrer un combat au cours de l'un des huit prochains paragraphes, vous seriez obligé de le faire avec une valeur de Parade diminuée de deux points. Au bout de huit paragraphes, ce regrettable effet secondaire s'estompera et vous retrouverez votre ancienne valeur de Parade. En revanche, vous conserverez votre nouvelle note de Force Physique.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 106.",
+        "number": 106
+      }
+    ],
+    "bonus": [
+      {
+        "type": "force",
+        "modif": "plus",
+        "number": 1
+      },
+      {
+        "type": "energie vitale",
+        "modif": "plus",
+        "number": 1
+      },
+      {
+        "type": "parade",
+        "modif": "moins",
+        "number": 2,
+        "duree": 8
+      }
+    ]
+  },
+  {
+    "number": 104,
+    "text": "Lancez le D6 pour savoir à quel succès est promis votre lancer de couteau.",
+    "choix": [
+      {
+        "text": "Si vous obtenez un 1, rendez-vous au 89",
+        "number": 89
+      },
+      {
+        "text": "si vous obtenez un 2 ou un 3, rendez-vous au 117 ",
+        "number": 117
+      },
+      {
+        "text": "pour un 4, un 5 ou un 6, rendez-vous au 123.",
+        "number": 123
+      }
+    ]
+  },
+  {
+    "number": 105,
+    "text": "Le saut réussit. Vous comprenez confusément que les deux poignées ne servent pas seulement à ouvrir ou à fermer la fosse auprès de laquelle elles se trouvent, mais également à manœuvrer l'autre fosse, selon de mystérieux mécanismes. Si vous le désirez, vous pouvez vous intéresser encore à ce problème. Mais vous feriez peut-être mieux de penser à votre mission et de poursuivre votre route.",
+    "choix": [
+      {
+        "text": "Si vous avez franchi la fosse aux Serpents du sud vers le nord, continuez votre chemin en vous rendant au 189.",
+        "number": 189
+      },
+      {
+        "text": "Si vous veniez de la direction opposée, rendez-vous au 111.",
+        "number": 111
+      }
+    ]
+  },
+  {
+    "number": 106,
+    "text": "",
+    "choix": [
+      {
+        "text": "Vous pouvez vous diriger vers le Nord-Est (rendez-vous au 190)",
+        "number": 190
+      },
+      {
+        "text": "ou vers le sud (rendez-vous au 4).",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "number": 107,
+    "text": "Le sol devient de plus en plus marécageux. A chaque pas, il gargouille sous vos pieds, et une petite flaque d'eau surgit dans chacune de vos empreintes. On rencontre ici un étonnant enchevêtrement de plantes. Leurs larges feuilles flasques, à la surface humide, vous donnent l'impression de se balancer comme de grandes pièces de tissus mouillés, suspendues pour sécher, Quelques mètres plus loin, vous débouchez soudain dans une clairière, Sa lisière circulaire est entièrement bordée de ces plantes aux feuilles flasques. Au centre se dressent quelques rochers d'où jaillit une petite source.\nEn l'absence d'un lieu d'écoulement bien défini, l'eau s'infiltre dans le sol ; voilà pourquoi le terrain est si spongieux à cet endroit.\nC'est cette source qui alimente en eau potable la rivière de la forêt. Vous entrez dans la clairière et vous vous penchez vers la source pour vous y rafraîchir.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 216",
+        "number": 216
+      },
+      {
+        "text": "Si vous êtes déjà passé par cette clairière, ne vous y arrêtez pas et rendez-vous directement au 19.",
+        "number": 19
+      }
+    ]
+  },
+  {
+    "number": 108,
+    "text": "Après avoir erré pendant des heures, des jours entiers peut-être, dans la forêt, vous atteignez le fond de la gorge. Les falaises qui la bordent se rejoignent, vous laissant devant une infranchissable paroi verticale. Vous en êtes convaincu, ce n'est pas de ce côté qu'il faut chercher la source du mal.\nMalgré une immense lassitude, il faut vous ressaisir et repartir pour tenter votre chance ailleurs.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 147.",
+        "number": 147
+      }
+    ]
+  },
+  {
+    "number": 109,
+    "text": "La corniche s'interrompt soudain. Même le meilleur alpiniste ne pourrait grimper plus haut. Et vous en arrivez, un peut tard, à la conclusion que, toute réflexion faite, grimper à une hauteur pareille n'était certainement pas le meilleur moyen d'arriver à la source des eaux empoisonnées, celle-ci ne pouvant se cacher que dans les profondeurs de la terre.\nAu moment où vous essayez de faire demi-tour, des fragments de rocher se détachent sous votre pied gauche... Vous êtes sur le point de tomber ! La branche sèche à laquelle vous tentez de vous raccrocher se casse !\nParviendrez-vous à vous agripper au bord de la corniche ? Une épreuve d'Adresse + 1 s'impose.",
+    "choix": [
+      {
+        "text": "En cas d'échec, vous lâchez définitivement prise, et vous tombez dans le vide (rendez-vous au 137).",
+        "number": 137
+      },
+      {
+        "text": "Si vous réussissez, dans un dernier sursaut, vos mains s'agrippent au rocher ! Mais vos forces suffiront-elles pour vous hisser jusqu'à la corniche qui représente le salut ? Pour le savoir, vous devez vous soumettre à une épreuve de Force + 2. Si vous échouez dans cette épreuve, c'est la chute (rendez-vous au 137).",
+        "number": 137
+      },
+      {
+        "text": "Mais si vous gagnez, vous réussissez finalement à vous hisser sur la corniche et vous revenez prudemment sur vos pas (rendez-vous au 100).",
+        "number": 100
+      },
+      {
+        "text": "Au cas où vous n'auriez pas encore exploré la caverne, vous avez maintenant la possibilité de le faire (rendez- vous au 50).",
+        "number": 50
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "plus": 1,
+        "de": 20
+      },
+      {
+        "type": "force",
+        "plus": 2,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 110,
+    "text": "Le passage souterrain décrit une courbe en direction de l'Est. Le sol n'est plus aussi plat : il monte légèrement et devient humide et glissant. Des Chauves-Souris vous frôlent sans bruit. Devant vous, vous apercevez une faible lueur, et une odeur de décomposition étrangement douceâtre se dégage de cet endroit.",
+    "choix": [
+      {
+        "text": "Souhaitez-vous continuer en direction de l'Est (rendez-vous au 18)",
+        "number": 18
+      },
+      {
+        "text": "ou préférez-vous faire demi-tour (rendez-vous au 30) ?",
+        "number": 30
+      }
+    ]
+  },
+  {
+    "number": 111,
+    "text": "Vous arrivez bientôt à un carrefour.",
+    "choix": [
+      {
+        "text": "Vous pouvez prendre la direction de l'Ouest (rendez-vous au 96)",
+        "number": 96
+      },
+      {
+        "text": "du nord (rendez-vous au 136) ou du sud (rendez-vous au 163).",
+        "number": 163
+      }
+    ]
+  },
+  {
+    "number": 112,
+    "text": "Vous vous trouvez sur une piste étroite qui suit à peu près la direction Nord-Sud.",
+    "choix": [
+      {
+        "text": "Allez-vous vous diriger vers le sud (rendez-vous au 92)",
+        "number": 92
+      },
+      {
+        "text": "ou vers le nord (rendez-vous au 95) ?",
+        "number": 95
+      }
+    ]
+  },
+  {
+    "number": 113,
+    "text": "Il est de plus en plus épuisant de se frayer un chemin à travers la jungle, les buissons d'épines et de ronces devenant de plus en plus épais. Vous parvenez enfin à atteindre la paroi orientale de la gorge.",
+    "choix": [
+      {
+        "text": "Vous pouvez tenter d'escalader cette falaise abrupte (rendez-vous au 98) ",
+        "number": 98
+      },
+      {
+        "text": "ou revenir sur vos pas (rendez-vous au 175).",
+        "number": 175
+      }
+    ]
+  },
+  {
+    "number": 114,
+    "text": "Vous suivrez le sentier sur une assez longue distance, et vous atteignez une clairière.",
+    "choix": [
+      {
+        "text": "Vous pouvez poursuivre votre chemin en direction de l'Ouest (rendez-vous au 85)",
+        "number": 85
+      },
+      {
+        "text": "du nord (rendez-vous au 131)",
+        "number": 131
+      },
+      {
+        "text": "de l'Est (rendez-vous au 192) ou du sud (rendez-vous au 228).",
+        "number": 192
+      },
+      {
+        "text": "ou du sud (rendez-vous au 228).",
+        "number": 228
+      }
+    ]
+  },
+  {
+    "number": 115,
+    "text": "Diable ! Voilà une entreprise plutôt ardue ! Votre interlocuteur ne s'exprime que par monosyllabes ! La Tortue est malade et aigrie car, depuis que les eaux saines ont cessé de couler, son bassin reste sec lui aussi ; or la Tortue a absolument besoin d'eau pour survivre.\nVous parvenez toutefois à comprendre, d'une part que la Tortue ne peut pas se déplacer et, d'autre part, que vous ne pouvez pas non plus la rejoindre, car son bassin est entouré d'un écran magique invisible, impossible à traverser pour un être vivant quel qu'il soit.",
+    "choix": [
+      {
+        "text": "La Tortue cesse bientôt de parler, et ferme les yeux. Si vous avez une nouvelle idée susceptible de relancer la conversation, rendez-vous au 42.",
+        "number": 42
+      },
+      {
+        "text": "Mais si vous préférez quitter dès maintenant la caverne par l'ouverture située au nord, rendez-vous au 128.",
+        "number": 128
+      },
+      {
+        "text": "Si vous souhaitez, enfin, vous diriger vers l'issue qui se trouve à l'Est, rendez-vous au 30 ?",
+        "number": 30
+      }
+    ]
+  },
+  {
+    "number": 116,
+    "text": "Il ne faut tout de même pas rêver ! Le gros chat sauvage vous laisse approcher jusqu'à deux mètres de lui, avant de se jeter tout à coup sur vous, d'un bond vigoureux. Son Attaque est si rapide et si soudaine que vous perdez l'initiative du combat qui va se dérouler : vous n'aurez même pas la possibilité de chercher une Parade pendant le premier échange. Puis, le combat retrouvera son déroulement habituel.",
+    "choix": [
+      {
+        "text": "Pour connaître les valeurs du Léopard des Marais, rendez-vous au 73.",
+        "number": 73
+      }
+    ]
+  },
+  {
+    "number": 117,
+    "text": "Votre projectile atteint le Dragon-Tatak à la queue. Le monstre fait alors entendre un grognement sourd et fouette l'air d'un grand coup de sa queue blessée... C'en est assez pour vous glacer le sang !\nPuis tout redevient tranquille : le monstre est allongé là, dans une immobilité parfaite... qui vous paraît d'autant plus inquiétante que vous ignorez s'il a, ou non, remarqué votre présence. Vous gesticulez comme un beau diable avec votre flambeau en hurlant de toutes vos forces... mais en vain, puisque le Dragon-Tatak est dépourvu d'organe auditif.\nL'animal ne bouge pas d'un pouce ! Il va vous falloir lancer un nouvel objet en direction du monstre, en espérant avoir plus de chance cette fois-ci.",
+    "choix": [
+      {
+        "text": "Selon les objets dont vous disposez, vous pouvez lancer votre couteau (rendez-vous au 104)",
+        "number": 104
+      },
+      {
+        "text": "votre machette (rendez-vous au 41)",
+        "number": 41
+      },
+      {
+        "text": "ou votre sac (rendez-vous au 195).",
+        "number": 195
+      },
+      {
+        "text": "Si vous ne possédez plus aucun de ces trois objets, rendez-vous au 188.",
+        "number": 188
+      }
+    ]
+  },
+  {
+    "number": 118,
+    "text": "Sauve qui peut ! Vous vous enfoncez dans la jungle pour fuir le fauve. Mais en deux bonds élastiques, le Léopard vous a rejoint et vous attaque.",
+    "choix": [
+      {
+        "text": "Le combat est inévitable (rendez-vous au 73).",
+        "number": 73
+      }
+    ]
+  },
+  {
+    "number": 119,
+    "text": "Vous observez attentivement les rochers et les monticules de terre qui émergent du marais maléfique. Car vous devez être tout à fait sûr de vous, pour sauter de l'un à l'autre. Tentez une épreuve d'Adresse pour savoir si vous avez suffisamment fait preuve de prudence.",
+    "choix": [
+      {
+        "text": "En cas d'échec, rendez-vous au 185.",
+        "number": 185
+      },
+      {
+        "text": "Mais, si vous surmontez l'épreuve, vous atteindrez sans encombre l'autre côté du marécage.\nVous voilà donc au pied de la paroi rocheuse : vous pouvez vous diriger vers l'ouverture qui s'est effondrée (rendez-vous au 127)",
+        "number": 127
+      },
+      {
+        "text": "vers le bassin de pierre (rendez-vous au 172)",
+        "number": 172
+      },
+      {
+        "text": "ou encore vers l'ouverture située à droite (rendez-vous au 146).",
+        "number": 146
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "modif": 0,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 120,
+    "text": "La forêt s'éclaircit de plus en plus. Bien que la voûte verte que forme la cime des arbres ne laisse filtrer qu'une lumière diffuse, vous ne rencontrez plus sur votre chemin ces sous-bois et ces buissons de ronces qui rendaient votre progression si ardue. Le sol est recouvert maintenant de mousse, piquée de multitude de fleurs. De magnifiques papillons, comme vous n'en avez jamais vu, volettent de l'une à l'autre. Soudain, un petit singe se laisse tomber d'un arbre, non loin de vous, et il vous regarde en faisant des grimaces et en gesticulant, comme s'il vous demandait de le suivre. Vous faites quelques pas dans sa direction et, aussitôt, il s'éloigne, puis s'arrête pour recommencer le même manège. Intrigué, vous le suivez à nouveau.\nSi c'est la deuxième fois que vous arriviez à cet endroit, ne laissez pas le hasard décider, sous la forme d'un singe, de la direction que vous allez prendre. Faites directement un choix par vous-même !\nLancez le D6 pour savoir dans quelle direction il vous entraîne :",
+    "choix": [
+      {
+        "text": "Si vous obtenez 1 ou 2 : il vous entraîne vers l'Ouest (rendez-vous au 90)",
+        "number": 90
+      },
+      {
+        "text": "3 ou 4 : vers le sud (rendez-vous au 180)",
+        "number": 180
+      },
+      {
+        "text": "5 ou 6 : vers le nord (rendez-vous au 65).",
+        "number": 65
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "modif": 0,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 121,
+    "text": "Avez-vous enfin compris comment conjurer les effets de cette épouvantable masse de colle ?",
+    "choix": [
+      {
+        "text": "Si oui, rendez-vous au 76.",
+        "number": 76
+      },
+      {
+        "text": "Si ce n'est pas le cas rendez-vous au 149.",
+        "number": 149
+      }
+    ]
+  },
+  {
+    "number": 122,
+    "text": "Il n'est pas aussi facile que vous le pensiez de quitter cette clairière. Impossible de retrouver l'endroit par où vous êtes arrivé, tant est uniforme le rideau de larges feuilles flasques qui entoure ce lieu. Pas le moindre point de repère pour vous orienter dans ce fouillis.\nVous essayez au hasard de trouver une issue.",
+    "choix": [
+      {
+        "text": "Lancez le D6, multipliez le résultat par 11 et rendez-vous au paragraphe correspondant au nombre ainsi obtenu. (Exemple : vous tirez 3 ; multiplié par 11, cela donne 33 : vous devez vous rendre au 33).",
+        "number": 0
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "multiplier": 11,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 123,
+    "text": "Bravo ! vous avez atteint le monstre en plein dans l'œil droit ! Se redressant d'un coup, le Dragon écumant de rage vous domine de toute sa hauteur et se précipite sur vous. Malgré son allure pataude, il se révèle infiniment leste et vif avec ses six pattes. Vous avez intérêt à courir du plus vite que vous ne pouvez, si vous voulez atteindre avant le monstre le piège de la colle.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 227.",
+        "number": 227
+      }
+    ]
+  },
+  {
+    "number": 124,
+    "text": "Le sol se dérobe devant vous sur toute la largeur du passage, jusqu'au renflement situé en contrebas, et une fosse noire et béante s'ouvre soudain devant vous. Vous vous penchez prudemment sur le bord en éclairant le fond avec votre torche. La fosse, profonde de près de deux mètres, grouille de Serpents venimeux !",
+    "choix": [
+      {
+        "text": "Vous pouvez actionner la poignée vers le bas (rendez-vous au 229)",
+        "number": 229
+      },
+      {
+        "text": "ou tenter de franchir d'un saut la fosse, large également de deux mètres pour essayer d'atteindre son bord opposé (rendez-vous au 209)",
+        "number": 209
+      },
+      {
+        "text": "vous avez enfin la possibilité de faire demi-tour : si vous veniez du sud, rendez-vous au 111",
+        "number": 111
+      },
+      {
+        "text": "si vous arriviez du nord. rendez-vous au 189.",
+        "number": 189
+      }
+    ]
+  },
+  {
+    "number": 125,
+    "text": "Après quelques pas, vous arrivez de nouveau à un carrefour.",
+    "choix": [
+      {
+        "text": "ous pouvez poursuivre votre route vers l'Est (rendez-vous au 157)",
+        "number": 157
+      },
+      {
+        "text": "vers le sud (rendez-vous au 194)",
+        "number": 194
+      },
+      {
+        "text": "vers l'Ouest (rendez-vous au 203)",
+        "number": 203
+      },
+      {
+        "text": "ou vers le nord (rendez-vous au 64).",
+        "number": 64
+      }
+    ]
+  },
+  {
+    "number": 126,
+    "text": "Enfin, vous descendez les dernières marches, et vous vous retrouvez dans une minuscule salle, dont le sol laisse apparaître quelques fissures obscures et insondables. L'escalier se termine ici. De toutes parts, vous vous heurtez à des murailles rocheuses.",
+    "choix": [
+      {
+        "text": "Vous pouvez faire demi-tour, remonter l'escalier et par courir en sens inverse le couloir qui vous amené ici (rendez-vous au 163).",
+        "number": 163
+      },
+      {
+        "text": "Si l'envie vous prend au pas sage de tirer sur la chaîne, rendez-vous au 226",
+        "number": 226
+      },
+      {
+        "text": "Vous pouvez enfin explorer plus attentivement les paroi de cette salle, dans l'espoir d'y découvrir une porte dérobée (rendez-vous au 158).",
+        "number": 158
+      }
+    ]
+  },
+  {
+    "number": 127,
+    "text": "Il est impossible de pénétrer par cette porte obstruée dans le sanctuaire où se trouve la source. Même en déployant la dernière énergie, vous ne parviendrez pas à déplacer les lourds blocs de pierre. Si vous essayez de voir ce qu'il y a derrière ces monceaux de pierre, vous ne pourrez qu'être déçu : vous n'apercevrez que pénombre et chaos. De derrière l'amas de rochers monte vers vous une puanteur plus insoutenable encore que celle des eaux de la rivière. Il est semble-t-il, grand temps pour vous de quitter ce endroit.",
+    "choix": [
+      {
+        "text": "Vous pouvez vous diriger vers le bassin (rendez-vous au 172)",
+        "number": 172
+      },
+      {
+        "text": "ou vers la porte située à droite (rendez-vous au 146).",
+        "number": 146
+      }
+    ]
+  },
+  {
+    "number": 128,
+    "text": "Le passage débouche sur une petite caverne. Dans la paroi située au nord, se découpe une grande porte de fer bardée de sept serrures. De l'autre côté, faisant face à cette porte, un étroit passage mène vers le sud.",
+    "choix": [
+      {
+        "text": "Vous pouvez essayer d'ouvrir la porte (rendez-vous au 34).",
+        "number": 34
+      },
+      {
+        "text": "Vous pouvez aussi emprunter l'étroit passage situé en face (rendez-vous au 143)",
+        "number": 143
+      },
+      {
+        "text": "ou suivre le couloir plus large, soit en direction de l'Est (rendez-vous au 152), soit en direction de l'Ouest (rendez-vous au 189).",
+        "number": 152
+      },
+      {
+        "text": "soit en direction de l'Ouest (rendez-vous au 189).",
+        "number": 189
+      }
+    ]
+  },
+  {
+    "number": 129,
+    "text": "L'odeur qui se dégage des eaux de la rivière maudite est si forte, que vous êtes pris de violentes nausées. Après vous être reposé quelques instants, vous observez l'orée de la forêt, et vous remarquez, le long de la rivière, une sorte de trouée qui a dû être faite à la machette voilà longtemps. D'autres héros, tel que vous, ont pénétré dans cette forêt, et Dieu seul sait ce qu'ils sont devenus...",
+    "choix": [
+      {
+        "text": "Si vous le désirez, vous pouvez encore faire un nouveau choix (rendez-vous au 1).",
+        "number": 1
+      },
+      {
+        "text": "Mais vous pouvez aussi prendre votre machette bien en main et entreprendre de vous frayer un chemin à travers les fourrés (rendez-vous au 21).",
+        "number": 21
+      }
+    ]
+  },
+  {
+    "number": 130,
+    "text": "Satanée forêt vierge ! Epuisé par l'effort, vous atteignez en haletant la rive de la rivière de la mort ",
+    "choix": [
+      {
+        "text": " vous pouvez maintenant continuer votre route en direction du nord (rendez-vous au 208)",
+        "number": 208
+      },
+      {
+        "text": "ou du sud-est (rendez-vous au 26)",
+        "number": 26
+      }
+    ]
+  },
+  {
+    "number": 131,
+    "text": "Vous vous frayez un chemin toujours plus avant dans la gorge.",
+    "choix": [
+      {
+        "text": "Allez-vous continuer maintenant en direction du nord (rendez-vous au 147)",
+        "number": 147
+      },
+      {
+        "text": " ou en direction du sud (rendez-vous au 114) ?",
+        "number": 114
+      }
+    ]
+  },
+  {
+    "number": 132,
+    "text": "Votre glissade s'interrompt au bout de quelques mètres, le sol redevenant plat. Vos yeux s'accoutument peu à peu à la pénombre qui règne dans la caverne... et c'est peut-être dommage, car l'effroi et le dégoût vous clouent sur place ! Un énorme Crapaud souterrain, d'une laideur repoussante, est planté là, à moins de deux mètres de vous, et vous regarde fixement de ses yeux mornes.\nCependant, si horrible à regarder que soit cette créature de l'ombre, elle ne vous paraît pas foncièrement dangereuse. Une fois remis de votre surprise, qu'allez-vous faire ?",
+    "choix": [
+      {
+        "text": "Vous pouvez vous saisir de votre machette pour essayer de vous débarrasser de cet encombrant personnage (rendez-vous au 179).",
+        "number": 179
+      },
+      {
+        "text": "Mais vous pouvez peut-être aussi tenter d'engager le dialogue avec lui (rendez-vous au 210)",
+        "number": 210
+      },
+      {
+        "text": "à moins que vous ne préfériez l'ignorer purement et simplement. Dans ce cas, vous vous remettez sur vos pieds pour essayer de chercher une issue à cette caverne (rendez-vous au 199).",
+        "number": 199
+      }
+    ]
+  },
+  {
+    "number": 133,
+    "text": "Ah ! Voilà une excellente idée ! Il faut que vous ameniez ce monstre, que vous ne parviendrez jamais à vaincre dans un combat au corps à corps, dans un traquenard qui lui serait fatal ! Pour cela, il suffit de l'attirer dans la grotte voisine pour le faire tomber dans le piège de la colle mortelle : si la manœuvre réussit, vous n'aurez plus rien à craindre de sa part. Mais comment faire pour l'attirer dans cet endroit, sans y laisser la vie ?",
+    "choix": [
+      {
+        "text": "Rendez-vous au 75.",
+        "number": 75
+      }
+    ]
+  },
+  {
+    "number": 134,
+    "text": "Dans un autre univers connu sous le nom de Terre, il existe un personnage qui possède à la perfection cette technique. Il vous faudra prouver, à l'aide d'une épreuve d'Adresse + 2, que vous êtes capable d'égaler ce Tarzan (c'est ainsi qu'on l'appelle sur Terre).",
+    "choix": [
+      {
+        "text": "Si vous réussissez, vous êtes tiré d'affaire (rendez-vous au 221).",
+        "number": 221
+      },
+      {
+        "text": "En revanche, si vous échouez, vous tombez dans la rivière... à si peu de distance de l'autre rive (rendez-vous au 93) !",
+        "number": 93
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "plus": 2,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 135,
+    "text": "Surpris - peut-être même effrayé - vous ne bougez plus. Voulez-vous quitter cette caverne, par trop inquiétante ?",
+    "choix": [
+      {
+        "text": "Vous pouvez le faire soit par une ouverture située au nord (rendez-vous au 128)",
+        "number": 128
+      },
+      {
+        "text": "soit par une autre ménagée à l'Est (rendez-vous au 30).",
+        "number": 30
+      },
+      {
+        "text": "Vous pouvez aussi dégainer votre machette et vous avancer vers la Tortue d'un pas décidé. Rendez-vous alors au 91",
+        "number": 91
+      },
+      {
+        "text": "Si vous préférez demander à l'animal la raison de ce qu'elle vient de vous dire, rendez-vous au 38.",
+        "number": 38
+      }
+    ]
+  },
+  {
+    "number": 136,
+    "text": "Vous remarquez que le sol de ce passage est pavé de larges dalles carrées. Quelques mètres plus loin, vous apercevez une poignée qui dépasse du mur... et, quatre mètres au-delà de cette poignée, une seconde poignée. Entre elles court sur le sol un renflement de pierre haut de trente centimètres environ. (Pour information, nous pouvons préciser que ce renflement renferme un tuyau qui servait autrefois à l'écoulement des eaux saines vers l'extérieur).",
+    "choix": [
+      {
+        "text": "Vous pouvez saisir la poignée la plus proche de vous (rendez-vous au 145)",
+        "number": 145
+      },
+      {
+        "text": "ou poursuivre votre chemin (rendez- vous au 140).",
+        "number": 140
+      }
+    ]
+  },
+  {
+    "number": 137,
+    "text": "Tandis que vous vous précipitez à la rencontre d'une mort certaine, toute votre vie de héros défile devant vous : vos aventures, vos combats, vos victoires et vos défaites.",
+    "choix": [
+      {
+        "text": "Cela en valait la peine ! Rendez-vous au 167.",
+        "number": 167
+      }
+    ]
+  },
+  {
+    "number": 138,
+    "text": "Un sentiment de profonde satisfaction vous envahit à la vue de votre œuvre. Ce n'était pourtant pas sorcier : il fallait basculer le cube du fond sur la droite, puis celui du milieu d'abord sur la gauche, puis vers l'arrière, et enfin celui de devant (c'est celui qui vous a donné le plus de mal) sur la gauche, puis vers l'arrière, puis sur la droite, et enfin une dernière fois vers l'arrière, dans l'espace resté libre entre les deux autres cubes.\nEt maintenant, les eaux saines s'écoulent de nouveau dans la rigole, selon le tracé prévu par le Magicien Zor. L'acide est refoulé dans l'obscurité des cavernes et ne peut plus provoquer de dégâts.\nVous goûtez l'eau de la source et vous constatez qu'elle est effectivement dotée d'un puissant pouvoir magique, à cet endroit, où elle coule encore pure et sans mélange. Vous retrouvez tous les points de Force que vous avez perdus en déplaçant les blocs de pierre (au moins 7 points).",
+    "choix": [
+      {
+        "text": "Fort satisfait de vous-même, vous pouvez quitter la caverne. Rendez-vous maintenant au 53.",
+        "number": 53
+      }
+    ],
+    "bonus": [
+      {
+        "type": "force",
+        "modif": "plus",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "number": 139,
+    "text": "La seule idée qui vous vienne à l'esprit, c'est de faire le mort. Vous vous affalez sur le sol et vous demeurez absolument immobile, respirant à peine, les yeux clos. En effet, les Gorilles interrompent alors leurs attaques et bondissent en criant d'excitation tout autour de vous. Tout à coup, vous vous sentez enlevé dans les airs (espérons que votre main tient solidement votre machette), puis vous êtes jeté sur l'épaule de l'un des grands singes. En quelques bonds désordonnés, la tribu s'enfonce dans la jungle, emportant sa proie.\nLes branches vous frappent la tête, les ronces vous déchirent la peau. Tantôt la troupe trotte sur lé sol, tantôt elle bondit d'arbre en arbre.\nSoudain, c'est la chute : le Gorille vous a tout simplement lâché ! Heureusement, vous atterrissez en douceur sur un tapis de mousse. Vous continuez à simuler quelques instants de plus, le temps de vous assurer que les Gorilles ne s'intéressent plus à vous. Puis vous ouvrez prudemment un œil, mais les Gorilles ont déjà disparu depuis longtemps, et seul un capricorne pointe sur vous avec méfiance ses antennes longues de deux centimètres.\nVous vous redressez, passablement contusionné, mais vivant, et vous constatez que vous vous trouvez sur un sentier qui ne rappelle en rien celui que vous suiviez auparavant et qui vous est, de toute évidence, inconnu.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 4.",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "number": 140,
+    "text": "A peine avez-vous dépassé le renflement de pierre que le sol se dérobe sous vos pieds. Vous tombez dans une fosse de deux mètres de profondeur. De tous côtés, des Serpents venimeux rampent vers vous. Même si vous n'êtes pas blessé, vous devez avant tout lancer le D6 pour savoir le nombre de Serpents qui vous attaquent à la fois. (Souvenez-vous, au cours de la bataille qui va suivre, que vous n'avez droit qu'à une Attaque et une Parade par combat. ) Sans être mortel, le venin de ces Serpents a la faculté de paralyser ses victimes. Si vous perdez 4 points pour cause de blessures, aussitôt vos valeurs d'Attaque et de Parade baissent à leur tour d'un point chacune, et ainsi de suite chaque fois que vous perdrez 4 POINTS DE VIE.",
+    "choix": [
+      {
+        "text": "Si vous veniez à mourir au cours de ce combat, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "En revanche, si vous venez à bout des Serpents, vous pouvez essayer de vous hisser hors de la fosse (rendez-vous au 191).",
+        "number": 191
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "serpent",
+        "combat": "oui",
+        "courage": 6,
+        "energie": 10,
+        "protection": 0,
+        "attaque": 9,
+        "parade": 4,
+        "impact": [
+          {
+            "name": "morsure",
+            "de": 6,
+            "number": 1,
+            "plus": 0
+          }
+        ],
+        "aventure": 7
+      }
+    ],
+    "jet": [
+      {
+        "type": "nombre",
+        "de": 6,
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 141,
+    "text": "Epuisé par le combat, vous laissez retomber votre machette. Vous éprouvez un malaise à l'idée que ces deux ennemis ont été des héros de l'Aventurie comme vous. L'enfer vert de la jungle leur a fait perdre la raison et les a transformés en sauvages.",
+    "choix": [
+      {
+        "text": "Si vous voulez fouiller les deux cadavres, rendez-vous au 31.",
+        "number": 31
+      },
+      {
+        "text": "Mais si vous préférez quitter au plus vite cette funeste clairière, rendez-vous au 122.",
+        "number": 122
+      }
+    ]
+  },
+  {
+    "number": 142,
+    "text": "Vous vous frayez un chemin à coups de machette parmi des espèces de gigantesques orties, et vous vous retrouvez bientôt face à la paroi occidentale de la vallée. Epuisé, vous vous accordez une pause pour vous restaurer, dans la mesure de vos provisions restantes.",
+    "choix": [
+      {
+        "text": "Vous pouvez essayer d'escalader la paroi rocheuse (rendez-vous au 212)",
+        "number": 212
+      },
+      {
+        "text": "à moins que vous ne préfériez suivre la direction de l'Est (rendez-vous au 4)",
+        "number": 4
+      },
+      {
+        "text": "ou du sud-est (rendez-vous au 159).",
+        "number": 159
+      }
+    ]
+  },
+  {
+    "number": 143,
+    "text": "Quelques mètres plus loin, le passage débouche par une porte voûtée dans une grotte artificielle d'assez belles dimensions, éclairée d'une étrange et fantomatique lumière. Deux issues - l'une du côté nord, l'autre du côté est - s'ouvrent dans cette salle. Une rigole, provenant d'un bassin en pierre, la traverse dans son entier, rejointe en son milieu par une autre rigole qui mène à un bassin creusé dans le sol.\nAu fond de ce dernier bassin, complètement à sec comme les deux rigoles d'ailleurs, repose, immobile, une grosse Tortue d'eau. La carapace ainsi que le corps de la Tortue paraissent totalement momifiés.\nL'animal donne l'impression d'une bête malade et épuisée. Un silence étrange et oppressant pèse sur cette salle. Les deux piliers qui soutiennent le plafond viennent encore renforcer l'atmosphère de mystère qui règne ici.\nChacun d'eux est orné de six bas-reliefs représentant des animaux symboliques aux vertus magiques et des faciès horriblement grimaçants.",
+    "choix": [
+      {
+        "text": "Vous pouvez quitter ce lieu en passant soit par l'ouverture située dans le mur est (rendez-vous au 30)",
+        "number": 30
+      },
+      {
+        "text": "soit par celle pratiquée dans le mur nord (rendez-vous au 128).",
+        "number": 128
+      },
+      {
+        "text": "Mais vous avez aussi la possibilité de vous approcher prudemment du bassin où se trouve la Tortue (rendez-vous au 97).",
+        "number": 97
+      }
+    ]
+  },
+  {
+    "number": 144,
+    "text": "Il est pratiquement impossible de progresser. Ronciers, troncs d'arbres abattus et passages marécageux, vous obligent à tourner et zigzaguer sans cesse, ce qui rend toute orientation presque impossible.",
+    "choix": [
+      {
+        "text": "Réfléchissez bien : voulez-vous vous avancer en direction du Nord-Est (rendez-vous au 107)",
+        "number": 107
+      },
+      {
+        "text": "ou du sud-est (rendez-vous au 190) ?",
+        "number": 190
+      }
+    ]
+  },
+  {
+    "number": 145,
+    "text": "",
+    "choix": [
+      {
+        "text": "Allez-vous pousser la poignée vers le haut (rendez-vous au 124) ",
+        "number": 124
+      },
+      {
+        "text": "ou la tirer vers le bas (rendez-vous au 197) ?",
+        "number": 197
+      }
+    ]
+  },
+  {
+    "number": 146,
+    "text": "Cette entrée vous permet d'accéder à l'intérieur du sanctuaire qui renferme la source.",
+    "choix": [
+      {
+        "text": "Si vous désirez y pénétrer, rendez-vous au 39.",
+        "number": 39
+      },
+      {
+        "text": "Mais vous pouvez également, si ce n'est déjà fait, explorer l'entrée située à gauche (rendez-vous au 127)",
+        "number": 127
+      },
+      {
+        "text": "ou le bassin de pierre (rendez-vous au 172).",
+        "number": 172
+      }
+    ]
+  },
+  {
+    "number": 147,
+    "text": "Passablement fourbu, vous vous accordez une pause, au terme de laquelle vous pourrez reprendre votre route",
+    "choix": [
+      {
+        "text": "en direction du nord (rendez-vous au 108)",
+        "number": 108
+      },
+      {
+        "text": "de l'Ouest (rendez-vous au 67)",
+        "number": 67
+      },
+      {
+        "text": "ou encore du sud (rendez-vous au 131).",
+        "number": 131
+      }
+    ]
+  },
+  {
+    "number": 148,
+    "text": "Vous parvenez, non sans mal, à vous frayer un chemin à travers l'enchevêtrement de lianes qui pendent des arbres",
+    "choix": [
+      {
+        "text": "Enfin, au milieu de cette végétation, vous finirez par atteindre un sentier - ou ce qui semble en tenir lieu ! Rendez- vous au 51.",
+        "number": 51
+      }
+    ]
+  },
+  {
+    "number": 149,
+    "text": "C'est vraiment très regrettable : avoir parcouru tout ce chemin et ne pas être capable de déchiffrer cette énigme ! Retirez immédiatement 5 points de votre note d'Intelligence.",
+    "choix": [
+      {
+        "text": "Ensuite, vous pourrez vous rendre au 76 pour lire la solution.",
+        "number": 76
+      }
+    ],
+    "bonus": [
+      {
+        "type": "intel",
+        "modif": "moins",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "number": 150,
+    "text": "Vous trébuchez dans votre fuite éperdue et vous tombez à terre. Avant d'avoir seulement pu vous relever, vous voyez deux Chèvres des montagnes bondir à toute allure vers l'extérieur de la caverne. Ces deux pauvres bêtes semblent aussi épouvantées que vous. C'est pourquoi il est tout à fait équitable de vous retirer un point de Courage.",
+    "choix": [
+      {
+        "text": "Vous pouvez maintenant explorer la caverne (rendez-vous au 201)",
+        "number": 201
+      },
+      {
+        "text": "redescendre les éboulis (rendez-vous au 100)",
+        "number": 100
+      },
+      {
+        "text": "ou continuer à escalader la paroi rocheuse par l'étroite corniche qui la longe (rendez-vous au 187)",
+        "number": 187
+      }
+    ],
+    "bonus": [
+      {
+        "type": "courage",
+        "modif": "moins",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 151,
+    "text": "Diable ! Vous étiez loin de penser que vous étiez capable d'un pareil exploit ! Vous avez déjà escaladé 7 mètres ! Mais sans corde, ni pitons, ni crampons, ni piolet, il est vraiment impossible maintenant de monter plus haut (il est vrai qu'il ne vous reste plus que 293 mètres de falaise à escalader !). Et il serait vraiment surprenant que tout ce matériel se trouve dans votre sac !\nVotre inéluctable redescente se passe elle aussi très bien ; seuls les trois derniers mètres sont franchis sensiblement plus vite que prévu. L'atterrissage manque un peu de douceur. Tout en vous époussetant, vous vous demandez si vous ne feriez pas mieux d'explorer la caverne, lorsque retentit dans la jungle, juste devant vous, un rugissement menaçant.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 198.",
+        "number": 198
+      }
+    ]
+  },
+  {
+    "number": 152,
+    "text": "Le souterrain décrit une courbe. Une rigole court sur le sol. Un conduit – de un mètre de diamètre environ - relie la rigole à la paroi orientale, où il disparaît dans le rocher. Dans le mur d'en face, c'est un conduit d'une vingtaine de centimètres au maximum qui prolonge la rigole.",
+    "choix": [
+      {
+        "text": "Vous pouvez tenter de vous introduire dans le premier conduit (rendez-vous au 176)",
+        "number": 176
+      },
+      {
+        "text": "ou continuer à suivre le passage, en direction du sud (rendez-vous au 30)",
+        "number": 30
+      },
+      {
+        "text": "ou de l'Ouest (rendez-vous au 128).",
+        "number": 128
+      }
+    ]
+  },
+  {
+    "number": 153,
+    "text": "A peine votre machine s'est-elle enfoncée dans la bulle, que vous entendez une espèce de gargouillis avant qu'elle n'éclate dans un grand fracas. Vous vous sentez en même temps happé par un puissant courant qui vous aspire vers une caverne souterraine. Vous essayez bien de vous retenir, mais les parois de cette caverne sont si lisses qu'il vous est impossible d'y découvrir la moindre aspérité.",
+    "choix": [
+      {
+        "text": "Vous vous enfoncez dans l'obscurité la plus complète (rendez-vous au 87).",
+        "number": 87
+      }
+    ]
+  },
+  {
+    "number": 154,
+    "text": "Vous débouchez sur un fourré touffu et luxuriant de longues tiges fleuries, semblables à des lis.",
+    "choix": [
+      {
+        "text": "Vous pouvez vous y frayer un chemin en direction de l'Ouest (rendez-vous au 95)",
+        "number": 95
+      },
+      {
+        "text": "de l'Est (rendez-vous au 180) ",
+        "number": 180
+      },
+      {
+        "text": "ou du sud-ouest (rendez-vous au 10)",
+        "number": 10
+      }
+    ]
+  },
+  {
+    "number": 155,
+    "text": "Nouveau carrefour !",
+    "choix": [
+      {
+        "text": "Vous pouvez vous diriger vers le nord (rendez-vous au 83)",
+        "number": 83
+      },
+      {
+        "text": "vers l'Ouest (rendez-vous au 63)",
+        "number": 63
+      },
+      {
+        "text": "ou vers l'Est (rendez-vous au 65).",
+        "number": 65
+      }
+    ]
+  },
+  {
+    "number": 156,
+    "text": "Vous avez beau vous tenir sur vos gardes, vous n'êtes pas à l'abri des surprises. Vous venez à peine de vous glisser en baissant la tête sous une longue branche tombante que, tout à coup, vous vous sentez saisi à la gorge et pris dans une étreinte qui vous étouffe à moitié. Vous êtes prisonnier des puissants bras d'un Singe Etrangleur. Cet animal attaque toujours par derrière. Chacune de ses quatre mains est munie de deux puissantes griffes. Ses petits yeux brillent sournoisement, et deux grandes canines voraces dépassent de ses babines.\nAu cours du combat qui va suivre, vous serez dans l'incapacité d'opposer la moindre Parade au premier assaut, en raison de la situation d'infériorité qui est la vôtre. Si vous avez déjà livré bataille au Singe Etrangleur à cet endroit, vous pouvez poursuivre votre chemin sans plus attendre.",
+    "choix": [
+      {
+        "text": "Si vous succombez aux assauts furieux de l'animal, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "En revanche, si vous triomphez du Singe Etrangleur, vous pouvez quitter le lieu du combat, soit en prenant la direction du nord (rendez-vous au 63)",
+        "number": 63
+      },
+      {
+        "text": "soit en prenant celle du sud (rendez-vous au 90).",
+        "number": 90
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Singe étrangleur",
+        "combat": "oui",
+        "courage": 10,
+        "energie": 18,
+        "protection": 2,
+        "attaque": 12,
+        "parade": 6,
+        "impact": [
+          {
+            "name": "griffes",
+            "de": 6,
+            "number": 1,
+            "plus": 2
+          }
+        ],
+        "aventure": 11
+      }
+    ]
+  },
+  {
+    "number": 157,
+    "text": "Il pousse ici une espèce particulière d'arbres. Leurs grosses branches horizontales courent au ras du sol ce qui, pour avancer, vous oblige tantôt à les escalader tantôt à ramper. Alors que vous vous glissez, une fois de plus, sous l'une de ces branches, des bras vigoureux se referment comme un étau autour de votre cou. C'est un Singe Etrangleur qui vient de se jeter sur vous. Au cours du combat qui va se dérouler vous serez incapable d'opposer la moindre Parade au premier assaut, victime de l'effet de surprise. Si vous avez déjà livré bataille au Singe Etrangleur à cet endroit, vous pouvez poursuivre votre route sans plus attendre.",
+    "choix": [
+      {
+        "text": "Si par malheur, il vous arrivait de succomber aux assauts de l'animal, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "En revanche, si vous triomphez de lui, vous pourrez, après un repos bien mérité, poursuivre votre chemin en direction du nord (rendez- vous au 211)",
+        "number": 211
+      },
+      {
+        "text": "du sud (rendez-vous au 169)",
+        "number": 169
+      },
+      {
+        "text": "ou de l'Ouest (rendez-vous au 125).",
+        "number": 125
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Singe étrangleur",
+        "combat": "oui",
+        "courage": 10,
+        "energie": 18,
+        "protection": 2,
+        "attaque": 12,
+        "parade": 6,
+        "impact": [
+          {
+            "name": "griffes",
+            "de": 6,
+            "number": 1,
+            "plus": 2
+          }
+        ],
+        "aventure": 11
+      }
+    ]
+  },
+  {
+    "number": 158,
+    "text": "Vous poussez un cri de joie lorsque vous découvrez enfin, après un long et minutieux examen, une serrure dissimulée dans une fissure de la roche.",
+    "choix": [
+      {
+        "text": "Si vous avez sur vous une clé, c'est le moment de l'essayer (rendez-vous au 178).",
+        "number": 178
+      },
+      {
+        "text": "Mais, si vous ne possédez pas la clé adéquate, alors toutes les tentatives pour ouvrir cette serrure resteront vaines. Et comme il vous est impossible de distinguer la porte, et à fortiori ses gonds, vous ne pouvez faire autrement que de faire demi-tour, remonter l'escalier et parcourir en sens inverse le couloir qui vous a mené jusqu'ici (rendez-vous au 163).",
+        "number": 163
+      }
+    ]
+  },
+  {
+    "number": 159,
+    "text": "Vous avez déjà parcouru une bonne distance, lorsque soudain, un sifflement aigu provenant sans aucun doute d'un épais fourré situé à votre droite, vous fait arrêter net. Et il était temps, car un immonde Serpent-Panthère jaillit devant vous dans l'intention manifeste de vous attaquer ! Le corps du monstre est entièrement recouvert d'une carapace faite d'épaisses écailles aux reflets noirs et verts. Cette espèce de serpent tue ses victimes en les étouffant dans ses anneaux. En outre, il dispose d'un redoutable crochet à venin. Toutefois, ce venin ne devient mortel que s'il est injecté en grande quantité. Plus le Serpent est vieux, plus il est dangereux. Avant d'engager le combat, il vous faut d'abord savoir quel danger représente le spécimen qui vous attaque.\nLancez le D6 avant le début du combat, pour connaître l'âge de ce Serpent-Panthère. Après trois assauts, vous parvenez à vous libérer de l'étreinte du Serpent. Si vous avez déjà rencontré et combattu le Serpent à cet endroit, vous pouvez passer votre chemin sans autre formalité. Rendez-vous alors au 4 ou au 142.",
+    "choix": [
+      {
+        "text": "Bien que le reptile vous ait mordu avec son crochet à venin, vous avez encore la force, si vous le désirez, de vous enfuir en titubant dans la jungle (rendez-vous au 69).",
+        "number": 69
+      },
+      {
+        "text": "Mais vous pouvez aussi poursuivre le combat, jusqu'à ce que mort s'ensuive : si c'est vous\nqui mourez, rendez-vous au 167",
+        "number": 167
+      },
+      {
+        "text": "si c'est le Serpent, vous pouvez enfin quitter cet endroit, en direction du Nord-Est (rendez-vous au 4), ou du Nord-Ouest (rendez-vous au 142).",
+        "number": 4
+      },
+      {
+        "text": "ou du Nord-Ouest (rendez-vous au 142).",
+        "number": 142
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Serpent Panthère",
+        "combat": "oui",
+        "age": 0,
+        "courage": 2,
+        "energie": 0,
+        "protection": 0,
+        "attaque": 10,
+        "parade": 5,
+        "impact": [
+          {
+            "de": 6,
+            "plus": 4
+          },
+          {
+            "de": 6,
+            "plus": 0
+          }
+        ],
+        "aventure": 8
+      }
+    ]
+  },
+  {
+    "number": 160,
+    "text": "A tâtons, à travers d'obscurs souterrains, vous vous dirigez en trébuchant vers une faible et lointaine lueur et vous finissez par déboucher à l'air libre.\nVous vous trouvez en pleine forêt vierge et vous vous frayez péniblement un passage : personne avant vous ne s'était jamais aventuré dans ces lieu, Enfin, votre chemin débouche sur un sentier.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 131.",
+        "number": 131
+      }
+    ]
+  },
+  {
+    "number": 161,
+    "text": "Le sol est inégal et glissant par endroits, et les stalagmites vous gênent dans votre exploration. Les nombreuses niches et failles de la caverne ne recèlent rien de particulier.\nVous vous êtes maintenant rapproché de la large nappe de substance qui, d'un bord à l'autre, recouvre uniformément le sol de la caverne sur une largeur d'une dizaine de mètres. L'étrange substance qui la compose diffuse un faible rayonnement. Une odeur douceâtre de décomposition, et surtout la découverte de cadavres figés dans d'étranges postures, vous font frémir d'horreur.",
+    "choix": [
+      {
+        "text": "Voulez-vous examiner cette substance de plus près (rendez- vous au 214)",
+        "number": 214
+      },
+      {
+        "text": "ou préférez-vous quitter la caverne (rendez-vous au 110) ?",
+        "number": 110
+      }
+    ]
+  },
+  {
+    "number": 162,
+    "text": "Avant d'y poser le pied, vous commencez par donner un coup de machette sur le sol, de l'autre côté du renflement. vous avez remarqué qu'il existait une symétrie dans le dispositif : une poignée, une fosse à Serpents large de deux mètres, puis le bourrelet de pierre ; ensuite, et après un nouvel espace de deux mètres de large, une autre poignée. Votre prudence était justifiée : le sol s'ouvre sous vos coups de machette et vous découvrez avec effroi la réplique de la première fosse piégée.",
+    "choix": [
+      {
+        "text": "Vous pouvez essayer de sauter par-dessus l'ouverture, large de deux mètres (rendez-vous au 105)",
+        "number": 105
+      },
+      {
+        "text": "ou bien revenir sur vos pas : si vous veniez du nord, rendez-vous au 189",
+        "number": 189
+      },
+      {
+        "text": "du sud, rendez-vous au 111.",
+        "number": 111
+      }
+    ]
+  },
+  {
+    "number": 163,
+    "text": "Deux passages se croisent à cet endroit.",
+    "choix": [
+      {
+        "text": "Vous avez le choix entre vous diriger vers le sud (rendez-vous au 171)",
+        "number": 171
+      },
+      {
+        "text": "le nord (rendez-vous au 111)",
+        "number": 111
+      },
+      {
+        "text": "ou l'est (rendez-vous au 78).",
+        "number": 78
+      }
+    ]
+  },
+  {
+    "number": 164,
+    "text": "Fini ! Disparu à Maraskan ! Une fin aussi brutale pour un héros si plein d'avenir ! « Non, non, je ne veux pas, pas encore! », vous écriez-vous en émergeant de ce sombre cauchemar. La mémoire vous revient peu à peu. Vous avez trébuché (nous ne voudrions pas retourner le couteau dans la plaie, mais c'était bien de votre faute, n'est-ce pas ?), et votre tête a malencontreusement heurté une pierre. Dans votre chute vous avez alors perdu conscience et votre évanouissement s'est peu à peu changé en songe. Dans une sorte de rêve prémonitoire, vous avez vécu une partie de l'aventure qui vous attend dans votre quête de la source du Taloued. Mais il est maintenant grand temps de vous ressaisir et de vous mettre vraiment en route pour essayer de résoudre l'énigme des eaux empoisonnées de la Source de Mort ! Vous pouvez profiter des images que vous avez vues en rêve. Vous vous trouvez encore en pleine possession des qualités qu'énumère votre Feuille de Personnage, et peut-être vous y reconnaissez-vous déjà un peu dans la jungle. Assez en tout cas pour éviter certains pièges et dangers. Monstres et animaux sauvages vous guettent tous de nouveau. Mais vous pouvez aussi décider de donner naissance à un nouveau héros pour lui confier votre dangereuse mission.",
+    "choix": [
+      {
+        "text": "Retournez alors au 1.",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 165,
+    "text": "Vous avez déjà réussi à faire un bon bout de chemin dans la forêt en pataugeant dans la rivière, lorsque vous commencez à ressentir des picotements dans vos chevilles et dans vos pieds. Pris de panique, vous sortez du plus vite que vous le pouvez de la rivière de la mort. Il était temps ! Vos bottes n'existent pratiquement plus : elles se sont dissoutes dans les redoutables eaux. Vous préférez ne pas penser à ce qui aurait pu arriver si elles n'avaient pas été taillées dans un cuir d'excellente qualité... Si vous n'avez pas de bottes de rechange, il va vous falloir, maintenant poursuivre votre route les pieds nus, ce qui va ralentir considérablement votre allure. Pour rendre compte de cet élément nouveau, vous allez devoir abaisser d'un point vos valeurs de Force, d'Adresse, d'Attaque et de Parade. Cette mauvaise expérience a toutefois contribué à aiguiser votre vigilance. C'est pourquoi vous pouvez augmenter aussi d'un point votre valeur d'Intelligence.",
+    "choix": [
+      {
+        "text": "Rendez-vous maintenant au 130.",
+        "number": 130
+      }
+    ],
+    "bonus": [
+      {
+        "type": "intel",
+        "modif": "plus",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 166,
+    "text": "A peine vous êtes-vous glissé par l'ouverture, que vous apercevez au loin dans l'obscurité le vacillement d'une lueur verdâtre.\nVous avancez prudemment, presque à tâtons, en tenant votre torche très bas, pour en réduire sa lumière. Vous pénétrez dans une deuxième caverne de grande dimension... et vous restez pétrifié devant le spectacle qui s'offre à vous.",
+    "choix": [
+      {
+        "text": "Rendez-vous vite au 230.",
+        "number": 230
+      }
+    ]
+  },
+  {
+    "number": 167,
+    "text": "",
+    "choix": [
+      {
+        "text": "Si vous arrivez pour la première fois à ce paragraphe, rendez-vous au 164.",
+        "number": 164
+      },
+      {
+        "text": "En revanche, si c'est votre second passage, rendez-vous au 49.",
+        "number": 49
+      }
+    ]
+  },
+  {
+    "number": 168,
+    "text": "Ce Crapaud semble habiter un véritable dédale souterrain. Au début, les coupoles du plafond diffusaient encore une faible lueur ; mais plus vous avancez dans la grotte, plus celle-ci s'assombrit. A tout hasard, vous cherchez une issue. Lancez le D6.",
+    "choix": [
+      {
+        "text": "Si vous tirez un chiffre pair, rendez-vous au 77",
+        "number": 77
+      },
+      {
+        "text": "si le chiffre est impair, rendez-vous au 160.",
+        "number": 160
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "de": 6,
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 169,
+    "text": "Votre progression devient de plus en plus difficile. Et vous en venez à vous demander si jamais pied d'Aventurier n'a foulé avant vous le sol de cette forêt. Sans cesse, vous vous accrochez à des lianes hérissées d'épines. Enfin, vous finissez par croiser un sentier plus praticable.",
+    "choix": [
+      {
+        "text": "Vous pouvez le suivre en direction du Nord-Ouest (rendez-vous au 175)",
+        "number": 175
+      },
+      {
+        "text": "ou du sud-est (rendez-vous au 113).",
+        "number": 113
+      }
+    ]
+  },
+  {
+    "number": 170,
+    "text": "Vous atteignez un endroit où, en dépit de l'épaisseur de la végétation, trois chemins praticables s'offrent à vous :",
+    "choix": [
+      {
+        "text": "vous pouvez vous diriger vers le sud-est (rendez-vous au 56)",
+        "number": 56
+      },
+      {
+        "text": "vers le sud (rendez-vous au 2)",
+        "number": 2
+      },
+      {
+        "text": "ou vers l'Est (rendez- vous au 85).",
+        "number": 85
+      }
+    ]
+  },
+  {
+    "number": 171,
+    "text": "Le souterrain est plutôt bas de plafond, et vous devez vous courber un peu pour éviter de vous cogner la tête. Effrayées par l'éclat de votre flambeau, des Chauves-Souris vous frôlent la tête en s'enfuyant. Au bout de quelques mètres, le passage décrit une courbe.\nAu moment où vous allez vous engager dans cette courbe, six Rongeurs jaillissent de leurs trous creusés juste au- dessous du sol. Ces petites créatures ressemblent à un croisement de rat d'eau et de furet. Ils ont un pelage gris clair et une longue queue sans poils. Leurs dents, excessivement pointues, transperceraient sans difficulté vos vêtements de cuir.\nIl vous serait facile de venir à bout de l'un de ces animaux ; mais, pour vous débarrasser des six Rongeurs, vous allez devoir livrer une rude bataille. Vous serez cependant toujours en mesure d'en affronter deux à la fois ; vous aurez donc affaire à trois couples, en quelque sorte. Les valeurs indiquées ci-dessous s'appliquent donc à un couple de Rongeurs.",
+    "choix": [
+      {
+        "text": "Si vous succombez aux assauts de ces petites créatures, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "Mais si vous triomphez, vous avez le choix entre prendre la direction de l'Ouest (rendez-vous au 35)",
+        "number": 35
+      },
+      {
+        "text": "ou celle du nord (rendez-vous au 163) pour poursuivre votre route.",
+        "number": 163
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "2 rongeurs",
+        "combat": "non",
+        "courage": 6,
+        "energie": 8,
+        "protection": 2,
+        "attaque": 9,
+        "parade": 4,
+        "impact": [
+          {
+            "de": 6,
+            "plus": 1
+          }
+        ],
+        "aventure": 7
+      }
+    ],
+    "number_ennemis": 4
+  },
+  {
+    "number": 172,
+    "text": "Cela fait sans aucun doute longtemps que pas une goutte d'eau n'est arrivé du conduit qui le relie au rocher. Vous ramassez près du bassin, un morceau de bois de forme étrange, gravé de signes étranges dont vous ne parvenez pas à deviner le sens. Il s'agit en fait d'un boomerang magique. Instinctivement, vous le prenez dans votre main et, tout de suite, vous sentez une force surnaturelle en émaner. Vous avez bien envie de l'essayer, ce boomerang. Sa particularité est d'obéir plus à la volonté qu'à la main, plus ou moins adroite, qui le lance. Et, pour avoir une volonté résolue, il faut évidemment posséder un caractère bien trempé. Seule une épreuve de Charisme + 2 saura déterminer si tel est votre cas.\nSi vous échouez, cela signifiera que le boomerang, après avoir pris un rapide envol, revient vous frapper la tête avec violence. Après quoi il retournera se poser exactement à l'endroit où il se trouvait précédemment.\nAbandonnez alors ce boomerang, il ne pourrait vous être d'aucune utilité ; pire, il représenterait un danger mortel pour vous.\nSi vous réussissez l'épreuve, vous vous apercevrez que vous pouvez guider le boomerang dans les airs par le seul jeu de votre volonté, et que celui-ci reviendra sans difficulté se placer ensuite dans votre main.",
+    "choix": [
+      {
+        "text": "Ravi, vous glissez bien sûr l'arme de bois dans votre ceinture pour l'emporter avec vous. Vous pouvez maintenant vous diriger vers l'entrée obstruée (rendez-vous au 127)",
+        "number": 127
+      },
+      {
+        "text": "ou vers la porte située à droite du sanctuaire de la source (rendez-vous au 146).",
+        "number": 146
+      }
+    ],
+    "jet": [
+      {
+        "type": "charisme",
+        "modif": "plus",
+        "number": 2,
+        "de": 20
+      }
+    ],
+    "objet": "boomerang magique"
+  },
+  {
+    "number": 173,
+    "text": "",
+    "choix": [
+      {
+        "text": "Vous vous trouvez sur un sentier que vous pouvez suivre en direction de l'Ouest (rendez-vous au 192)",
+        "number": 192
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 58).",
+        "number": 58
+      }
+    ]
+  },
+  {
+    "number": 174,
+    "text": "Vous arrivez à un endroit où votre chemin se perd sous un véritable amoncellement de troncs d'arbres, complètement imbriqués les uns dans les autres. Alors que vous réfléchissez quant à la meilleure décision à prendre, trois Grives sanguinaires vous attaquent.\nCes oiseaux qui ont approximativement la taille d'un épervier, peuvent infliger de graves blessures à l'aide de leurs serres, aussi acérées que des lames de rasoir, et de leurs becs pointus. Si vous avez déjà livré bataille à cet endroit, vous poursuivez sans encombre votre chemin. Rendez-vous au 180, ou au 26.",
+    "choix": [
+      {
+        "text": "Au terme du premier assaut, vous pouvez tenter de fuir (rendez-vous au 5).",
+        "number": 5
+      },
+      {
+        "text": "Mais si, ayant voulu mener le combat jusqu'au bout (en respectant les règles du combat contre plusieurs adversaires), vous trouviez la mort, rendez- vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "Si vous triomphez des Grives sanguinaires, vous pouvez poursuivre votre chemin en direction de l'Ouest (rendez- vous au 180)",
+        "number": 180
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 26).",
+        "number": 26
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Grive Sanguinaire",
+        "combat": "non",
+        "courage": 6,
+        "energie": 8,
+        "protection": 1,
+        "attaque": 9,
+        "parade": 5,
+        "impact": [
+          {
+            "de": 6,
+            "plus": 1
+          }
+        ],
+        "aventure": 7
+      }
+    ],
+    "number_ennemis": 1
+  },
+  {
+    "number": 175,
+    "text": "Vous vous trouvez sur la rive est de la rivière de la mort, laquelle atteint à cet endroit une largeur de trois mètres.",
+    "choix": [
+      {
+        "text": "Vous pouvez essayer de traverser le cours d'eau (rendez-vous au 74).",
+        "number": 74
+      },
+      {
+        "text": "Vous pouvez aussi longer sa rive en direction du nord (rendez-vous au 46).",
+        "number": 46
+      },
+      {
+        "text": "A moins que vous ne préfériez pénétrer dans la forêt vierge en direction du Nord-Est (rendez-vous au 194) ou tenter votre chance du côté du sud-est (rendez-vous au 113).",
+        "number": 194
+      },
+      {
+        "text": "ou tenter votre chance du côté du sud-est (rendez-vous au 113).",
+        "number": 113
+      }
+    ]
+  },
+  {
+    "number": 176,
+    "text": "En rampant, vous parvenez à avancer de quelques mètres, puis le conduit fait un coude ; et il devient alors trop étroit pour que vous puissiez continuer à y ramper.\nVous avez cependant pu vous rendre compte que le conduit mène à une autre caverne, où résonne un effroyable grondement.",
+    "choix": [
+      {
+        "text": "Vous reculez prudemment, et, revenu à votre point de départ vous choisissez une autre direction pour poursuivre votre route (rendez-vous au 152).",
+        "number": 152
+      }
+    ]
+  },
+  {
+    "number": 177,
+    "text": "Le boomerang obéissant exactement à votre volonté, il vous est facile de l'envoyer frapper l'un des yeux à facettes du monstre.\nEcumant de rage, le Dragon bondit sur ses puissantes pattes et jette autour de lui des regards furieux.\nLe boomerang est revenu entre vos mains. Toutefois, il a perdu son pouvoir magique. A l'aide de votre flambeau, vous tâchez maintenant d'attirer l'attention du monstre, avant de fuir à toutes jambes dans la caverne où se trouve la colle diabolique, poursuivi par le Dragon.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 227.",
+        "number": 227
+      }
+    ]
+  },
+  {
+    "number": 178,
+    "text": "Vous introduisez la clé dans la serrure, vous la tournez prudemment... et une partie du sol se dérobe sous vos pieds. Vous tombez dans le noir, votre torche étant restée sur les premières marches. La trappe se referme au- dessus de vous et vous vous enfoncez dans une obscurité de plus en plus impénétrable, prémisse des ténèbres de la mort. Ainsi disparaît un héros qui a osé utiliser une clé qui n'existait pas ! Ce menteur est englouti à tout jamais par la montagne.",
+    "choix": [
+      {
+        "text": "Donnez vite le départ à un nouveau héros, plus expérimenté et plus clairvoyant, et retournez au 1.",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 179,
+    "text": "Malheureux écervelé ! Sans vous laisser le temps de faire le moindre geste, une langue baveuse jaillit de la bouche du Crapaud et vous enduit le corps de salive gluante. Cette bave épaisse et collante vous aveugle et vous fait tituber comme si vous étiez pris d'une forte fièvre.\nVous avancez en tâtonnant pour sortir de ce dédale souterrain et regagner l'air libre. Votre désir unique étant de trouver un peu d'eau pour pouvoir vous débarrasser de cette substance gluante et tenace.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 15.",
+        "number": 15
+      }
+    ]
+  },
+  {
+    "number": 180,
+    "text": "",
+    "choix": [
+      {
+        "text": "De l'endroit où vous vous trouvez maintenant, vous pouvez continuer en direction du nord (rendez-vous au 120)",
+        "number": 120
+      },
+      {
+        "text": "de l'Ouest (rendez-vous au 154)",
+        "number": 154
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 174).",
+        "number": 174
+      }
+    ]
+  },
+  {
+    "number": 181,
+    "text": "Quelques mètres plus loin, vous atteignez la rive occidentale de la rivière de la mort. Des espèces de palétuviers, alignés en rangs serrés, vous empêchent de longer cette rive. Sur l'autre berge de la rivière, qui est large de trois mètres à cet endroit, la végétation semble moins touffue.",
+    "choix": [
+      {
+        "text": "Vous pouvez revenir sur vos pas (rendez-vous au 6)",
+        "number": 6
+      },
+      {
+        "text": "ou essayer de traverser le cours d'eau (rendez-vous au 74)",
+        "number": 74
+      }
+    ]
+  },
+  {
+    "number": 182,
+    "text": "La descente est plus périlleuse que l'escalade... Alors que vous vous trouvez encore à 6 mètres du sol, vous sentez avec terreur le rocher s'effriter sous vos pieds. En dépit de vos efforts pour vous agripper, vous glissez et heurtez violemment le sol. Il ne vous reste plus qu'à espérer que vous êtes sorti indemne de cette mésaventure! Vous devez lancer le D6 pour savoir combien de points de Blessure il va vous falloir retirer de votre Energie Vitale. Remis de votre chute, vous vous relevez pénible- ment, tout en maugréant, et vous vous enfoncez à nouveau dans la forêt.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 175.",
+        "number": 175
+      }
+    ],
+    "jet": [
+      {
+        "type": "energie vitale",
+        "modif": "moins",
+        "de": 6,
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 183,
+    "text": "Au fond de la caverne se trouve un passage qui vous permet de pénétrer dans une nouvelle salle où se trouve la véritable source des eaux bénéfiques. C'est là que le système d'adduction d'eau a été démoli par le Dragon-Tatak. Vous reconstituez en pensée Je système tel qu'il fonctionnait à l'origine (regardez le petit croquis dans le coin supérieur gauche de l'illustration).\nTrois gros blocs de pierre obstruaient les fentes et fissures du sol, qui laissent à présent s'écouler l'acide produit par les Orques. Une gouttière creusée à la surface des pierres drainait les eaux saines qui jaillissaient d'une ouverture en forme de demi-lune, pratiquée dans le mur. Ces eaux se déversaient alors dans un conduit de pierre menant à l'extérieur de la caverne. Actuellement, elles s'écoulent dans le sol par une faille obscure et insondable. Votre tâche consiste à remettre les blocs de pierre dans leur position initiale. Mais n'allez pas imaginer que cette tâche est facile ! Les rochers sont, en effet, beaucoup trop lourds pour pouvoir être poussés ou soulevés. Il est tout au plus possible de les déplacer en les faisant basculer sur l'une de leurs arêtes. Or, cette simple manœuvre requiert déjà une énergie considérable : vous perdrez un point de Force Physique par opération. Vous pouvez voir, sur l'illustration, la position dans laquelle se trouvent actuellement les blocs de pierre.\nMais ne vous précipitez pas ! Pensez au gaspillage d'énergie que représenterait une fausse manœuvre ! Aussi, réfléchissez bien avant de commencer à basculer les blocs de pierres. N'avez-vous pas justement trois dés sur la table ? Le 6 ne ressemble-t-il pas vaguement à une rigole ? ..",
+    "choix": [
+      {
+        "text": "Si vous parvenez à remettre les trois pierres dans le bon ordre, rendez-vous au 138",
+        "number": 138
+      },
+      {
+        "text": "Si vous n'arrivez à aucun résultat, ou si l'épuisement vous guette avant l'achèvement de votre tâche (soit parce que vous étiez trop faible dès le début, soit parce qu'un nombre excessif de tentatives vous a fait perdre tous vos point de Force Physique), rendez-vous au 222.",
+        "number": 222
+      }
+    ],
+    "bonus": [
+      {
+        "type": "force",
+        "modif": "moins",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "number": 184,
+    "text": "Vous atteignez l'autre rive sans encombre. Mais vos bottes ont souffert! Il est en effet bien connu que ce mélange putride attaque et dissout peu à peu les peaux, or le cuir n'est rien d'autre que la peau d'un animal.\nEn raison du mauvais état de vos bottes, vous devrez, pour la suite de l'aventure, tenir compte de ce handicap à votre mobilité. Vous le traduirez en abaissant d'un point votre valeur d'Adresse.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 221.",
+        "number": 221
+      }
+    ],
+    "bonus": [
+      {
+        "type": "adresse",
+        "modif": "moins",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 185,
+    "text": "Vous manquez le premier rocher de peu et vous vous enfoncez jusqu'à la taille dans le marécage putride. En pataugeant dans l'eau fangeuse, vous regagnez la terre ferme du plus vite que vous le pouvez.\nCette chute ne vous a heureusement provoqué aucune blessure. Mais le cuir de vos bottes s'est ramolli en plusieurs endroits et devient bientôt poreux. Vos mains commencent à vous démanger horriblement. Votre aspect physique ayant souffert de ce plongeon dans les marais, vous devez retirer un point de votre valeur de Charisme. Mais il y a plus grave : vous n'êtes plus aussi sûr de vous. La prochaine fois que vous voudrez traverser ainsi le marécage, vous aurez une confiance plus limitée en vos forces.\nAvant votre prochaine tentative, tentez une épreuve d'Adresse + 1. Si vous échouez, votre confiance en vous va encore baisser. Pour traverser le marais, il vous faudra alors réussir une épreuve d'Adresse + 2 (et ainsi de suite, chaque fois que vous échouerez à une épreuve).\nSi toutes vos tentatives restent vaines, résignez-vous et renoncez, car votre confiance en vous (et votre Adresse) seront alors réduites à néant. Epuisé par vos longues recherches et par cet échec, alors que vous étiez si près du but, vous perdez la raison. Vous allez errer dans la jungle jusqu'à la fin de vos jours. Si un nouveau héros se fait attaquer par deux fous au moment où il découvre une petite source d'eau potable, il sera tout à fait probable que vous soyez l'un de ces deux pauvres insensés. Recommencez l'aventure avec un nouveau héros.",
+    "choix": [
+      {
+        "text": "Si vous remportez l'une des épreuves d'Adresse, vous parviendrez à atteindre la paroi rocheuse. Vous pourrez alors vous diriger vers l'entrée effondrée (rendez-vous au 127)",
+        "number": 127
+      },
+      {
+        "text": "vers le bassin (rendez-vous au 172)",
+        "number": 172
+      },
+      {
+        "text": "ou vers la porte située à droite (rendez-vous au 146).",
+        "number": 146
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "modif": "plus",
+        "number": 1,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 186,
+    "text": "A coups de machette, vous vous frayez un chemin à travers d'épais buissons de chardons des marais et de plantes épineuses, lorsque vous rencontrez, tout à fait à l'improviste, un étroit sentier que vous décidez de suivre.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 170.",
+        "number": 170
+      }
+    ]
+  },
+  {
+    "number": 187,
+    "text": "La corniche est étroite : sa largeur n'excède que rarement une trentaine de centimètres. En dessous de vous, cent mètres de paroi verticale ; au-dessus, une muraille abrupte jusqu'au sommet. Etes-vous sûr de ne pas être sujet au vertige et d'être capable d'entreprendre des escalades aussi casse-cou ? Une épreuve d'Adresse vous l'indiquera.",
+    "choix": [
+      {
+        "text": "Si vous réussissez, rendez-vous au 25.",
+        "number": 25
+      },
+      {
+        "text": "En cas d'échec, vous serez forcé de faire demi-tour (rendez-vous au 100).",
+        "number": 100
+      },
+      {
+        "text": "Dans le cas où vous n'auriez pas encore exploré la caverne, vous avez maintenant la possibilité de le faire. Rendez-vous au 50.",
+        "number": 50
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "modif": "plus",
+        "number": 0,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 188,
+    "text": "Que faire ? Sur le sol, vous n'apercevez pas la moindre petite pierre, rien que des rochers ! Quant à vos bottes, mieux vaut ne pas les utiliser comme projectiles : en cas de fuite, vous ne manqueriez pas de vous blesser aux aspérités et aux inégalités du sol.\nLe Dragon-Tatak ne manifeste pas non plus de réaction à vos hurlements, puisqu'il ne possède pas d'organe auditif.\nIl ne vous reste pas d'autre solution que de tenter le tout pour le tout et de vous approcher du monstre afin de tenter de récupérer vos projectiles.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 29",
+        "number": 29
+      }
+    ]
+  },
+  {
+    "number": 189,
+    "text": "Quelques mètres plus loin, le passage décrit une courbe vers l'Est. Dans le mur situé à l'Ouest, vous apercevez une porte de planches épaisses, verrouillée par une serrure travaillée avec art.",
+    "choix": [
+      {
+        "text": "Vous pouvez essayer d'ouvrir la porte (rendez-vous au 57)",
+        "number": 57
+      },
+      {
+        "text": "ou suivre le passage en direction du sud (rendez-vous au 136)",
+        "number": 136
+      },
+      {
+        "text": "ou de l'Est (rendez-vous au 128).",
+        "number": 128
+      }
+    ]
+  },
+  {
+    "number": 190,
+    "text": "Vous parvenez bientôt à un endroit de la jungle où d'autres, avant vous, ont tenté de se frayer un chemin à travers des fougères hérissées d'épines.",
+    "choix": [
+      {
+        "text": "Vous distinguez nettement six sentiers qui s'orientent vers l'Est (rendez-vous au 63)",
+        "number": 63
+      },
+      {
+        "text": "e sud-est (rendez-vous au 86)",
+        "number": 86
+      },
+      {
+        "text": "le sud-ouest (rendez-vous au 32), l'Ouest (rendez-vous au 202), le Nord-Ouest (rendez-vous au 51) et le Nord-Est (rendez-vous au 144).",
+        "number": 32
+      },
+      {
+        "text": "l'Ouest (rendez-vous au 202), le Nord-Ouest (rendez-vous au 51) et le Nord-Est (rendez-vous au 144).",
+        "number": 202
+      },
+      {
+        "text": "le Nord-Ouest (rendez-vous au 51) et le Nord-Est (rendez-vous au 144).",
+        "number": 51
+      },
+      {
+        "text": "et le Nord-Est (rendez-vous au 144).",
+        "number": 144
+      }
+    ]
+  },
+  {
+    "number": 191,
+    "text": "Malgré tout, le combat vous a considérablement affaibli... Peut-être même souffrez-vous de quelques blessures. Vous devez donc subir une épreuve de Force + 2 pour savoir si vous allez parvenir à vous extirper de la fosse.",
+    "choix": [
+      {
+        "text": "En cas d'échec, rendez-vous au 14",
+        "number": 14
+      },
+      {
+        "text": "Si vous réussissez, vous pouvez poursuivre votre route. Si vous veniez du sud, rendez-vous au 189.",
+        "number": 189
+      },
+      {
+        "text": "Si vous arriviez du nord, rendez-vous au 111",
+        "number": 111
+      }
+    ],
+    "jet": [
+      {
+        "type": "force",
+        "modif": "plus",
+        "number": 2,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 192,
+    "text": "Le sol de la forêt présente maintenant un aspect étrange. Sur un épais tapis de mousse et de lichen se dressent de curieux monticules en forme de bulles. Leur surface lisse présente des reflets bruns.",
+    "choix": [
+      {
+        "text": "Voulez-vous examiner ces espèces de bulles de plus près (rendez-vous au 225) ?",
+        "number": 225
+      },
+      {
+        "text": "Ou préférez-vous poursuivre votre route vers l'Est (rendez-vous au 173)",
+        "number": 173
+      },
+      {
+        "text": "ou vers l'Ouest (rendez-vous au 114) ?",
+        "number": 114
+      }
+    ]
+  },
+  {
+    "number": 193,
+    "text": "Vous comprendrez, bien sûr, qu'il est très difficile de réussir ce saut avec aussi peu de recul. Votre détente y suffira-t-elle ? Tentez une épreuve de Force + 2 pour le savoir.",
+    "choix": [
+      {
+        "text": "Si vous réussissez l'épreuve, rendez-vous au 221",
+        "number": 221
+      },
+      {
+        "text": "En cas d'échec, vous tombez dans la rivière, quelques centimètres avant d'atteindre la rive opposée (rendez-vous au 93).",
+        "number": 93
+      }
+    ],
+    "jet": [
+      {
+        "type": "force",
+        "modif": "plus",
+        "number": 2,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 194,
+    "text": "La jungle est particulièrement dense à cet endroit, et vous êtes contraint de vous servir de votre machette à chaque pas. Epuisé, vous vous accordez une pause pour vous restaurer, dans la mesure des provisions qui vous restent. Si vous n'en avez plus, vous pouvez mâchonner des tiges de biriban qui poussent en abondance dans ces parages.\nCette plante n'a pas très bon goût, mais elle est très saine et possède des vertus fortifiantes. Vous gagnez, grâce à elle, un point d'Energie Vitale.",
+    "choix": [
+      {
+        "text": "Vous pouvez désormais recommencer à vous frayer un chemin en direction du nord (rendez-vous au 125)",
+        "number": 125
+      },
+      {
+        "text": "ou du sud-ouest (rendez-vous au 175).",
+        "number": 175
+      }
+    ],
+    "bonus": [
+      {
+        "type": "energie vitale",
+        "modif": "plus",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 195,
+    "text": "Sans doute tournez-vous sur vous-même, à la manière d'un discobole, pour ensuite lancer votre sac au bon moment. Le D6 vous indiquera vos chances de réussite",
+    "choix": [
+      {
+        "text": "si vous faites 1 ou 2, rendez-vous au 123",
+        "number": 123
+      },
+      {
+        "text": "de 3 à 5, rendez-vous au 89",
+        "number": 89
+      },
+      {
+        "text": "6, rendez-vous au 117.",
+        "number": 117
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "de": 6,
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 196,
+    "text": "En progressant tant bien que mal sur la corniche, vous parvenez bientôt à un point d'où il est possible de contempler toute la vallée. Et vous pouvez même apercevoir votre point de départ. Devant vous, la corniche descend en pente de plus en plus raide et, lorsque vous en atteignez enfin l'extrémité, vous vous retrouvez au pied de la falaise, hors de la forêt. Ce détour ne vous aura pas servi, en fait, à grand chose!",
+    "choix": [
+      {
+        "text": "Rendez-vous au 100.",
+        "number": 100
+      }
+    ]
+  },
+  {
+    "number": 197,
+    "text": "Il ne se passe rien !",
+    "choix": [
+      {
+        "text": "Vous pouvez poursuivre votre chemin (rendez-vous au 140)",
+        "number": 140
+      },
+      {
+        "text": "ou pousser la poignée (rendez- vous au 124).",
+        "number": 124
+      }
+    ]
+  },
+  {
+    "number": 198,
+    "text": "Dissimulé dans les fourrés, un Léopard des Marais au pelage tacheté vous regarde fixement. Ses poils sont hérissés et il pousse de sourds grognements de colère.",
+    "choix": [
+      {
+        "text": "Vous pouvez tenter de fuir (rendez-vous au 118)",
+        "number": 118
+      },
+      {
+        "text": "ou attaquer le Léopard (rendez-vous au 207)",
+        "number": 207
+      },
+      {
+        "text": "à moins que vous ne préfériez essayer de calmer l'animal en lui parlant doucement (rendez-vous au 40).",
+        "number": 40
+      }
+    ]
+  },
+  {
+    "number": 199,
+    "text": "Le boyau par lequel vous êtes arrivé au fond de ce caveau est raide et glissant ; il est impossible de le remonter. Au moment où vous vous apprêtez à vous éloigner pour chercher une autre issue, le Crapaud vous interpelle : « Tu me quittes déjà, étranger ? »",
+    "choix": [
+      {
+        "text": "Allez-vous engager la conversation (rendez-vous au 210)",
+        "number": 210
+      },
+      {
+        "text": "ou préférez-vous poursuivre vos recherches sans vous laisser troubler (rendez-vous au 168) ?",
+        "number": 168
+      }
+    ]
+  },
+  {
+    "number": 200,
+    "text": "Le chemin qui traverse la savane mène vers l'Ouest. Un kilomètre environ avant la falaise occidentale de la vallée, un ruisseau aux eaux saines quitte la forêt vierge. Des traces de coups de machette prouvent que d'autres avant vous ont cherché à pénétrer dans la forêt à cet endroit. Mais le chemin s'est déjà quasiment perdu dans les broussailles et vous allez devoir utiliser votre machette si vous voulez prendre cette direction.",
+    "choix": [
+      {
+        "text": "Si telle est votre intention, rendez-vous au 27.",
+        "number": 27
+      },
+      {
+        "text": "Mais vous pouvez aussi bien revenir au point de départ (rendez-vous au 1).",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 201,
+    "text": "En dehors d'une cruche cassée, d'une sandale en lambeaux et d'excréments animaux, il n'y a rien à découvrir dans cette caverne.",
+    "choix": [
+      {
+        "text": "Vous pouvez redescendre les éboulis (rendez-vous au 100)",
+        "number": 100
+      },
+      {
+        "text": "ou tenter de vous engager sur l'étroite corniche Qui suit la paroi rocheuse (rendez-vous au 187).",
+        "number": 187
+      }
+    ]
+  },
+  {
+    "number": 202,
+    "text": "Un peu plus loin, le sous-sol devient plus pierreux et vous ne tardez pas à atteindre la falaise occidentale qui se dresse, verticale, devant vous. Vous découvrez alors, presque entièrement envahie par les lichens, l'entrée d'une caverne.",
+    "choix": [
+      {
+        "text": "Vous pouvez pénétrer dans la grotte pour l'explorer (rendez-vous au 99).",
+        "number": 99
+      },
+      {
+        "text": "Vous avez aussi la possibilité d'escalader la paroi rocheuse (rendez-vous au 7).",
+        "number": 7
+      },
+      {
+        "text": "Vous pouvez également reprendre le chemin de la jungle (rendez-vous au 190) ou chercher un autre passage en longeant la falaise en direction du nord (rendez-vous au 28).",
+        "number": 190
+      },
+      {
+        "text": "ou chercher un autre passage en longeant la falaise en direction du nord (rendez-vous au 28).",
+        "number": 28
+      }
+    ]
+  },
+  {
+    "number": 203,
+    "text": "Votre chemin contourne les troncs énormes des arbres de la jungle. Vous êtes sans cesse obligé de dégager la voie à coups de machette, tant la végétation est dense. C'est alors que vous remarquez une plante étrange. Ses feuilles vertes sécrètent un liquide bleuâtre quand vous les coupez avec votre machette. Au contact de cette substance, vous ressentez sur la main une agréable sensation de fraîcheur. Il s'agit en effet d'une espèce de plante médicinale extrêmement rare : la pharnica tinta.\nC'est une aubaine pour vous que la découverte de cette plante. Vous allez pouvoir soigner toutes vos blessures, des écorchures et égratignures superficielles aux plaies et blessures profondes. Ce coup de chance vous permet de récupérer trois points d'Energie Vitale (à condition toutefois de ne pas dépasser votre total initial). Ce liquide calme également les démangeaisons causées par tout poison d'origine végétal. Si vous étiez gêné par de telles démangeaisons pour manier la machette, vous allez enfin vous débarrasser de ce handicap.\nIl n'est toutefois pas possible d'emporter les feuilles de cette plante ou un peu de ce liquide, car ses vertus curatives disparaissent si l'influx nerveux de la plante est interrompu, c'est-à-dire si la feuille n'est plus rattachée au sol par la tige ou la racine.",
+    "choix": [
+      {
+        "text": "Après cette pause curative, vous pouvez poursuivre votre route en direction de l'Est (rendez-vous au 125)",
+        "number": 125
+      },
+      {
+        "text": "ou de l'Ouest (rendez-vous au 206).",
+        "number": 206
+      }
+    ],
+    "bonus": [
+      {
+        "type": "energie vitale",
+        "modif": "plus",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "number": 204,
+    "text": "Peut-être avez-vous des idées formidables, mais il n'existe qu'une possibilité pour traverser ce piège mortel. La solution est à découvrir dans une énigme qu'une Tortue d'eau a dû vous soumettre.\nComment ? Vous n'avez jamais rencontré de Tortue, ou elle ne vous a rien raconté ? Alors, partez vite à sa recherche dans le sanctuaire qui renferme la source... et soyez aimable avec elle !",
+    "choix": [
+      {
+        "text": " Il vous faut d'abord quitter la caverne où vous vous trouvez (rendez-vous au 110).",
+        "number": 110
+      },
+      {
+        "text": "Mais, si vous connaissez l'énigme, rendez-vous au 121.",
+        "number": 121
+      }
+    ]
+  },
+  {
+    "number": 205,
+    "text": "Votre situation est désespérée ! Comment espérez- vous sortir de ce véritable traquenard ? Commencez par dormir pendant un tour de jeu pour vous reposer.\nLe lendemain matin, vous découvrez en effet quelques champignons comestibles qui vous ragaillardissent un peu. (Vous récupérez un point d'Energie Vitale et un point de Force Physique.)",
+    "choix": [
+      {
+        "text": "Vous pouvez revenir sur vos pas et vous rendre au 67",
+        "number": 67
+      },
+      {
+        "text": "ou continuer dans la même direction (rendez-vous au 186)",
+        "number": 186
+      }
+    ],
+    "bonus": [
+      {
+        "type": "energie vitale",
+        "modif": "plus",
+        "number": 1
+      },
+      {
+        "type": "force",
+        "modif": "plus",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "number": 206,
+    "text": "Vous atteignez bientôt un endroit où des sentiers mieux tracés et une végétation moins dense vous offrent trois directions possibles pour poursuivre votre route. Du côté de l'Ouest coule la rivière empoisonnée, assez large à cet endroit. Réfléchissez bien !",
+    "choix": [
+      {
+        "text": "Vous pouvez partir vers le Nord-Est (rendez-vous au 64)",
+        "number": 64
+      },
+      {
+        "text": "l'est (rendez-vous au 203)",
+        "number": 203
+      },
+      {
+        "text": "ou le sud (rendez-vous au 46).",
+        "number": 46
+      }
+    ]
+  },
+  {
+    "number": 207,
+    "text": "La machette bien en main, vous vous dirigez sans hésitation vers le Léopard.\nCelui-ci arrondit le dos en soufflant de rage, mais il semble aussi qu'il perçoive votre détermination car il disparaît dans les fourrés aussi vite qu'il en était venu, en quelques bonds élastiques.\nN'ayant pas eu à vous battre, cette victoire ne vous vaudra que 8 POINTS D'AVENTURE.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 102.",
+        "number": 102
+      }
+    ],
+    "bonus": [
+      {
+        "type": "aventure",
+        "modif": "plus",
+        "number": 8
+      }
+    ]
+  },
+  {
+    "number": 208,
+    "text": "Vous vous frayez un chemin à travers d'épaisses fougères lorsque, tout à coup, vous vous trouvez nez à nez avec un énorme Gorille de Maraskan, dont le pelage presque noir se hérisse. Dressé sur ses pattes de derrière, l'animal vous domine de ses deux mètres et vous menace en découvrant ses redoutables dents. Il est impossible d'esquiver le combat. Si vous parvenez à blesser le Gorille au cours de l’un des trois premiers assauts, celui-ci abandonne la lutte et s'enfuit en poussant de longs hurlements.",
+    "choix": [
+      {
+        "text": "Vous pouvez, dans ce cas, vous lancer à sa poursuite (rendez-vous au 220).",
+        "number": 220
+      },
+      {
+        "text": "Si le Gorille vous tue au cours du combat, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "Mais vous pouvez renoncer à poursuivre le Gorille (cette victoire partielle vous vaut 8 POINTS D'AVENTURE). Vous avez alors le choix entre le nord (rendez-vous au 6)",
+        "number": 6
+      },
+      {
+        "text": "et le sud (rendez-vous au 130) pour vous éloigner du lieu de la bataille.",
+        "number": 130
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Gorille de Maraskan",
+        "combat": "non",
+        "courage": 20,
+        "energie": 35,
+        "protection": 3,
+        "attaque": 8,
+        "parade": 7,
+        "impact": [
+          {
+            "de": 6,
+            "number": 2,
+            "plus": 2
+          }
+        ],
+        "aventure": 16
+      }
+    ],
+    "number_ennemis": 1,
+    "bonus": [
+      {
+        "type": "aventure",
+        "modif": "plus",
+        "number": 8
+      }
+    ]
+  },
+  {
+    "number": 209,
+    "text": "Vous prenez un peu d'élan... vous sautez... Vous bondissez au-dessus de la fosse et vous atterrissez de l'autre côté...",
+    "choix": [
+      {
+        "text": "rendez-vous au 140.",
+        "number": 140
+      }
+    ]
+  },
+  {
+    "number": 210,
+    "text": "Vous commencez par lui adresser quelques paroles aimables, en espérant vous concilier ses bonnes grâces, et vous êtes totalement éberlué lorsque vous l'entendez vous répondre dans votre langue, d'un ton tout aussi aimable que le vôtre ! Le Crapaud semble souffrir de sa solitude, et paraît tout heureux d'avoir trouvé quelqu'un à qui parler. Vous en profitez pour lui poser des questions sur la Source de Mort.\n« Ah ! Etranger ! dit-il, il en est déjà venu tant d'autres avant toi, qui m'ont demandé où se trouvait la source empoisonnée et comment il était possible de conjurer le sort qui pèse sur nous tous. Je n'en ai jamais revu aucun. Je ne suis qu'un vieux Crapaud et je ne sais pas grand-chose. Tu me fais bien de la peine, parce que, toi non plus, tu n'y parviendras pas ! Mais je vais te dire ce que je sais. Les eaux du mal viennent de la falaise orientale, du sanctuaire qui renfermait la bonne source ; bien des dangers t'y attendent. J'ignore tout de ces périls, mais j'ai entendu dire que la substance qui colle mille fois plus fort que ma bave, s'appelle Patuhlin. Maintenant, pars ! Cela m'attriste trop de te savoir condamné à ton tour. Prends ce chemin-Ià ! »\nEt le Crapaud vous indique du regard un obscur passage souterrain. Malgré tous vos efforts, vous ne tirerez rien d'autre de l'animal.\nUn peu déconcerté par le caractère énigmatique de ce discours, vous vous mettez en route, avançant à tâtons dans le noir, en direction d'une lueur qui brille au loin.\nPeu après, vous regagnez l'air libre par une sortie dérobée et vous vous retrouvez sur un sentier, dans la forêt vierge.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 173.",
+        "number": 173
+      }
+    ]
+  },
+  {
+    "number": 211,
+    "text": "Vous atteignez rapidement l'endroit où toute progression en direction du nord et de l'Est est rendue impossible par un inextricable fouillis d'herbes mortelles.",
+    "choix": [
+      {
+        "text": "Vous pouvez néanmoins obliquer vers le sud (rendez-vous au 157)",
+        "number": 157
+      },
+      {
+        "text": "ou vers l'Ouest (rendez-vous au 64).",
+        "number": 64
+      }
+    ]
+  },
+  {
+    "number": 212,
+    "text": "Vous parvenez à grand peine à escalader quatre mètres quand, tout à coup, la pierre à laquelle vous vous reteniez se détache. Vous dégringolez jusqu'au bas de la paroi. Estimez-vous heureux de vous en tirer avec quelques écorchures et quelques bleus ; mais cette mésaventure vous coûte tout de même deux points d'Energie Vitale.",
+    "choix": [
+      {
+        "text": "Maintenant, vous préférez renoncer à l'alpinisme et vous repartez en direction de la jungle : vers l'Est (rendez-vous au 4)",
+        "number": 4
+      },
+      {
+        "text": "ou le sud-est (rendez-vous au 159).",
+        "number": 159
+      }
+    ],
+    "bonus": [
+      {
+        "type": "energie vitale",
+        "modif": "moins",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "number": 213,
+    "text": "En avançant prudemment pour éviter de glisser, vous remontez le cours de la rivière. Une épreuve d'Intelligence -1 s'impose.",
+    "choix": [
+      {
+        "text": " Si vous réussissez, rendez-vous au 70.",
+        "number": 70
+      },
+      {
+        "text": "Mais si vous échouez, rendez-vous au 165.",
+        "number": 165
+      }
+    ],
+    "jet": [
+      {
+        "type": "intel",
+        "modif": "moins",
+        "number": 1,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 214,
+    "text": "La méfiance et l'appréhension qui sont les vôtres vous interdisent de tenter la traversée de cette couche. Vous vous souvenez d'avoir remarqué une machette rouillée près de l'un des cadavres. Après être allé la chercher, vous voulez la planter dans cette substance étrange mais, aussitôt entrée en contact avec la masse qui s'étend devant vous, elle y reste solidement collée. Malgré tous vos efforts, impossible de retirer la machette, bien qu'elle n'entre en contact avec la substance que par la pointe, c'est-à-dire par quelques millimètres carrés.\nVous avez peine à en croire vos yeux et vous renouvelez l'expérience avec d'autres objets, votre blague à tabac par exemple. L'effet produit est toujours le même: les éléments adhèrent à la substance avec une force invincible. Vous vous félicitez du pressentiment qui vous a empêché de tenter de traverser à pied cette bande mortelle. Vous imaginez aussi maintenant l'horrible destin qu'ont connu certains de vos prédécesseurs dans ce lieu.\nAvez-vous une idée de la manière de contourner cet obstacle ?",
+    "choix": [
+      {
+        "text": "Si oui, rendez-vous au 204.",
+        "number": 204
+      },
+      {
+        "text": "Sinon, vous allez devoir quitter la caverne et poursuivre l'exploration du sanctuaire qui recèle la source ; peut-être y trouverez-vous un autre indice. Rendez-vous au 110.",
+        "number": 110
+      }
+    ]
+  },
+  {
+    "number": 215,
+    "text": "Vous ouvrez l'un des fruits : un arôme doux et agréable s'en échappe. Vous en avalez une bouchée et vous constatez que le goût en est tout à fait délicieux. Des souvenirs de votre enfance revivent en vous : jadis, votre mère confectionnait des tartes ayant ce même goût pour les anniversaires. Lancez le D20 pour déterminer le nombre de fruits que vous mangez.",
+    "choix": [
+      {
+        "text": "Si vous tirez un chiffre inférieur à 11, rendez-vous au 8.",
+        "number": 8
+      },
+      {
+        "text": "Entre 11 et 16, rendez-vous au 103.",
+        "number": 103
+      },
+      {
+        "text": "Au-delà de 17, rendez-vous au 71.",
+        "number": 71
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "modif": "moins",
+        "number": 0,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 216,
+    "text": "Alors que vous êtes penché sur la source, deux forts gaillards pénètrent dans la clairière et se glissent jusqu'à vous. Il s'agit de Radolf le Sauvage et du terrible Morton, deux Aventuriers qui ont perdu la raison dans l'enfer vert de la jungle. Ils sont sales et barbus, portent des vêtements en guenilles et une lueur de démence brille dans leur regard.\nSans un instant d'hésitation, ils bondissent sur vous : Radolf est armé d'une lourde massue, et Morton d'un bloc de pierre. Remarquant leur présence à temps, vous vous relevez d'un bond pour vous mettre en position de combat.",
+    "choix": [
+      {
+        "text": "Au bout de trois assauts, vous pouvez essayer de vous enfuir (rendez-vous au 94).",
+        "number": 94
+      },
+      {
+        "text": "Si vous préférez mener le combat jusqu'à son terme et si vous y trouvez la mort, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "Si vous réussissez à vaincre ces deux adversaires, rendez-vous au 141.",
+        "number": 141
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Radolf le Sauvage",
+        "combat": "non",
+        "courage": 10,
+        "energie": 20,
+        "protection": 1,
+        "attaque": 10,
+        "parade": 7,
+        "impact": [
+          {
+            "de": 6,
+            "number": 1,
+            "plus": 2
+          },
+          {
+            "name": "Le terrible Morton",
+            "combat": "non",
+            "courage": 12,
+            "energie": 24,
+            "protection": 2,
+            "attaque": 9,
+            "parade": 7,
+            "impact": [
+              {
+                "de": 6,
+                "number": 1,
+                "plus": 1
+              }
+            ],
+            "aventure": 11
+          }
+        ],
+        "number_ennemis": 2
+      }
+    ]
+  },
+  {
+    "number": 217,
+    "text": "Deux Chèvres des montagnes détalent devant vous, dans une fuite éperdue, avant de disparaître entre les rochers. Vos yeux se sont maintenant accoutumés à l'obscurité, et vous pouvez jeter un coup d'œil circulaire dans la caverne.",
+    "choix": [
+      {
+        "text": "Allez-vous pousser plus loin votre exploration (rendez-vous au 201)",
+        "number": 201
+      },
+      {
+        "text": "redescendre les éboulis (rendez- vous au 100)",
+        "number": 100
+      },
+      {
+        "text": "ou essayer d'escalader la paroi rocheuse en empruntant l'étroite corniche de pierre (rendez-vous au 187).",
+        "number": 187
+      }
+    ]
+  },
+  {
+    "number": 218,
+    "text": "Tentez une épreuve d'Intelligence, pour savoir si cette situation vous inspire quelques bonnes idées.",
+    "choix": [
+      {
+        "text": "En cas de réussite : rendez-vous au 133",
+        "number": 133
+      },
+      {
+        "text": "en cas d'échec : rendez-vous au 84.",
+        "number": 84
+      }
+    ],
+    "jet": [
+      {
+        "type": "intel",
+        "modif": "moins",
+        "number": 0,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 219,
+    "text": "Peut-être commettez-vous une erreur, mais elle est compréhensible. Il y a tant de missions à accomplir en Aventurie.\tpour lesquelles on ajustement besoin d'hommes tels que vous, qui sachent manier une arme et se\nsortir des situations les plus difficiles.\nAvez-vous déjà entendu parler de la fille du Calife - ravissante créature au demeurant ! - mystérieusement disparue et que personne à ce jour n'a réussi à délivrer ? On dit aussi que, dans le Nord, des trésors considérables n'attendent que d'être arrachés aux mains du cruel roi des Yétis, et tant d'autres histoires encore.\tConsultez donc\nla liste des aventures déjà publiées dans la série de l'œil Noir."
+  },
+  {
+    "number": 220,
+    "text": "Ce n'est pas une très bonne idée ! Très vite, vous avez perdu de vue le Gorille, mais ses cris vous ont attiré de plus en plus avant dans la jungle. Tout à coup, ses cris retentissent tout près de vous, vous avez rejoint le fuyard...\noui, mais il a trouvé du renfort ! Deux autres puissants Gorilles, ainsi que deux plus petits vous réservent une réception des plus soignées. Même si les deux petits ne font que ponctuer de leurs cris stridents la bataille qui va suivre, vous aurez tout de même trois gros Gorilles à combattre (dont l'un, il est vrai, est quelque peu essoufflé). Les valeurs des deux nouveaux Gorilles correspondent à celles du premier (référez-vous au 208). Tenez compte au cours de ce combat des blessures que vous auriez éventuellement déjà reçues : il ne s'agit en effet que de la poursuite, dans des conditions plus difficiles, du combat précédent.\nIl vous est impossible de vous enfuir.",
+    "choix": [
+      {
+        "text": "Si vous parvenez finalement à vaincre les trois Gorilles, vous pourrez reprendre votre route, vers le nord (rendez-vous au 6)",
+        "number": 6
+      },
+      {
+        "text": "ou vers le sud (rendez-vous au 130) à partir de l'endroit où s'est déroulé le premier combat.",
+        "number": 130
+      },
+      {
+        "text": "Si vous êtes tué, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "Si vous survivez à deux assauts, il se peut que la hâte d'en finir vous inspire quelque ruse (rendez-vous au 224).",
+        "number": 224
+      }
+    ],
+    "ennemis": [
+      {
+        "name": "Gorille de Maraskan",
+        "combat": "non",
+        "courage": 20,
+        "energie": 35,
+        "protection": 3,
+        "attaque": 8,
+        "parade": 7,
+        "impact": [
+          {
+            "de": 6,
+            "number": 2,
+            "plus": 2
+          }
+        ],
+        "aventure": 16
+      }
+    ],
+    "number_ennemis": 2
+  },
+  {
+    "number": 221,
+    "text": "Plus ou moins indemne, vous vous trouvez maintenant sur l'autre rive de la rivière.",
+    "choix": [
+      {
+        "text": "Si vous avez traversé le ruisseau d'Ouest en est, rendez-vous au 175.",
+        "number": 175
+      },
+      {
+        "text": "Si vous veniez de la rive orientale et que vous vous trouvez donc, à présent, sur sa berge occidentale, rendez-vous au 6",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "number": 222,
+    "text": "Assis, vous contemplez maintenant d'un air sombre les cubes massifs. Pourquoi ne parvenez-vous donc pas à les remettre dans l'ordre ?\nVous vous traînez jusqu'à l'anfractuosité par laquelle s'écoulent les bonnes eaux, pour y puiser un regain de forces... et, tout de suite, vous vous sentez ragaillardi ! Le pouvoir de ces eaux est vraiment merveilleux ! Ce ne sont pas seulement vos Forces Physiques qui s'en trouvent revigorées (vous récupérez tous les points de Force perdus lors de vos tentatives pour déplacer les blocs de pierre), mais aussi votre esprit, qui recouvre une vivacité et une clairvoyance inattendues.\nEn un éclair, la solution vous saute aux yeux. Dépêchez-vous de mettre ce trait de génie en application, sans laisser l'effet de l'eau se dissiper, et avant Je retour à votre état mental antérieur.",
+    "choix": [
+      {
+        "text": "Rendez-vous au 138.",
+        "number": 138
+      }
+    ]
+  },
+  {
+    "number": 223,
+    "text": "C'est vraiment à désespérer ! Comment avez-vous pu en arriver là ? N'avez-vous pas rencontré un Crapaud Géant dans une grotte souterraine de la forêt vierge ? .. Non ? N'avez-vous pas non plus trouvé un petit billet comportant une indication importante, sur le corps d'un grand homme des bois ? .. comment, vous ne voyez même pas à quoi il est fait allusion ? Ou plutôt si, un vague souvenir vous revient maintenant en mémoire... ",
+    "choix": [
+      {
+        "text": "Si c'est le cas, vous avez le droit de continuer le jeu en vous rendant au 9 !",
+        "number": 9
+      },
+      {
+        "text": "Vous n'avez décidément pas le moindre souvenir ? Vous sentez alors certainement une grande vague de désespoir vous submerger. Etre si près du but, et en être pourtant si loin encore !\nDans cette situation, il ne vous vient qu'un mot à l'esprit pour désigner cette espèce de colle, c'est mastic et, alors même que vous essayez de le prononcer à l'envers, vous tombez dans le piège mortel, où vous attend un sort identique à celui de tant de vos prédécesseurs, courageux Aventuriers comme vous. Rendez-vous au 167.",
+        "number": 167
+      }
+    ]
+  },
+  {
+    "number": 224,
+    "text": "Une épreuve d'Intelligence s'impose pour savoir si une idée vous vient à l'esprit. En cas d'échec, vous devrez soutenir le dernier combat, durant lequel vous vous efforcerez de réfléchir intensément.\nVous aurez ensuite une nouvelle possibilité de montrer, à l'aide d'une épreuve d'Intelligence -2, si vous trouvez une ruse",
+    "choix": [
+      {
+        "text": "Si vous essuyez un nouvel échec, vous devrez poursuivre le combat jusqu'à ce que mort s'ensuive (à ce sujet reportez-vous au 220).",
+        "number": 220
+      },
+      {
+        "text": "Si vous gagnez l'une de ces deux épreuves, rendez-vous au 139.",
+        "number": 139
+      }
+    ],
+    "jet": [
+      {
+        "type": "intel",
+        "modif": "moins",
+        "number": 0,
+        "de": 20
+      },
+      {
+        "type": "intel",
+        "modif": "moins",
+        "number": 2,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 225,
+    "text": "Vous vous approchez prudemment de l'une de ces bulles en forme de dôme qui ont un diamètre de plus d'un mètre cinquante. Vous en touchez du doigt la surface lisse. Elle semble céder à la pression mais elle colle légèrement à votre doigt. Vous avez en outre l'impression qu'il s'agit d'une substance translucide. Vous pouvez même apercevoir ce qu'il y a sous terre ; mais peut-être n'est-ce qu'une illusion d'optique.",
+    "choix": [
+      {
+        "text": "Voulez-vous essayer de voir ce qui se produit si vous crevez la bulle d'un coup de machette (rendez-vous au 153)?",
+        "number": 153
+      },
+      {
+        "text": "Ou préférez-vous poursuivre votre chemin ? Pour examiner les différentes possibilités qui vous sont offertes. Rendez-vous au 192.",
+        "number": 192
+      }
+    ]
+  },
+  {
+    "number": 226,
+    "text": "A peine avez-vous tiré sur la chaîne qu'un puissant flot de liquide putride jaillit d'une large fente et menace de vous emporter. Passez une épreuve d'Adresse -1.",
+    "choix": [
+      {
+        "text": "Si vous la remportez, rendez-vous au 82",
+        "number": 82
+      },
+      {
+        "text": "en cas d'échec, rendez- vous au 43.",
+        "number": 43
+      }
+    ],
+    "jet": [
+      {
+        "type": "adresse",
+        "modif": "moins",
+        "number": 1,
+        "de": 20
+      }
+    ]
+  },
+  {
+    "number": 227,
+    "text": "Vous atteignez la masse de colle mortelle, talonné de près par l'effroyable monstre. Vous croyez déjà sentir la pointe de son dard empoisonné dans votre dos. Vous souvenez-vous encore de la formule qui conjure le sort de la colle maudite ?",
+    "choix": [
+      {
+        "text": "Si oui, rendez-vous au 59.",
+        "number": 59
+      },
+      {
+        "text": "Sinon, permettez-nous de vous exprimer toute notre admiration pour votre honnêteté dans la situation précaire où vous vous trouvez. Cependant, étant donné que, sans ce mot de passe, c'est la mort qui vous attend de façon imminente, nous allons supposer que la mémoire vous revient. Rendez-vous donc au 59.",
+        "number": 59
+      }
+    ]
+  },
+  {
+    "number": 228,
+    "text": "Il est de plus en plus fatigant d'avancer, et la sueur ruisselle sur votre front : vous n'aviez encore jamais rencontré semblables lianes !\nVous n'en avez pas plutôt écarté une, que quatre autres s'enroulent autour de vos bras et de vos jambes... comme s'il s'agissait des tentacules d'une pieuvre. Mais oui, bien sûr! Ces plantes sont vivantes, et elles cherchent à vous saisir ! Aux endroits où les tentacules vous ont enlacé, la peau commence à vous démanger. Vous devez en toute hâte trouver une solution, car vous êtes pris dans les rets de la Touffe Etrangleuse, une plante carnivore.\n\fLancez d'abord le D20, pour connaître le nombre de tentacules qui sont enroulés autour de vous. L'écorce des tentacules est enduite d'un poison. Vous devez retirer un demi-point de votre Energie Vitale par tentacule.\nVous essayez de vous libérer des tentacules : lancez le D6 pour connaître le nombre de Points d'Impact (1 D + 3 pour la machette, à condition toutefois de ne souffrir d'aucun handicap). Chaque Point d'Impact permet d'écarter un tentacule ; vous pouvez donc en soustraire le nombre du total des lianes de la plante. Alors que vous tentez de vous débarrasser des premiers, de nouveaux tentacules viennent s'enrouler autour de vous. Lancez le D6 pour en connaître le nombre, et additionnez ce nombre à celui des tentacules qui vous enserrent encore. Vous devez à nouveau retirer un demi-point de votre Energie Vitale par tentacule qui vous enlace. Vous pouvez à nouveau tenter de vous libérer à coups de machette (et ainsi de suite), avant de voir combien de nouveaux tentacules viennent s'ajouter aux anciens, etc. Jamais vous ne parviendrez à vaincre la Touffe Etrangleuse. Vous pourrez tout au plus réussir à vous sortir de ses griffes. Ce sera le cas si le nombre de Points d'Impact tiré annule le nombre de tentacules.",
+    "choix": [
+      {
+        "text": "Si vous deviez trouver la mort au cours de ce combat, faute d'Energie Vitale, rendez-vous au 167.",
+        "number": 167
+      },
+      {
+        "text": "Si vous parvenez à vous échapper, vous pouvez fuir en direction du nord (rendez-vous au 114)",
+        "number": 114
+      },
+      {
+        "text": "ou du sud (rendez- vous au 45).",
+        "number": 45
+      }
+    ],
+    "jet": [
+      {
+        "type": "chance",
+        "modif": "moins",
+        "number": 0,
+        "de": 20
+      },
+      {
+        "type": "chance",
+        "modif": "moins",
+        "number": 0,
+        "de": 6
+      }
+    ]
+  },
+  {
+    "number": 229,
+    "text": "La trappe se referme sur la fosse aux Serpents.",
+    "choix": [
+      {
+        "text": "Vous pouvez poursuivre prudemment votre chemin (rendez-vous au 54)",
+        "number": 54
+      },
+      {
+        "text": "ou faire demi-tour. Si vous veniez du sud, rendez-vous au 111",
+        "number": 111
+      },
+      {
+        "text": "du nord, rendez-vous au 189",
+        "number": 189
+      }
+    ]
+  },
+  {
+    "number": 230,
+    "text": "Le plus hideux et le plus cruel des monstres que vous ayez jamais rencontrés se niche dans cette caverne. Il s'agit du Dragon-Tatak. Cette espèce extrêmement rare fait partie de la famille des Dragons Volants Géants. La race en passait pour éteinte depuis environ quatre siècles.\nMais le dernier spécimen tué à cette époque avait pondu un œuf dans un nid soigneusement dissimulé. C'est cet œuf qui, au cours des siècles suivants, a donné naissance au monstre qui vous fait face. Découvrant le petit à peine sorti de l'œuf, le grand Magicien Zor l'avait enfermé dans le sanctuaire de la source, d'une part pour l'empêcher de nuire et, d'autre part, pour qu'il monte la garde auprès de la source. Quiconque essayait de pénétrer dans le sanctuaire par la porte de gauche se retrouvait dans la prison du Dragon, situation qui équivalait à une condamnation à mort.\nAu cours des siècles, le monstre agrandi et prospéré, jusqu'à devenir l'immonde créature que vous avez maintenant sous les yeux. Personne ne sait comment il a pu quitter sa prison (qui se trouvait au-delà de la porte aux sept serrures) et pénétrer dans la grotte voisine, celle où se trouve la Source. Les plus grands Magiciens eux- mêmes sont sujets à l'erreur. Toujours est-il que l'animal a détruit le système d'adduction qui mène les eaux bénéfiques de la source vers l'extérieur, et ces dégâts ont provoqué le drame qui vous a conduit jusqu'ici. Le monstre semble se reposer sans vous avoir remarqué. De la tête au bout de la queue, il doit mesurer plus de sept mètres ! Trois paires de pattes puissantes, munies de grosses griffes, portent le corps ventru recouvert d'une carapace brunâtre. Le Dragon roule deux gros yeux à facettes aux reflets verdâtres et un horrible dard se dresse au-dessus de la gueule où luisent des dents acérées comme des poignards.\nOn sait en outre du Dragon qu'il ne possède pas d'organe auditif. C'est sans doute la raison pour laquelle il ne s'est pas encore aperçu de votre présence.\nIl est absolument indispensable de rendre le Dragon inoffensif si vous voulez que les eaux bénéfiques retrouvent leurs cours normal.\nMais comment procéder ?",
+    "choix": [
+      {
+        "text": "Vous pouvez encore fuir le hideux spectacle qu'offre le Dragon, car celui-ci ne vous a toujours pas remarqué (rendez-vous au 23).",
+        "number": 23
+      },
+      {
+        "text": "Vous pouvez aussi, téméraire jusqu'à la mort, attaquer le Dragon de front. Vous découvrirez ses valeurs au 101.",
+        "number": 101
+      },
+      {
+        "text": "Ou alors réfléchissez à une possibilité de ruse pour neutraliser le monstre (rendez-vous au 218).",
+        "number": 218
+      }
+    ]
+  }
+]

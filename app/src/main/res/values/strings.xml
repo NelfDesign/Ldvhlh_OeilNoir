@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LDVHLH_L\'Oeil Noir</string>
+    <string name="nouvelle_partie">Nouvelle Partie</string>
+    <string name="partie_sauvegardee">Partie sauvegardee</string>
+    <string name="nom">Nom</string>
+    <string name="type">Choisissez votre type :</string>
+    <string name="sexe">sexe</string>
+    <string name="courage">Courage :</string>
+    <string name="charisme">Charisme :</string>
+    <string name="force">Force :</string>
+    <string name="intelligence">Intelligence :</string>
+    <string name="adresse">Adresse :</string>
+    <string name="energie_astrale">Energie astrale :</string>
+    <string name="energie_vitale">Energie vitale :</string>
+    <string name="points_d_aventure">Points d\'aventure :</string>
+    <string name="fortune">Fortune :</string>
+    <string name="de_rouge">de rouge</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="_30">30</string>
+    <string name="_0">0</string>
+    <string name="aventurier_e">Aventurier(e)</string>
+    <string name="guerrier_e">Guerrier(e)</string>
+    <string name="nain_e">Nain(e)</string>
+    <string name="d_finissez_vos_comp_tences">Définissez vos compétences :</string>
+    <string name="type_button">type button</string>
+    <string name="commencer_l_aventure">Commencer l\'aventure...</string>
+</resources>

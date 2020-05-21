@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    tools:context=".ui.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_70"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btn_new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/border"
+            android:padding="@dimen/padding_15"
+            android:text="@string/nouvelle_partie"
+            android:textSize="@dimen/textSize_16" />
+
+        <Button
+            android:id="@+id/btn_game_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/border"
+            android:padding="@dimen/padding_15"
+            android:layout_margin="@dimen/margin_10"
+            android:text="@string/partie_sauvegardee"
+            android:textSize="@dimen/textSize_16" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
