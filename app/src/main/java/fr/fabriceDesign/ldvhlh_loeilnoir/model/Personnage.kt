@@ -20,6 +20,6 @@ data class Personnage(
     var charisme : Int,
     var adresse : Int,
     var vie : Int,
-    var astrale : Int,
-    var aventure : Int,
+    var astrale : Int = 0,
+    var aventure : Int = 0,
     var fortune : Int)

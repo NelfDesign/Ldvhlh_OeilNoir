@@ -1,8 +1,9 @@
-package fr.fabriceDesign.ldvhlh_loeilnoir.database
+package fr.fabriceDesign.ldvhlh_loeilnoir.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import fr.fabriceDesign.ldvhlh_loeilnoir.app.App
+import fr.fabriceDesign.ldvhlh_loeilnoir.database.PersonnageRepository
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
 import java.util.concurrent.Executor
 
@@ -16,7 +17,10 @@ class CreatePersoViewModel(private val executor: Executor) : ViewModel() {
 
     init {
         val personnageDao = App.database.personnageDao()
-        persoRepository = PersonnageRepository(personnageDao)
+        persoRepository =
+            PersonnageRepository(
+                personnageDao
+            )
     }
 
     var persos : LiveData<List<Personnage>> = persoRepository.personnages

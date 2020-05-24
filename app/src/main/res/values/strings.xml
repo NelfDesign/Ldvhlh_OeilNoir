@@ -4,6 +4,7 @@
     <string name="partie_sauvegardee">Partie sauvegardee</string>
     <string name="nom">Nom</string>
     <string name="type">Choisissez votre type :</string>
+    <string name="type2">Type :</string>
     <string name="sexe">sexe</string>
     <string name="courage">Courage :</string>
     <string name="charisme">Charisme :</string>
@@ -25,4 +26,17 @@
     <string name="d_finissez_vos_comp_tences">Définissez vos compétences :</string>
     <string name="type_button">type button</string>
     <string name="commencer_l_aventure">Commencer l\'aventure...</string>
+    <string name="nom_du_personnage">Nom du personnage :</string>
+    <string name="feuille_personnage">Feuille personnage</string>
+    <string name="game">Game</string>
+    <string name="pages">Pages</string>
+    <string name="personnage">personnage</string>
+    <string name="niveau">Niveau :</string>
+    <string name="attaque">Attaque :</string>
+    <string name="parade">Parade :</string>
+    <string name="arme">Arme :</string>
+    <string name="protection">Protection :</string>
+    <string name="equipement">Equipement :</string>
+    <string name="machette">Machette</string>
+    <string name="cuir">Vêtements de cuir</string>
 </resources>

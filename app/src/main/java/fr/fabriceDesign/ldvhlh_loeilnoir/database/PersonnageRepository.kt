@@ -15,6 +15,8 @@ class PersonnageRepository(private val personnageDao: PersonnageDao) {
 
     fun getPersoById(persoId : Long) : LiveData<Personnage> = personnageDao.getPersonnage(persoId)
 
+    fun getPersoByName(persoName : String) : LiveData<Personnage> = personnageDao.getPersonnageByName(persoName)
+
     fun createPerso(personnage: Personnage) : Long {
         long = personnageDao.createProperty(personnage)
         return long
