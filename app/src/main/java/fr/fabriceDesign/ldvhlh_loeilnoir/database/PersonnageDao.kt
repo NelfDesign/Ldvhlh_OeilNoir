@@ -17,6 +17,9 @@ interface PersonnageDao {
     @Query("SELECT * FROM personnage WHERE id = :personnageId")
     fun getPersonnage(personnageId : Long) : LiveData<Personnage>
 
+    @Query("SELECT * FROM personnage WHERE name = :personnageName")
+    fun getPersonnageByName(personnageName : String) : LiveData<Personnage>
+
     @Insert
     fun createProperty(perso : Personnage) : Long
 

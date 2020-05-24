@@ -18,8 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.CreatePerso"/>
-        <activity android:name=".ui.activity.loadGame"/>
+        <activity android:name=".ui.activity.CreatePerso" />
+        <activity android:name=".ui.activity.LoadGame" />
+        <activity android:name=".ui.activity.Game"/>
     </application>
 
 </manifest>

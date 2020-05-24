@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_feuille"
+        android:icon="@drawable/perso32"
+        android:title="@string/feuille_personnage" />
+
+    <item
+        android:id="@+id/navigation_game"
+        android:icon="@drawable/de_rouge"
+        android:title="@string/game" />
+
+    <item
+        android:id="@+id/navigation_page"
+        android:icon="@drawable/ic_pages"
+        android:title="@string/pages" />
+
+</menu>

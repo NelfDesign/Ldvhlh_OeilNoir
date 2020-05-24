@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_feuille">
+
+    <fragment
+        android:id="@+id/navigation_feuille"
+        android:name="fr.fabriceDesign.ldvhlh_loeilnoir.ui.fragments.ui.feuille_perso.FeuillePersoFragment"
+        android:label="@string/feuille_personnage"
+        tools:layout="@layout/fragment_feuille" />
+
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="fr.fabriceDesign.ldvhlh_loeilnoir.ui.fragments.ui.game.GameFragment"
+        android:label="@string/game"
+        tools:layout="@layout/fragment_game" />
+
+    <fragment
+        android:id="@+id/navigation_page"
+        android:name="fr.fabriceDesign.ldvhlh_loeilnoir.ui.fragments.ui.pages.PagesFragment"
+        android:label="@string/pages"
+        tools:layout="@layout/fragment_pages" />
+</navigation>

@@ -1,17 +1,16 @@
 package fr.fabriceDesign.ldvhlh_loeilnoir.ui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.annotation.NonNull
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProvider
 import butterknife.ButterKnife
 import butterknife.OnClick
 import fr.fabriceDesign.ldvhlh_loeilnoir.R
-import fr.fabriceDesign.ldvhlh_loeilnoir.database.CreatePersoViewModel
+import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.CreatePersoViewModel
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
 import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.Injection
 import kotlinx.android.synthetic.main.activity_create_perso.*
@@ -33,6 +32,7 @@ class CreatePerso : AppCompatActivity() {
     private var fortune: Int = 0
     private var vie: Int = 30
     private lateinit var persoViewModel : CreatePersoViewModel
+    private lateinit var perso : Personnage
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,21 +53,33 @@ class CreatePerso : AppCompatActivity() {
     private fun checkValues() {
         name = text_name.text.toString()
 
-       when {
-           radio_aventurier.isChecked -> type = radio_aventurier.text.toString()
-           radio_guerrier.isChecked -> type = radio_guerrier.text.toString()
-           radio_nain.isChecked -> {
-               type = radio_nain.text.toString()
-               vie = 35
-           }
-       }
         when{
             radio_men.isChecked -> sexe = "Homme"
             radio_women.isChecked -> sexe = "Femme"
         }
-        val perso = Personnage(0, name, sexe, type, courage, force, intel, charisme, adresse, vie ,0 ,0, fortune)
-        persoViewModel.createPerso(perso)
 
+        when {
+            radio_aventurier.isChecked ->{
+                type = if (sexe == "Homme") "Aventurier" else "Aventurière"
+            }
+            radio_guerrier.isChecked -> {
+                type = if (sexe == "Homme") "Guerrier" else "Guerrière"
+            }
+            radio_nain.isChecked -> {
+                type = if (sexe == "Homme") "Nain" else "Naine"
+                vie = 35
+            }
+        }
+        perso = Personnage(0, name, sexe, type, courage, force, intel, charisme, adresse, vie ,0 ,0, fortune)
+        persoViewModel.createPerso(perso)
+        Timber.d("$perso")
+        goToParty()
+    }
+
+    private fun goToParty() {
+        val intent = Intent(this, Game::class.java)
+        intent.putExtra("name", perso.name)
+        startActivity(intent)
     }
 
     @OnClick(R.id.de_courage, R.id.de_adresse, R.id.de_charisme, R.id.de_force, R.id.de_intel, R.id.de_fortune, R.id.type_button)
