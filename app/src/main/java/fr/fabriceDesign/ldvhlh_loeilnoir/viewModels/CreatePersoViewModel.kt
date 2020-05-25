@@ -11,6 +11,7 @@ import java.util.concurrent.Executor
  * Created by fabricedesign at 21/05/2020
  * fr.fabriceDesign.ldvhlh_loeilnoir.database
  */
+
 class CreatePersoViewModel(private val executor: Executor) : ViewModel() {
 
     private val persoRepository : PersonnageRepository
@@ -37,6 +38,12 @@ class CreatePersoViewModel(private val executor: Executor) : ViewModel() {
     fun updatePerso(personnage: Personnage) {
         executor.execute {
             persoRepository.updateProperty(personnage)
+        }
+    }
+
+    fun deletePerso(personnage: Personnage){
+        executor.execute {
+            persoRepository.deleteProperty(personnage)
         }
     }
 }

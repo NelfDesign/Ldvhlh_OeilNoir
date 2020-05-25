@@ -10,8 +10,8 @@ import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
 class PersonnageRepository(private val personnageDao: PersonnageDao) {
 
     var long : Long = 0
-    val personnages = personnageDao.getAllPersonnage()
 
+    val personnages = personnageDao.getAllPersonnage()
 
     fun getPersoById(persoId : Long) : LiveData<Personnage> = personnageDao.getPersonnage(persoId)
 
@@ -26,4 +26,7 @@ class PersonnageRepository(private val personnageDao: PersonnageDao) {
         personnageDao.updateProperty(personnage)
     }
 
+    fun deleteProperty(personnage: Personnage) {
+        personnageDao.deleteProperty(personnage)
+    }
 }

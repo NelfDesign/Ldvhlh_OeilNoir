@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import butterknife.ButterKnife
 import butterknife.OnClick
+import dagger.internal.DaggerCollections
 import fr.fabriceDesign.ldvhlh_loeilnoir.R
 import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.CreatePersoViewModel
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
