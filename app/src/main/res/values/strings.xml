@@ -39,4 +39,6 @@
     <string name="equipement">Equipement :</string>
     <string name="machette">Machette</string>
     <string name="cuir">Vêtements de cuir</string>
+    <string name="text_energie">Energie vitale : %1$s</string>
+    <string name="delete_button">delete button</string>
 </resources>
