@@ -7,12 +7,13 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import fr.fabriceDesign.ldvhlh_loeilnoir.R
+import fr.fabriceDesign.ldvhlh_loeilnoir.dagger.DaggerComponents
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
 import fr.fabriceDesign.ldvhlh_loeilnoir.ui.adapter.LoadGameAdapter
 import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.CreatePersoViewModel
-import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.Injection
 import kotlinx.android.synthetic.main.activity_load_game.*
 import kotlinx.android.synthetic.main.tollbar.*
+import javax.inject.Inject
 
 class LoadGame : AppCompatActivity(), LoadGameAdapter.LoadGameAdapterListener{
 
@@ -20,6 +21,8 @@ class LoadGame : AppCompatActivity(), LoadGameAdapter.LoadGameAdapterListener{
     private lateinit var createPersoViewModel: CreatePersoViewModel
     private lateinit var adapterList : LoadGameAdapter
     private var listPerso : MutableList<Personnage> = mutableListOf()
+    @Inject
+    lateinit var factory : ViewModelProvider.Factory
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +31,7 @@ class LoadGame : AppCompatActivity(), LoadGameAdapter.LoadGameAdapterListener{
         toolbar.title = "Parties sauvegardées"
         setSupportActionBar(toolbar)
 
-        val factory = Injection.provideViewModelFactory()
+        factory = DaggerComponents.create().createFactory()
         createPersoViewModel = ViewModelProvider(this, factory).get(CreatePersoViewModel::class.java)
         createPersoViewModel.persos.observe(this, Observer { list -> observeList(list) })
 

@@ -14,6 +14,7 @@ class Game : AppCompatActivity() {
 
     companion object{
         var NAME_PERSO : String? = ""
+        var PAGE_NUMBER = 1
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -6,14 +6,17 @@ import fr.fabriceDesign.ldvhlh_loeilnoir.app.App
 import fr.fabriceDesign.ldvhlh_loeilnoir.database.PersonnageRepository
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
 import java.util.concurrent.Executor
+import java.util.concurrent.Executors
+import javax.inject.Inject
 
 /**
  * Created by fabricedesign at 21/05/2020
  * fr.fabriceDesign.ldvhlh_loeilnoir.database
  */
 
-class CreatePersoViewModel(private val executor: Executor) : ViewModel() {
+class CreatePersoViewModel @Inject constructor() : ViewModel() {
 
+    private var executor: Executor = Executors.newSingleThreadExecutor()
     private val persoRepository : PersonnageRepository
 
     init {
@@ -37,13 +40,13 @@ class CreatePersoViewModel(private val executor: Executor) : ViewModel() {
 
     fun updatePerso(personnage: Personnage) {
         executor.execute {
-            persoRepository.updateProperty(personnage)
+            persoRepository.updatePerso(personnage)
         }
     }
 
     fun deletePerso(personnage: Personnage){
         executor.execute {
-            persoRepository.deleteProperty(personnage)
+            persoRepository.deletePerso(personnage)
         }
     }
 }

@@ -21,11 +21,11 @@ interface PersonnageDao {
     fun getPersonnageByName(personnageName : String) : LiveData<Personnage>
 
     @Insert
-    fun createProperty(perso : Personnage) : Long
+    fun createPerso(perso : Personnage) : Long
 
     @Update
-    fun updateProperty(perso: Personnage) : Int
+    fun updatePerso(perso: Personnage) : Int
 
     @Delete
-    fun deleteProperty(perso: Personnage)
+    fun deletePerso(perso: Personnage)
 }
