@@ -9,15 +9,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import butterknife.ButterKnife
 import butterknife.OnClick
-import dagger.internal.DaggerCollections
 import fr.fabriceDesign.ldvhlh_loeilnoir.R
-import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.CreatePersoViewModel
+import fr.fabriceDesign.ldvhlh_loeilnoir.dagger.DaggerComponents
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
-import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.Injection
+import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.CreatePersoViewModel
 import kotlinx.android.synthetic.main.activity_create_perso.*
 import kotlinx.android.synthetic.main.tollbar.*
 import timber.log.Timber
 import java.security.SecureRandom
+import javax.inject.Inject
 
 class CreatePerso : AppCompatActivity() {
 
@@ -35,6 +35,8 @@ class CreatePerso : AppCompatActivity() {
     private lateinit var persoViewModel : CreatePersoViewModel
     private lateinit var perso : Personnage
 
+    @Inject
+    lateinit var factory : ViewModelProvider.Factory
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,7 +46,7 @@ class CreatePerso : AppCompatActivity() {
         toolbar.title = "Création du personnage"
         setSupportActionBar(toolbar)
 
-        val factory = Injection.provideViewModelFactory()
+        factory = DaggerComponents.create().createFactory()
         persoViewModel = ViewModelProvider(this, factory).get(CreatePersoViewModel::class.java)
 
         de_depart.setOnClickListener { checkValues()}

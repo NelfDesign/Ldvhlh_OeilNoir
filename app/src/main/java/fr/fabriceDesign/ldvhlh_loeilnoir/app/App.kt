@@ -2,6 +2,7 @@ package fr.fabriceDesign.ldvhlh_loeilnoir.app
 
 import android.app.Application
 import android.content.Context
+import fr.fabriceDesign.ldvhlh_loeilnoir.dagger.DaggerComponents
 import fr.fabriceDesign.ldvhlh_loeilnoir.database.Database
 import timber.log.Timber
 
@@ -21,5 +22,6 @@ class App : Application() {
         Timber.plant(Timber.DebugTree())
         appContext = applicationContext
         database = Database.getDatabase(appContext)
+
     }
 }

@@ -2,12 +2,13 @@ package fr.fabriceDesign.ldvhlh_loeilnoir.database
 
 import androidx.lifecycle.LiveData
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
+import javax.inject.Inject
 
 /**
  * Created by fabricedesign at 21/05/2020
  * fr.fabriceDesign.ldvhlh_loeilnoir.database
  */
-class PersonnageRepository(private val personnageDao: PersonnageDao) {
+class PersonnageRepository @Inject constructor(private val personnageDao: PersonnageDao) {
 
     var long : Long = 0
 
@@ -18,15 +19,15 @@ class PersonnageRepository(private val personnageDao: PersonnageDao) {
     fun getPersoByName(persoName : String) : LiveData<Personnage> = personnageDao.getPersonnageByName(persoName)
 
     fun createPerso(personnage: Personnage) : Long {
-        long = personnageDao.createProperty(personnage)
+        long = personnageDao.createPerso(personnage)
         return long
     }
 
-    fun updateProperty(personnage: Personnage) {
-        personnageDao.updateProperty(personnage)
+    fun updatePerso(personnage: Personnage) {
+        personnageDao.updatePerso(personnage)
     }
 
-    fun deleteProperty(personnage: Personnage) {
-        personnageDao.deleteProperty(personnage)
+    fun deletePerso(personnage: Personnage) {
+        personnageDao.deletePerso(personnage)
     }
 }

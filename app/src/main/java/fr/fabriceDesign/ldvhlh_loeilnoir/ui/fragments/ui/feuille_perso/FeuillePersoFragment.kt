@@ -1,6 +1,5 @@
 package fr.fabriceDesign.ldvhlh_loeilnoir.ui.fragments.ui.feuille_perso
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,29 +9,27 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import fr.fabriceDesign.ldvhlh_loeilnoir.R
+import fr.fabriceDesign.ldvhlh_loeilnoir.dagger.DaggerComponents
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
 import fr.fabriceDesign.ldvhlh_loeilnoir.ui.activity.Game
 import fr.fabriceDesign.ldvhlh_loeilnoir.ui.dialog.ConfirmDialogFragment
-import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.Injection
 import kotlinx.android.synthetic.main.fragment_feuille.*
+import javax.inject.Inject
 
 class FeuillePersoFragment : Fragment() {
 
+    @Inject
+    lateinit var factory : ViewModelProvider.Factory
     private lateinit var feuillePersoViewModel: FeuillePersoViewModel
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        feuillePersoViewModel = ViewModelProvider(this).get(FeuillePersoViewModel::class.java)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+
         val root = inflater.inflate(R.layout.fragment_feuille, container, false)
 
-        val factory = Injection.provideViewModelFactory()
-        feuillePersoViewModel =
-            ViewModelProvider(this, factory).get(FeuillePersoViewModel::class.java)
-        feuillePersoViewModel.getPersoByName(Game.NAME_PERSO!!)
-            .observe(viewLifecycleOwner, Observer { perso -> updateUI(perso) })
+        factory = DaggerComponents.create().createFactory()
+        feuillePersoViewModel = ViewModelProvider(this, factory).get(FeuillePersoViewModel::class.java)
+        feuillePersoViewModel.getPersoByName(Game.NAME_PERSO!!).observe(viewLifecycleOwner, Observer { perso -> updateUI(perso) })
+
         return root
     }
 

@@ -7,10 +7,11 @@ import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import fr.fabriceDesign.ldvhlh_loeilnoir.R
+import fr.fabriceDesign.ldvhlh_loeilnoir.dagger.DaggerComponents
 import fr.fabriceDesign.ldvhlh_loeilnoir.model.Personnage
 import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.CreatePersoViewModel
-import fr.fabriceDesign.ldvhlh_loeilnoir.viewModels.Injection
 import kotlinx.android.synthetic.main.activity_main.*
+import javax.inject.Inject
 
 /**
  * Created by fabricedesign at 14/05/2020
@@ -18,13 +19,16 @@ import kotlinx.android.synthetic.main.activity_main.*
  */
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var createPersoViewModel: CreatePersoViewModel
+    @Inject
+    lateinit var factory : ViewModelProvider.Factory
+
+    lateinit var createPersoViewModel: CreatePersoViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val factory = Injection.provideViewModelFactory()
+        factory = DaggerComponents.create().createFactory()
         createPersoViewModel = ViewModelProvider(this, factory).get(CreatePersoViewModel::class.java)
         createPersoViewModel.persos.observe(this, Observer { list -> observeList(list) })
 
@@ -47,5 +51,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, CreatePerso::class.java)
         startActivity(intent)
     }
+
 
 }
