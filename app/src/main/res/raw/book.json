@@ -434,12 +434,10 @@
     "jet": [
       {
         "type": "force",
-        "moins": 0,
         "de": 20
       },
       {
         "type": "adresse",
-        "moins": 0,
         "de": 20
       }
     ]
@@ -606,7 +604,6 @@
     "jet": [
       {
         "type": "chance",
-        "moins": 0,
         "de": 6
       }
     ]
@@ -837,7 +834,6 @@
     "jet": [
       {
         "type": "adresse",
-        "moins": 0,
         "de": 20
       }
     ]
@@ -937,12 +933,11 @@
     "text": "Il faut reconnaître qu'il est très courageux de votre part (mais n'est-ce pas de l'inconscience ?) de vous engager volontairement dans ces eaux putrides. Vos pieds tâtonnent avec une extrême prudence pour trouver un terrain meuble au fond du ruisseau, mais vous ne pouvez vous empêcher, soudain, de glisser en posant le pied sur quelque chose de visqueux. Soumettez-vous à une épreuve d'Adresse + 2, pour savoir si vous parvenez à garder l'équilibre.",
     "choix": [
       {
-        "text": "En cas d'échec, vous vous affalez dans la rivière (rendez-vous au 93).",
-        "number": 93
-      },
-      {
         "text": "Si vous réussissez l'épreuve, rendez-vous au 184.",
         "number": 184
+      },{
+        "text": "En cas d'échec, vous vous affalez dans la rivière (rendez-vous au 93).",
+        "number": 93
       }
     ],
     "jet": [
@@ -966,7 +961,7 @@
         "number": 190
       },
       {
-        "text": "du sud (rendez-vous au 156) ou de l'Est (rendez-vous au 155)",
+        "text": "du sud (rendez-vous au 156)",
         "number": 156
       },
       {
@@ -1460,7 +1455,8 @@
       {
         "type": "energie vitale",
         "de": 6,
-        "number": 2
+        "number": 2,
+        "capa": "moins"
       }
     ]
   },
@@ -1515,7 +1511,7 @@
     "jet": [
       {
         "type": "adresse",
-        "modif": "plus",
+        "plus": 3,
         "de": 20
       }
     ]
@@ -1797,14 +1793,10 @@
   },
   {
     "number": 109,
-    "text": "La corniche s'interrompt soudain. Même le meilleur alpiniste ne pourrait grimper plus haut. Et vous en arrivez, un peut tard, à la conclusion que, toute réflexion faite, grimper à une hauteur pareille n'était certainement pas le meilleur moyen d'arriver à la source des eaux empoisonnées, celle-ci ne pouvant se cacher que dans les profondeurs de la terre.\nAu moment où vous essayez de faire demi-tour, des fragments de rocher se détachent sous votre pied gauche... Vous êtes sur le point de tomber ! La branche sèche à laquelle vous tentez de vous raccrocher se casse !\nParviendrez-vous à vous agripper au bord de la corniche ? Une épreuve d'Adresse + 1 s'impose.",
+    "text": "La corniche s'interrompt soudain. Même le meilleur alpiniste ne pourrait grimper plus haut. Et vous en arrivez, un peut tard, à la conclusion que, toute réflexion faite, grimper à une hauteur pareille n'était certainement pas le meilleur moyen d'arriver à la source des eaux empoisonnées, celle-ci ne pouvant se cacher que dans les profondeurs de la terre.\nAu moment où vous essayez de faire demi-tour, des fragments de rocher se détachent sous votre pied gauche... Vous êtes sur le point de tomber ! La branche sèche à laquelle vous tentez de vous raccrocher se casse !\nParviendrez-vous à vous agripper au bord de la corniche ? Une épreuve d'Adresse + 1 s'impose. \"Si vous réussissez, dans un dernier sursaut, vos mains s'agrippent au rocher ! Mais vos forces suffiront-elles pour vous hisser jusqu'à la corniche qui représente le salut ? Pour le savoir, vous devez vous soumettre à une épreuve de Force + 2.",
     "choix": [
       {
         "text": "En cas d'échec, vous lâchez définitivement prise, et vous tombez dans le vide (rendez-vous au 137).",
-        "number": 137
-      },
-      {
-        "text": "Si vous réussissez, dans un dernier sursaut, vos mains s'agrippent au rocher ! Mais vos forces suffiront-elles pour vous hisser jusqu'à la corniche qui représente le salut ? Pour le savoir, vous devez vous soumettre à une épreuve de Force + 2. Si vous échouez dans cette épreuve, c'est la chute (rendez-vous au 137).",
         "number": 137
       },
       {
@@ -1991,7 +1983,6 @@
     "jet": [
       {
         "type": "adresse",
-        "modif": 0,
         "de": 20
       }
     ]
@@ -2016,7 +2007,6 @@
     "jet": [
       {
         "type": "chance",
-        "modif": 0,
         "de": 6
       }
     ]
@@ -2360,8 +2350,7 @@
     "jet": [
       {
         "type": "nombre",
-        "de": 6,
-        "number": 1
+        "de": 6
       }
     ]
   },
@@ -2712,7 +2701,7 @@
         "number": 167
       },
       {
-        "text": "si c'est le Serpent, vous pouvez enfin quitter cet endroit, en direction du Nord-Est (rendez-vous au 4), ou du Nord-Ouest (rendez-vous au 142).",
+        "text": "si c'est le Serpent, vous pouvez enfin quitter cet endroit, en direction du Nord-Est (rendez-vous au 4).",
         "number": 4
       },
       {
@@ -2871,8 +2860,7 @@
     "jet": [
       {
         "type": "chance",
-        "de": 6,
-        "number": 1
+        "de": 6
       }
     ]
   },
@@ -2961,8 +2949,7 @@
     "jet": [
       {
         "type": "charisme",
-        "modif": "plus",
-        "number": 2,
+        "plus": 2,
         "de": 20
       }
     ],
@@ -3119,7 +3106,7 @@
   },
   {
     "number": 182,
-    "text": "La descente est plus périlleuse que l'escalade... Alors que vous vous trouvez encore à 6 mètres du sol, vous sentez avec terreur le rocher s'effriter sous vos pieds. En dépit de vos efforts pour vous agripper, vous glissez et heurtez violemment le sol. Il ne vous reste plus qu'à espérer que vous êtes sorti indemne de cette mésaventure! Vous devez lancer le D6 pour savoir combien de points de Blessure il va vous falloir retirer de votre Energie Vitale. Remis de votre chute, vous vous relevez pénible- ment, tout en maugréant, et vous vous enfoncez à nouveau dans la forêt.",
+    "text": "La descente est plus périlleuse que l'escalade... Alors que vous vous trouvez encore à 6 mètres du sol, vous sentez avec terreur le rocher s'effriter sous vos pieds. En dépit de vos efforts pour vous agripper, vous glissez et heurtez violemment le sol. Il ne vous reste plus qu'à espérer que vous êtes sorti indemne de cette mésaventure! Vous devez lancer le D6 pour savoir combien de points de Blessure il va vous falloir retirer de votre Energie Vitale. Remis de votre chute, vous vous relevez péniblement, tout en maugréant, et vous vous enfoncez à nouveau dans la forêt.",
     "choix": [
       {
         "text": "Rendez-vous au 175.",
@@ -3129,9 +3116,8 @@
     "jet": [
       {
         "type": "energie vitale",
-        "modif": "moins",
         "de": 6,
-        "number": 1
+        "moins": 1
       }
     ]
   },
@@ -3193,8 +3179,7 @@
     "jet": [
       {
         "type": "adresse",
-        "modif": "plus",
-        "number": 1,
+        "plus": 1,
         "de": 20
       }
     ]
@@ -3229,8 +3214,6 @@
     "jet": [
       {
         "type": "adresse",
-        "modif": "plus",
-        "number": 0,
         "de": 20
       }
     ]
@@ -3276,15 +3259,15 @@
         "number": 86
       },
       {
-        "text": "le sud-ouest (rendez-vous au 32), l'Ouest (rendez-vous au 202), le Nord-Ouest (rendez-vous au 51) et le Nord-Est (rendez-vous au 144).",
+        "text": "le sud-ouest (rendez-vous au 32)",
         "number": 32
       },
       {
-        "text": "l'Ouest (rendez-vous au 202), le Nord-Ouest (rendez-vous au 51) et le Nord-Est (rendez-vous au 144).",
+        "text": "l'Ouest (rendez-vous au 202)",
         "number": 202
       },
       {
-        "text": "le Nord-Ouest (rendez-vous au 51) et le Nord-Est (rendez-vous au 144).",
+        "text": "le Nord-Ouest (rendez-vous au 51)",
         "number": 51
       },
       {
@@ -3313,8 +3296,7 @@
     "jet": [
       {
         "type": "force",
-        "modif": "plus",
-        "number": 2,
+        "plus": 2,
         "de": 20
       }
     ]
@@ -3353,8 +3335,7 @@
     "jet": [
       {
         "type": "force",
-        "modif": "plus",
-        "number": 2,
+        "plus": 2,
         "de": 20
       }
     ]
@@ -3400,8 +3381,7 @@
     "jet": [
       {
         "type": "chance",
-        "de": 6,
-        "number": 1
+        "de": 6
       }
     ]
   },
@@ -3727,8 +3707,7 @@
     "jet": [
       {
         "type": "intel",
-        "modif": "moins",
-        "number": 1,
+        "moins": 1,
         "de": 20
       }
     ]
@@ -3767,8 +3746,6 @@
     "jet": [
       {
         "type": "chance",
-        "modif": "moins",
-        "number": 0,
         "de": 20
       }
     ]
@@ -3861,8 +3838,6 @@
     "jet": [
       {
         "type": "intel",
-        "modif": "moins",
-        "number": 0,
         "de": 20
       }
     ]
@@ -3967,14 +3942,11 @@
     "jet": [
       {
         "type": "intel",
-        "modif": "moins",
-        "number": 0,
         "de": 20
       },
       {
         "type": "intel",
-        "modif": "moins",
-        "number": 2,
+        "moins": 2,
         "de": 20
       }
     ]
@@ -4009,8 +3981,7 @@
     "jet": [
       {
         "type": "adresse",
-        "modif": "moins",
-        "number": 1,
+        "moins": 1,
         "de": 20
       }
     ]
@@ -4049,14 +4020,10 @@
     "jet": [
       {
         "type": "chance",
-        "modif": "moins",
-        "number": 0,
         "de": 20
       },
       {
         "type": "chance",
-        "modif": "moins",
-        "number": 0,
         "de": 6
       }
     ]
