@@ -41,4 +41,5 @@
     <string name="cuir">Vêtements de cuir</string>
     <string name="text_energie">Energie vitale : %1$s</string>
     <string name="delete_button">delete button</string>
+    <string name="combat">Combat</string>
 </resources>
